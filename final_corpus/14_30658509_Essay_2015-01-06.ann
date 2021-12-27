@@ -1,0 +1,104 @@
+T1	MajorClaim 225 290	Is staken de beste methode om de eisen van het volk af te dwingen
+T2	Claim 856 922	is het een effectieve oplossing om te protesteren tegen het beleid
+T4	Premise 1052 1117	minder luchtvervuiling minstens één van de positieve effecten was
+T5	Claim 1203 1280	is stakingsrecht een wapen met weinig effect, maar met veel schade tot gevolg
+T6	Premise 1648 1733	De eerste algemene staking in België vond plaats op 18 maart 1886 en was een bloedbad
+T7	Premise 1735 1810	Een strenge repressie van de regering leidde tot de dood van enkele stakers
+T8	Premise 1817 1864	deze staking bracht ook een positief effect mee
+T9	Premise 1866 1930	de invoering van de sociale wetgeving was na de staking een feit
+T12	Premise 2255 2312	Het parlement voerde het algemeen meervoudig stemrecht in
+T13	Premise 2503 2538	De premier gaf gehoor aan hun eisen
+T14	MajorClaim 2995 3068	Stakingen is een goede methode voor werknemers om hun eisen te verkrijgen
+T15	Claim 3070 3158	In de meeste concrete gevallen die voorkwamen, leverde de staking een positief effect op
+T16	Premise 3165 3214	vielen de negatieve effecten ook niet te overzien
+T17	Premise 3216 3282	De stakingen leverden velen slachtoffers op en legde het land stil
+A1	Stance T2 For
+A2	Stance T5 Against
+A3	Stance T15 For
+R1	supports Arg1:T6 Arg2:T5	
+R2	supports Arg1:T7 Arg2:T6	
+R3	attacks Arg1:T8 Arg2:T5	
+R4	supports Arg1:T9 Arg2:T8	
+R5	supports Arg1:T12 Arg2:T8	
+R6	supports Arg1:T13 Arg2:T8	
+#1	AnnotatorNotes T13	{'T8': 1, 'T2': 1, 'T12': 1, 'T5': 1}
+R7	supports Arg1:T16 Arg2:T15	
+R8	supports Arg1:T17 Arg2:T16	
+R9	supports Arg1:T4 Arg2:T2	
+A4	Eloquence T1 4
+A5	Evidence T1 3
+A6	Persuasiveness T1 3
+A7	Specificity T1 4
+A8	Eloquence T2 5
+A9	Evidence T2 2
+A10	Persuasiveness T2 3
+A11	Relevance T2 5
+A12	Specificity T2 4
+A13	Eloquence T4 5
+A14	Evidence T4 1
+A15	Persuasiveness T4 1
+A16	Relevance T4 2
+A17	Specificity T4 4
+A18	Strength T4 4
+A19	Eloquence T5 5
+A20	Evidence T5 4
+A21	Persuasiveness T5 4
+A22	Relevance T5 5
+A23	Specificity T5 4
+A24	Eloquence T6 4
+A25	Evidence T6 4
+A26	Persuasiveness T6 5
+A27	Relevance T6 5
+A28	Specificity T6 5
+A29	Strength T6 5
+A30	Eloquence T7 5
+A31	Evidence T7 3
+A32	Persuasiveness T7 4
+A33	Relevance T7 6
+A34	Specificity T7 5
+A35	Strength T7 5
+A36	Eloquence T8 4
+A37	Evidence T8 4
+A38	Persuasiveness T8 4
+A39	Relevance T8 5
+A40	Specificity T8 4
+A41	Strength T8 3
+A42	Eloquence T9 5
+A43	Evidence T9 3
+A44	Persuasiveness T9 4
+A45	Relevance T9 5
+A46	Specificity T9 5
+A47	Strength T9 6
+A48	Eloquence T12 5
+A49	Evidence T12 3
+A50	Persuasiveness T12 5
+A51	Relevance T12 5
+A52	Specificity T12 4
+A53	Strength T12 5
+A54	Eloquence T13 4
+A55	Evidence T13 2
+A56	Persuasiveness T13 4
+A57	Relevance T13 5
+A58	Specificity T13 3
+A59	Strength T13 5
+A60	Eloquence T14 3
+A61	Evidence T14 4
+A62	Persuasiveness T14 3
+A63	Specificity T14 4
+A64	Eloquence T15 4
+A65	Evidence T15 3
+A66	Persuasiveness T15 4
+A67	Relevance T15 5
+A68	Specificity T15 4
+A69	Eloquence T16 4
+A70	Evidence T16 3
+A71	Persuasiveness T16 2
+A72	Relevance T16 4
+A73	Specificity T16 3
+A74	Strength T16 3
+A75	Eloquence T17 3
+A76	Evidence T17 2
+A77	Persuasiveness T17 3
+A78	Relevance T17 5
+A79	Specificity T17 4
+A80	Strength T17 4

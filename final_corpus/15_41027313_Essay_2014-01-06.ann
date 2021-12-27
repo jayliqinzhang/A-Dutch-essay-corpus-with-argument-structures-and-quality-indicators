@@ -1,0 +1,187 @@
+T1	Claim 821 894	Er bestaat dus zeker irritatie over mensen die profiteren van het systeem
+T2	Premise 896 1045	Als je elke dag hard werkt om rond te komen en toch een even groot inkomen hebt als werklozen, vraag je je natuurlijk af waarom je al die moeite doet
+T4	Premise 1146 1170	niet iedereen profiteert
+T5	Premise 1172 1285	Er zijn natuurlijk ook mensen die wegens gezondheidsproblemen of persoonlijke omstandigheden thuis moeten blijven
+T6	Premise 1287 1336	Er zijn ook mensen die gewoonweg geen werk vinden
+T7	Premise 1897 1956	om de mensen aan het werk te krijgen, moet er ook werk zijn
+T9	Premise 1993 2057	Maar 67,2% van de 20- tot 64-jarigen heeft op dit moment een job
+T10	Premise 2067 2189	ligt België nog ver onder de Europese werkgelegenheidsdoelstelling om tegen 2020 75% van de mensen aan het werk te krijgen
+T11	Premise 2191 2264	8% van de bevolkingsgroep is werkloos en dat percentage stijgt nog altijd
+T12	Premise 2266 2393	Om alle mensen - dus ook degenen die profiteren - aan het werk te krijgen, is het creëren van nieuwe jobs daardoor noodzakelijk
+T13	Premise 2470 2505	Eén op de vijf jongeren is werkloos
+T14	Premise 2507 2589	Als ze solliciteren, krijgen ze vaak als antwoord dat ze te weinig ervaring hebben
+T15	Premise 2596 2648	hoe kan je ervaring opdoen als je nergens werk vindt
+T18	Claim 3018 3103	De arbeidsmarkt aanpassen zodat werkgevers meer jongeren in dienst nemen is dus nodig
+T19	Claim 3136 3217	oudere mensen of mensen met gezondheidsproblemen lijden onder het tekort aan jobs
+T20	Premise 3219 3282	Bedrijven staan vaak niet te springen om hen in dienst te nemen
+T21	Premise 3284 3358	Mensen met een gevorderde leeftijd zijn te duur of hebben te veel ervaring
+T23	Premise 3471 3595	zijn ouderen vaak nog gemotiveerd om te werken en een grote hoeveelheid aan ervaring kan zelfs gunstig zijn voor een bedrijf
+T24	Premise 3601 3654	mensen met gezondheidsproblemen worden vaak geweigerd
+T25	Premise 3656 3715	Ze zouden te veel afwezig zijn en daardoor weinig bijdragen
+T27	Premise 3757 3799	zij vaak wél gemotiveerd zijn om te werken
+T3	Premise 1047 1139	Je bent moe en hebt weinig vrije tijd, terwijl anderen de hele dag kunnen doen wat ze willen
+T8	MajorClaim 3988 4140	De werkloosheidsuitkeringen berperken in de tijd is dus een goede manier om mensen die profiteren van het systeem te straffen en aan het werk te krijgen
+T16	MajorClaim 355 409	Eeuwigdurende werkloosheidsuitkeringen zijn geen optie
+A1	Stance T1 For
+A2	Stance T18 Against
+A3	Stance T19 Against
+R1	supports Arg1:T2 Arg2:T1	
+R2	attacks Arg1:T4 Arg2:T1	
+R3	supports Arg1:T3 Arg2:T2	
+R4	supports Arg1:T5 Arg2:T4	
+#1	AnnotatorNotes T6	{'T4': 2, 'T5': 2}
+R6	supports Arg1:T7 Arg2:T12	
+R7	supports Arg1:T9 Arg2:T7	
+R8	supports Arg1:T10 Arg2:T9	
+R9	supports Arg1:T11 Arg2:T7	
+R10	supports Arg1:T12 Arg2:T1	
+#2	AnnotatorNotes T12	{'T11': 2, 'T1': 1, 'T7': 1}, my change t1
+R5	supports Arg1:T6 Arg2:T4	
+#3	AnnotatorNotes T7	{'T6': 2, 'T12': 1, 'T1': 1} my change t12
+R11	supports Arg1:T14 Arg2:T13	
+R12	attacks Arg1:T15 Arg2:T14	
+#4	AnnotatorNotes R12	changes to attacks
+R13	supports Arg1:T20 Arg2:T19	
+R14	supports Arg1:T13 Arg2:T18	
+R15	supports Arg1:T21 Arg2:T20	
+R16	attacks Arg1:T23 Arg2:T20	
+R17	supports Arg1:T24 Arg2:T20	
+R18	supports Arg1:T25 Arg2:T24	
+R19	attacks Arg1:T27 Arg2:T25	
+A4	Eloquence T1 4
+A5	Evidence T1 3
+A6	Persuasiveness T1 4
+A7	Relevance T1 5
+A8	Specificity T1 4
+A9	Eloquence T2 4
+A10	Evidence T2 3
+A11	Persuasiveness T2 4
+A12	Relevance T2 5
+A13	Specificity T2 4
+A14	Strength T2 5
+A15	Eloquence T4 4
+A16	Evidence T4 3
+A17	Persuasiveness T4 4
+A18	Relevance T4 5
+A19	Specificity T4 3
+A20	Strength T4 3
+A21	Eloquence T5 5
+A22	Evidence T5 2
+A23	Persuasiveness T5 4
+A24	Relevance T5 5
+A25	Specificity T5 4
+A26	Strength T5 5
+A27	Eloquence T6 4
+A28	Evidence T6 2
+A29	Persuasiveness T6 4
+A30	Relevance T6 5
+A31	Specificity T6 3
+A32	Strength T6 2
+A33	Eloquence T7 4
+A34	Evidence T7 5
+A35	Persuasiveness T7 5
+A36	Relevance T7 5
+A37	Specificity T7 3
+A38	Strength T7 4
+A39	Eloquence T9 5
+A40	Evidence T9 4
+A41	Persuasiveness T9 5
+A42	Relevance T9 5
+A43	Specificity T9 4
+A44	Strength T9 5
+A45	Eloquence T10 5
+A46	Evidence T10 3
+A47	Persuasiveness T10 4
+A48	Relevance T10 5
+A49	Specificity T10 5
+A50	Strength T10 4
+A51	Eloquence T11 5
+A52	Evidence T11 3
+A53	Persuasiveness T11 5
+A54	Relevance T11 5
+A55	Specificity T11 4
+A56	Strength T11 5
+A57	Eloquence T12 4
+A58	Evidence T12 5
+A59	Persuasiveness T12 5
+A60	Relevance T12 4
+A61	Specificity T12 4
+A62	Strength T12 5
+A63	Eloquence T13 4
+A64	Evidence T13 4
+A65	Persuasiveness T13 6
+A66	Relevance T13 5
+A67	Specificity T13 4
+A68	Strength T13 4
+A69	Eloquence T14 4
+A70	Evidence T14 3
+A71	Persuasiveness T14 4
+A72	Relevance T14 5
+A73	Specificity T14 3
+A74	Strength T14 4
+A75	Eloquence T15 4
+A76	Evidence T15 2
+A77	Persuasiveness T15 4
+A78	Relevance T15 5
+A79	Specificity T15 4
+A80	Strength T15 4
+A81	Eloquence T18 4
+A82	Evidence T18 4
+A83	Persuasiveness T18 4
+A84	Relevance T18 4
+A85	Specificity T18 4
+A86	Eloquence T19 4
+A87	Evidence T19 4
+A88	Persuasiveness T19 4
+A89	Relevance T19 4
+A90	Specificity T19 4
+A91	Eloquence T20 4
+A92	Evidence T20 4
+A93	Persuasiveness T20 4
+A94	Relevance T20 5
+A95	Specificity T20 3
+A96	Strength T20 4
+A97	Eloquence T21 4
+A98	Evidence T21 3
+A99	Persuasiveness T21 4
+A100	Relevance T21 5
+A101	Specificity T21 3
+A102	Strength T21 4
+A103	Eloquence T23 5
+A104	Evidence T23 2
+A105	Persuasiveness T23 4
+A106	Relevance T23 5
+A107	Specificity T23 4
+A108	Strength T23 5
+A109	Eloquence T24 4
+A110	Evidence T24 3
+A111	Persuasiveness T24 4
+A112	Relevance T24 5
+A113	Specificity T24 3
+A114	Strength T24 4
+A115	Eloquence T25 4
+A116	Evidence T25 3
+A117	Persuasiveness T25 4
+A118	Relevance T25 5
+A119	Specificity T25 4
+A120	Strength T25 4
+A121	Eloquence T27 5
+A122	Evidence T27 2
+A123	Persuasiveness T27 4
+A124	Relevance T27 5
+A125	Specificity T27 3
+A126	Strength T27 3
+A127	Eloquence T3 4
+A128	Evidence T3 2
+A129	Persuasiveness T3 3
+A130	Relevance T3 4
+A131	Specificity T3 4
+A132	Strength T3 5
+A133	Eloquence T8 4
+A134	Evidence T8 3
+A135	Persuasiveness T8 3
+A136	Specificity T8 4
+A137	Eloquence T16 5
+A138	Evidence T16 4
+A139	Persuasiveness T16 4
+A140	Specificity T16 4

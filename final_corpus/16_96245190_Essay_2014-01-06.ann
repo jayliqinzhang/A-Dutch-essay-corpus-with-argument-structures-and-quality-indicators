@@ -1,0 +1,301 @@
+T1	MajorClaim 673 737	De werkloosheidsuitkering mag dus niet worden beperkt in de tijd
+T2	Claim 739 831	Het is niet zo dat de werkloze van nu niet wil werken, maar er is gewoonweg niet genoeg werk
+T5	Premise 833 880	Er zijn veel jonge, net afgestudeerde werklozen
+T6	Premise 882 970	De tijd dat je direct aan de slag kon in het werkveld waarin je was opgeleid, is voorbij
+T7	Premise 972 1170	Als werkzoekende wordt tegenwoordig van je verwacht dat je alles aangrijpt wat op je pad komt, zelfs als  de functie waarop je solliciteert maar voor een heel klein deel overeenkomt met je expertise
+T8	Premise 1177 1212	opleidingen zijn er niet voor niets
+T9	Premise 1214 1419	Iemand die jarenlang tijd en geld heeft geïnvesteerd in zichzelf en zijn kennis, mag niet worden verplicht om te gaan werken in een beroepsveld dat nauwelijks aansluit bij zijn opleiding of interessegebied
+T10	Premise 1421 1603	Voor deze groep moet de mogelijkheid blijven bestaan om, in elk geval voor een bepaalde periode, uit te kijken naar banen die geschikt zijn en waarin hij of zij kan worden uitgedaagd
+T11	Premise 1605 1704	Dit kan alleen als ze gedurende die periode een minimale ondersteuning vanuit de overheid ontvangen
+T12	Premise 1706 1804	Hier mag zeker iets van tijdsdruk achter zitten, dit houdt de jonge ambitieuze werkzoekende scherp
+T14	Claim 1811 1912	er is ook een aantal mensen met een werkloosheidsuitkering die helemaal niet in staat is om te werken
+T15	Premise 1914 1989	Deze mensen hebben te maken met onoverbrugbare mentale of fysieke problemen
+T16	Premise 1995 2148	voor deze groep geldt vaak dat ze liever aan het werk zouden zijn dan dat ze de hele dag thuis moeten blijven zitten, maar dat hun staat dat niet toelaat
+T19	Premise 2150 2281	Extra schrijnend wordt het wanneer deze mensen arbeidsongeschikt zijn geworden door zwaar fysieke werk wat ze jaren geleverd hebben
+T20	Premise 2284 2374	Veel arbeiders, zoals metselaars of stratenmakers, krijgen na enige tijd last van hun lijf
+T21	Premise 2376 2437	Ze hebben dan meestal al jaren gewerkt in het algemeen belang
+T23	Premise 2439 2583	Als na keuring inderdaad blijkt dat ze hun werk niet meer op een verantwoorde manier kunnen blijven uitvoeren, zijn ze genoodzaakt om te stoppen
+T26	Premise 2585 2660	Ze zullen dit werk nooit meer kunnen uitvoeren, ook niet na een zekere tijd
+T28	Claim 2662 2739	In die gevallen wordt vaak gedacht aan het omscholen van deze arbeidskrachten
+T29	Premise 2772 2902	deze mensen zijn dan wel niet meer geschikt om hun voormalige beroep uit te oefenen, maar kunnen misschien nog wel ander werk doen
+T30	Premise 2932 3016	deze mensen naast het vak dat ze geleerd hebben weinig verdere scholing hebben gehad
+T31	Premise 3018 3171	Als ze dus willen concurreren met de grote hoeveelheid sollicitanten die zelfs afkomen op de meest eenvoudige banen, zullen ze een nieuw vak moeten leren
+T32	Premise 3173 3260	Dit kost helaas veel geld en deze kosten komen altijd voor rekening van de werkzoekende
+T34	Premise 3331 3448	voor elk persoon die op latere leeftijd werk zoekt, zijn er tien anderen die jonger, vitaler en ambitieuzer overkomen
+T35	Premise 3450 3517	Er is zelfs na nascholing dus niet altijd de zekerheid van een baan
+T36	Claim 3526 3598	is er ook een groep werklozen die misbruik maakt van dit sociale vangnet
+T37	Premise 3600 3673	Deze mensen profiteren van regels die in wezen niet voor hen bedoeld zijn
+T38	Premise 3687 3777	denken veel mensen dat het afschaffen van de werkloosheidsuitkering een goed idee zou zijn
+T39	Premise 3787 3871	voor een groot deel van de ontvangers de uitkering echt onmisbaar en noodzakelijk is
+T40	Premise 3873 3965	De groep die onterecht een uitkering ontvangt, wordt niet voldoende gecontroleerd en gekeurd
+T41	Premise 3967 4142	Door deze keuringen en controles regelmatig uit te voeren, en de sancties voor fraude en onwelwillendheid aan te scherpen, zou een deel van dit probleem opgelost kunnen worden
+T42	Premise 4144 4229	Een fraudeur kan afgeschrikt worden door een hoge geldboete of een eventuele celstraf
+T43	Premise 4231 4353	Een kritische werkzoekende moet kunnen aantonen dat hij gesolliciteerd heeft, en zo niet, waarom hij dat niet gedaan heeft
+T45	Premise 4355 4392	Dit toezicht kost natuurlijk ook geld
+T47	Premise 4399 4498	als dit ervoor zorgt dat er uiteindelijk meer werklozen aan het werk gaan, levert het juist geld op
+T48	Claim 4500 4629	Een goede graadmeter voor hoe sociaal een samenleving daadwerkelijk is, is hoe er wordt omgegaan met de zwakkeren binnen de groep
+T49	Premise 4734 4821	Als deze mensen aan hun lot worden overgelaten is het slecht gesteld met de samenleving
+T50	Premise 4823 4976	Deze groep mag niet de dupe worden van asociaal gedrag van de samenleving, maar ook niet van het nog asocialere gedrag van de fraudeurs en onwelwillenden
+A1	Stance T2 For
+A2	Stance T14 For
+A3	Stance T28 Against
+A4	Stance T36 Against
+A5	Stance T48 For
+R1	supports Arg1:T5 Arg2:T2	
+R2	supports Arg1:T6 Arg2:T5	
+R3	supports Arg1:T7 Arg2:T6	
+R4	supports Arg1:T8 Arg2:T7	
+R5	supports Arg1:T9 Arg2:T8	
+R6	supports Arg1:T10 Arg2:T9	
+R7	supports Arg1:T11 Arg2:T10	
+R8	attacks Arg1:T12 Arg2:T11	
+#1	AnnotatorNotes T12	{'attacks': 2, 'supports': 2}
+R9	supports Arg1:T16 Arg2:T14	
+R10	supports Arg1:T15 Arg2:T16	
+#2	AnnotatorNotes T16	{'T15': 3, 'T14': 1} change to t14
+#3	AnnotatorNotes T15	{'T14': 3, 'T16': 1} change to t16
+R11	supports Arg1:T19 Arg2:T16	
+R12	supports Arg1:T20 Arg2:T19	
+R13	supports Arg1:T21 Arg2:T20	
+R14	supports Arg1:T23 Arg2:T21	
+R15	supports Arg1:T26 Arg2:T23	
+R16	supports Arg1:T29 Arg2:T28	
+R17	attacks Arg1:T30 Arg2:T29	
+R18	supports Arg1:T31 Arg2:T30	
+R19	attacks Arg1:T32 Arg2:T31	
+R20	supports Arg1:T34 Arg2:T31	
+#4	AnnotatorNotes R20	{'T32': 2, 'T35': 1, 'T31': 1} change to t31
+R21	supports Arg1:T35 Arg2:T34	
+R22	supports Arg1:T37 Arg2:T36	
+R23	supports Arg1:T38 Arg2:T37	
+R24	attacks Arg1:T39 Arg2:T38	
+R25	supports Arg1:T40 Arg2:T38	
+#5	AnnotatorNotes T40	{'T39': 2, 'T36': 1, 'T38': 1} change to t38
+R26	supports Arg1:T41 Arg2:T40	
+R27	supports Arg1:T42 Arg2:T41	
+R28	supports Arg1:T43 Arg2:T42	
+R29	attacks Arg1:T45 Arg2:T43	
+R30	attacks Arg1:T47 Arg2:T45	
+R31	supports Arg1:T49 Arg2:T48	
+R32	supports Arg1:T50 Arg2:T49	
+A6	Eloquence T1 4
+A7	Evidence T1 4
+A8	Persuasiveness T1 4
+A9	Specificity T1 4
+A10	Eloquence T2 4
+A11	Evidence T2 3
+A12	Persuasiveness T2 4
+A13	Relevance T2 5
+A14	Specificity T2 4
+A15	Eloquence T5 4
+A16	Evidence T5 3
+A17	Persuasiveness T5 4
+A18	Relevance T5 5
+A19	Specificity T5 3
+A20	Strength T5 3
+A21	Eloquence T6 4
+A22	Evidence T6 4
+A23	Persuasiveness T6 4
+A24	Relevance T6 5
+A25	Specificity T6 3
+A26	Strength T6 3
+A27	Eloquence T7 5
+A28	Evidence T7 3
+A29	Persuasiveness T7 4
+A30	Relevance T7 5
+A31	Specificity T7 4
+A32	Strength T7 4
+A33	Eloquence T8 4
+A34	Evidence T8 3
+A35	Persuasiveness T8 3
+A36	Relevance T8 4
+A37	Specificity T8 2
+A38	Strength T8 3
+A39	Eloquence T9 5
+A40	Evidence T9 3
+A41	Persuasiveness T9 4
+A42	Relevance T9 5
+A43	Specificity T9 4
+A44	Strength T9 4
+A45	Eloquence T10 5
+A46	Evidence T10 3
+A47	Persuasiveness T10 4
+A48	Relevance T10 5
+A49	Specificity T10 4
+A50	Strength T10 5
+A51	Eloquence T11 4
+A52	Evidence T11 2
+A53	Persuasiveness T11 3
+A54	Relevance T11 5
+A55	Specificity T11 4
+A56	Strength T11 5
+A57	Eloquence T12 5
+A58	Evidence T12 2
+A59	Persuasiveness T12 3
+A60	Relevance T12 5
+A61	Specificity T12 3
+A62	Strength T12 5
+A63	Eloquence T14 4
+A64	Evidence T14 4
+A65	Persuasiveness T14 4
+A66	Relevance T14 5
+A67	Specificity T14 3
+A68	Eloquence T15 5
+A69	Evidence T15 3
+A70	Persuasiveness T15 4
+A71	Relevance T15 5
+A72	Specificity T15 3
+A73	Strength T15 5
+A74	Eloquence T16 4
+A75	Evidence T16 4
+A76	Persuasiveness T16 4
+A77	Relevance T16 5
+A78	Specificity T16 3
+A79	Strength T16 4
+A80	Eloquence T19 4
+A81	Evidence T19 4
+A82	Persuasiveness T19 5
+A83	Relevance T19 5
+A84	Specificity T19 4
+A85	Strength T19 5
+A86	Eloquence T20 4
+A87	Evidence T20 4
+A88	Persuasiveness T20 5
+A89	Relevance T20 5
+A90	Specificity T20 3
+A91	Strength T20 5
+A92	Eloquence T21 4
+A93	Evidence T21 3
+A94	Persuasiveness T21 3
+A95	Relevance T21 5
+A96	Specificity T21 3
+A97	Strength T21 4
+A98	Eloquence T23 5
+A99	Evidence T23 4
+A100	Persuasiveness T23 4
+A101	Relevance T23 5
+A102	Specificity T23 4
+A103	Strength T23 4
+A104	Eloquence T26 4
+A105	Evidence T26 2
+A106	Persuasiveness T26 4
+A107	Relevance T26 5
+A108	Specificity T26 3
+A109	Strength T26 4
+A110	Eloquence T28 4
+A111	Evidence T28 4
+A112	Persuasiveness T28 4
+A113	Relevance T28 5
+A114	Specificity T28 4
+A115	Eloquence T29 4
+A116	Evidence T29 4
+A117	Persuasiveness T29 4
+A118	Relevance T29 5
+A119	Specificity T29 4
+A120	Strength T29 5
+A121	Eloquence T30 4
+A122	Evidence T30 4
+A123	Persuasiveness T30 4
+A124	Relevance T30 5
+A125	Specificity T30 3
+A126	Strength T30 4
+A127	Eloquence T31 5
+A128	Evidence T31 4
+A129	Persuasiveness T31 5
+A130	Relevance T31 5
+A131	Specificity T31 4
+A132	Strength T31 5
+A133	Eloquence T32 4
+A134	Evidence T32 2
+A135	Persuasiveness T32 4
+A136	Relevance T32 5
+A137	Specificity T32 4
+A138	Strength T32 4
+A139	Eloquence T34 4
+A140	Evidence T34 3
+A141	Persuasiveness T34 5
+A142	Relevance T34 4
+A143	Specificity T34 5
+A144	Strength T34 5
+A145	Eloquence T35 3
+A146	Evidence T35 2
+A147	Persuasiveness T35 4
+A148	Relevance T35 5
+A149	Specificity T35 3
+A150	Strength T35 5
+A151	Eloquence T36 4
+A152	Evidence T36 3
+A153	Persuasiveness T36 4
+A154	Relevance T36 5
+A155	Specificity T36 3
+A156	Eloquence T37 4
+A157	Evidence T37 3
+A158	Persuasiveness T37 4
+A159	Relevance T37 5
+A160	Specificity T37 3
+A161	Strength T37 4
+A162	Eloquence T38 4
+A163	Evidence T38 3
+A164	Persuasiveness T38 3
+A165	Relevance T38 5
+A166	Specificity T38 4
+A167	Strength T38 4
+A168	Eloquence T39 4
+A169	Evidence T39 2
+A170	Persuasiveness T39 4
+A171	Relevance T39 5
+A172	Specificity T39 3
+A173	Strength T39 4
+A174	Eloquence T40 5
+A175	Evidence T40 4
+A176	Persuasiveness T40 4
+A177	Relevance T40 5
+A178	Specificity T40 4
+A179	Strength T40 5
+A180	Eloquence T41 5
+A181	Evidence T41 4
+A182	Persuasiveness T41 4
+A183	Relevance T41 5
+A184	Specificity T41 4
+A185	Strength T41 5
+A186	Eloquence T42 5
+A187	Evidence T42 4
+A188	Persuasiveness T42 4
+A189	Relevance T42 5
+A190	Specificity T42 4
+A191	Strength T42 4
+A192	Eloquence T43 4
+A193	Evidence T43 3
+A194	Persuasiveness T43 4
+A195	Relevance T43 5
+A196	Specificity T43 4
+A197	Strength T43 5
+A198	Eloquence T45 4
+A199	Evidence T45 3
+A200	Persuasiveness T45 4
+A201	Relevance T45 5
+A202	Specificity T45 3
+A203	Strength T45 4
+A204	Eloquence T47 4
+A205	Evidence T47 3
+A206	Persuasiveness T47 4
+A207	Relevance T47 5
+A208	Specificity T47 4
+A209	Strength T47 5
+A210	Eloquence T48 4
+A211	Evidence T48 4
+A212	Persuasiveness T48 5
+A213	Relevance T48 5
+A214	Specificity T48 4
+A215	Eloquence T49 5
+A216	Evidence T49 3
+A217	Persuasiveness T49 5
+A218	Relevance T49 5
+A219	Specificity T49 4
+A220	Strength T49 4
+A221	Eloquence T50 5
+A222	Evidence T50 2
+A223	Persuasiveness T50 5
+A224	Relevance T50 5
+A225	Specificity T50 4
+A226	Strength T50 5

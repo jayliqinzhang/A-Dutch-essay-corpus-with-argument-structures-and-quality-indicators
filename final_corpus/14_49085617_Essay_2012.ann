@@ -1,0 +1,164 @@
+T1	MajorClaim 700 748	Europa is meer dan alleen deze twee grote landen
+T2	Claim 1447 1485	het rijkste land de meeste macht heeft
+T3	Premise 1617 1675	Geen enkel domein kan nog ontsnappen aan de macht van geld
+T4	Premise 1694 1755	de cultuur kan niet meer bestaan zonder een financiële impuls
+T5	Premise 1792 1865	Het land met het meeste geld heeft het voor het zeggen, bepaalt de regels
+T6	Premise 2239 2313	het land dat het meeste geld in dat hulpfonds stort, kan de regels bepalen
+T7	Premise 2549 2620	andere landen stilaan beginnen te protesteren tegen het machtige Europa
+T8	Premise 2622 2696	De bevolking ziet alleen maar problemen sinds de Europese Unie is ontstaan
+T9	Claim 2698 2796	De regeringsleiders maken te weinig duidelijk welke positieve gevolgen de eenmaking al gehad heeft
+T10	Premise 2799 2871	In Nederland wil Geert Wilders definitief, vrijwillig uit Europa stappen
+T11	Premise 2887 3027	de bezuinigingen die nodig zijn om aan de strenge Europese norm te voldoen, overdreven zijn en uitdraaien op koopkrachtverlies van de minima
+T12	Premise 3029 3115	Hij wil de Europese norm aan zijn laars lappen en een forser begrotingstekort voorzien
+T13	Premise 3118 3174	Hij stelt Europa verantwoordelijk voor de huidige crisis
+T15	Premise 3207 3261	de Grieken nu op partijen stemmen die anti-Europa zijn
+T16	Premise 3290 3392	de modale Griek alleen maar de negatieve zijde van Europa ziet en alleen maar negatieve dingen ervaart
+T17	Premise 3824 3922	Welke voordelen hebben de andere landen nog aan een Europa waar zij zelf niets in te zeggen hebben
+T18	Claim 3969 4034	Het wordt tijd dat de andere Europese landen van zich laten horen
+T19	Premise 4038 4104	ervoor zorgen dat 'Europa' niet een synoniem wordt van 'Duitsland'
+T20	Premise 4221 4309	Op andere gebieden dan het financiële kunnen de andere landen zeker hun stem laten horen
+T21	Premise 4311 4413	Op sociaal vlak, op het gebied van mileu en dergelijke moeten de landen een gelijkwaardige stem hebben
+T22	Premise 4800 5071	Het wordt tijd dat iedereen, ook diegenen die a priori tegen Europa zijn, te weten komt waar Europa voor staat, welke positieve gevolgen er voor de bevolking al geweest zijn, en vooral ook waar we in de toekomst zullen staan, als we nu aan een sterk Europa blijven werken
+A1	Stance T2 Against
+A2	Stance T9 For
+A3	Stance T18 For
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T3	
+#1	AnnotatorNotes T5	{'T2': 2, 'T3': 1, 'T4': 1} my change t3 
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T8 Arg2:T7	
+R6	supports Arg1:T10 Arg2:T9	
+R7	supports Arg1:T11 Arg2:T10	
+R8	supports Arg1:T12 Arg2:T11	
+R9	supports Arg1:T13 Arg2:T10	
+R10	supports Arg1:T15 Arg2:T9	
+R11	supports Arg1:T16 Arg2:T15	
+R12	supports Arg1:T17 Arg2:T9	
+R13	supports Arg1:T19 Arg2:T18	
+R14	supports Arg1:T20 Arg2:T18	
+R15	supports Arg1:T21 Arg2:T20	
+R16	supports Arg1:T22 Arg2:T18	
+R17	supports Arg1:T7 Arg2:T9	
+#2	AnnotatorNotes T7	{'T9': 1, 'T8': 1, 'T6': 2} change to t9
+A4	Eloquence T1 3
+A5	Evidence T1 4
+A6	Persuasiveness T1 4
+A7	Specificity T1 3
+A8	Eloquence T2 4
+A9	Evidence T2 2
+A10	Persuasiveness T2 3
+A11	Relevance T2 3
+A12	Specificity T2 3
+A13	Eloquence T3 4
+A14	Evidence T3 2
+A15	Persuasiveness T3 2
+A16	Relevance T3 3
+A17	Specificity T3 3
+A18	Strength T3 3
+A19	Eloquence T4 4
+A20	Evidence T4 2
+A21	Persuasiveness T4 3
+A22	Relevance T4 4
+A23	Specificity T4 3
+A24	Strength T4 3
+A25	Eloquence T5 3
+A26	Evidence T5 2
+A27	Persuasiveness T5 3
+A28	Relevance T5 4
+A29	Specificity T5 3
+A30	Strength T5 3
+A31	Eloquence T6 3
+A32	Evidence T6 2
+A33	Persuasiveness T6 4
+A34	Relevance T6 5
+A35	Specificity T6 4
+A36	Strength T6 4
+A37	Eloquence T7 4
+A38	Evidence T7 3
+A39	Persuasiveness T7 4
+A40	Relevance T7 4
+A41	Specificity T7 3
+A42	Strength T7 3
+A43	Eloquence T8 3
+A44	Evidence T8 2
+A45	Persuasiveness T8 2
+A46	Relevance T8 4
+A47	Specificity T8 2
+A48	Strength T8 2
+A49	Eloquence T9 3
+A50	Evidence T9 4
+A51	Persuasiveness T9 4
+A52	Relevance T9 5
+A53	Specificity T9 3
+A54	Eloquence T10 3
+A55	Evidence T10 4
+A56	Persuasiveness T10 3
+A57	Relevance T10 5
+A58	Specificity T10 3
+A59	Strength T10 3
+A60	Eloquence T11 5
+A61	Evidence T11 3
+A62	Persuasiveness T11 4
+A63	Relevance T11 5
+A64	Specificity T11 4
+A65	Strength T11 4
+A66	Eloquence T12 4
+A67	Evidence T12 2
+A68	Persuasiveness T12 3
+A69	Relevance T12 5
+A70	Specificity T12 3
+A71	Strength T12 3
+A72	Eloquence T13 4
+A73	Evidence T13 2
+A74	Persuasiveness T13 3
+A75	Relevance T13 4
+A76	Specificity T13 3
+A77	Strength T13 3
+A78	Eloquence T15 3
+A79	Evidence T15 3
+A80	Persuasiveness T15 4
+A81	Relevance T15 4
+A82	Specificity T15 3
+A83	Strength T15 3
+A84	Eloquence T16 3
+A85	Evidence T16 2
+A86	Persuasiveness T16 4
+A87	Relevance T16 5
+A88	Specificity T16 2
+A89	Strength T16 3
+A90	Eloquence T17 3
+A91	Evidence T17 1
+A92	Persuasiveness T17 2
+A93	Relevance T17 4
+A94	Specificity T17 3
+A95	Strength T17 3
+A96	Eloquence T18 3
+A97	Evidence T18 4
+A98	Persuasiveness T18 4
+A99	Relevance T18 5
+A100	Specificity T18 2
+A101	Eloquence T19 4
+A102	Evidence T19 2
+A103	Persuasiveness T19 3
+A104	Relevance T19 4
+A105	Specificity T19 4
+A106	Strength T19 3
+A107	Eloquence T20 4
+A108	Evidence T20 3
+A109	Persuasiveness T20 4
+A110	Relevance T20 5
+A111	Specificity T20 3
+A112	Strength T20 2
+A113	Eloquence T21 3
+A114	Evidence T21 2
+A115	Persuasiveness T21 4
+A116	Relevance T21 6
+A117	Specificity T21 3
+A118	Strength T21 3
+A119	Eloquence T22 4
+A120	Evidence T22 2
+A121	Persuasiveness T22 4
+A122	Relevance T22 4
+A123	Specificity T22 3
+A124	Strength T22 4

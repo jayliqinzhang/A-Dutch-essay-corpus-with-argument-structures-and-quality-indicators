@@ -1,0 +1,150 @@
+T1	Topic 790 845	wat zouden de gevolgen zijn van duurder hoger onderwijs
+#1	AnnotatorNotes T1	for: voordeel van duurder hoger onderwijs; against: nadeel van duurder hoger onderwijs
+T2	Claim 1351 1427	moet ons land fors besparen op vele vlakken om de staatsschuld af te betalen
+T3	Premise 1429 1578	Sinds de crisis in 2008 zijn bijvoorbeeld de subsidies in de cultuursector sterk gedaald en nu blijkt dat ook het onderwijs er niet meer onderuit kan
+T4	Premise 1677 1795	Door onder andere het inschrijvingsgeld voor elke Belgische student te verhogen geniet de regering dus extra inkomsten
+T5	Premise 1893 2027	In veel landen, waaronder Nederland en het Verenigd Koninkrijk, betalen studenten enorme bedragen om te starten in het hoger onderwijs
+T6	Premise 2032 2134	bedraagt het inschrijvingsgeld voor jongeren in Groot-Brittannië ongeveer 10.000 euro per academiejaar
+T7	Premise 2146 2217	zijn er ook veel Nederlandse studenten die in Vlaanderen komen studeren
+T8	Premise 2225 2265	het onderwijs hier beter en goedkoper is
+T9	Claim 2296 2395	het onderwijs in België redelijk goedkoop is in vergelijking met andere landen van de Europese Unie
+T10	Claim 2625 2658	treedt hier het Mattheuseffect op
+T11	Premise 2660 2791	Voor ouders met een hoog inkomen zal het meestal geen probleem zijn om wat extra te betalen voor de studies van hun zoon of dochter
+T12	Premise 2793 2867	Andere ouders zullen wel moeilijkheden ondervinden om de kosten te betalen
+T13	Premise 2872 2954	hebben de jongeren uit een lage sociale klasse minder kans om een diploma te halen
+T16	Premise 3005 3059	Er is dus geen sprake van opwaartse sociale mobiliteit
+T17	Claim 3062 3202	Duurdere opleidingen zouden er dus voor zorgen dat jongeren uit lage sociale klassen minder kans hebben om te starten in het hoger onderwijs
+T19	Claim 3216 3307	vraagt de tegenpartij zich af of de overheid niet op andere vlakken inkomsten kan genereren
+T20	Premise 3309 3376	Onderwijs is volgens hen noodzakelijk in onze prestatiemaatschappij
+T21	Premise 3378 3530	Het is voor jongeren steeds moeilijker om werk te vinden op de arbeidsmarkt en zeker voor degenen zonder een diploma van hoger onderwijs of universiteit
+T22	Premise 3532 3642	Besparingen doorvoeren in het hoger onderwijs zou volgens hen enkel voor de overheid positieve gevolgen hebben
+T14	Premise 2958 3003	belanden ze in dezelfde klasse als hun ouders
+A1	Stance T2 For
+A2	Stance T9 For
+A3	Stance T10 Against
+A4	Stance T17 Against
+A5	Stance T19 Against
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T9	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T9	
+R6	supports Arg1:T8 Arg2:T7	
+R7	supports Arg1:T11 Arg2:T10	
+R8	supports Arg1:T12 Arg2:T11	
+R9	supports Arg1:T13 Arg2:T17	
+R10	supports Arg1:T14 Arg2:T13	
+R11	supports Arg1:T16 Arg2:T14	
+R12	supports Arg1:T20 Arg2:T19	
+R13	supports Arg1:T21 Arg2:T20	
+R14	supports Arg1:T22 Arg2:T21	
+#2	AnnotatorNotes T13	{'T12': 2, 'T14': 1, 'T17': 1}, my change to t17
+A6	Eloquence T2 4
+A7	Evidence T2 3
+A8	Persuasiveness T2 3
+A9	Relevance T2 4
+A10	Specificity T2 3
+A11	Eloquence T3 5
+A12	Evidence T3 4
+A13	Persuasiveness T3 4
+A14	Relevance T3 4
+A15	Specificity T3 5
+A16	Strength T3 4
+A17	Eloquence T4 5
+A18	Evidence T4 3
+A19	Persuasiveness T4 4
+A20	Relevance T4 5
+A21	Specificity T4 4
+A22	Strength T4 5
+A23	Eloquence T5 4
+A24	Evidence T5 3
+A25	Persuasiveness T5 4
+A26	Relevance T5 5
+A27	Specificity T5 4
+A28	Strength T5 4
+A29	Eloquence T6 5
+A30	Evidence T6 3
+A31	Persuasiveness T6 4
+A32	Relevance T6 5
+A33	Specificity T6 4
+A34	Strength T6 5
+A35	Eloquence T7 4
+A36	Evidence T7 3
+A37	Persuasiveness T7 4
+A38	Relevance T7 4
+A39	Specificity T7 4
+A40	Strength T7 4
+A41	Eloquence T8 4
+A42	Evidence T8 3
+A43	Persuasiveness T8 4
+A44	Relevance T8 5
+A45	Specificity T8 3
+A46	Strength T8 4
+A47	Eloquence T9 4
+A48	Evidence T9 4
+A49	Persuasiveness T9 5
+A50	Relevance T9 5
+A51	Specificity T9 3
+A52	Eloquence T10 4
+A53	Evidence T10 3
+A54	Persuasiveness T10 3
+A55	Relevance T10 4
+A56	Specificity T10 2
+A57	Eloquence T11 4
+A58	Evidence T11 4
+A59	Persuasiveness T11 4
+A60	Relevance T11 4
+A61	Specificity T11 4
+A62	Strength T11 5
+A63	Eloquence T12 4
+A64	Evidence T12 3
+A65	Persuasiveness T12 4
+A66	Relevance T12 5
+A67	Specificity T12 4
+A68	Strength T12 4
+A69	Eloquence T13 5
+A70	Evidence T13 4
+A71	Persuasiveness T13 4
+A72	Relevance T13 5
+A73	Specificity T13 4
+A74	Strength T13 5
+A75	Eloquence T16 4
+A76	Evidence T16 3
+A77	Persuasiveness T16 4
+A78	Relevance T16 5
+A79	Specificity T16 4
+A80	Strength T16 4
+A81	Eloquence T17 5
+A82	Evidence T17 4
+A83	Persuasiveness T17 5
+A84	Relevance T17 5
+A85	Specificity T17 4
+A86	Eloquence T19 4
+A87	Evidence T19 4
+A88	Persuasiveness T19 4
+A89	Relevance T19 4
+A90	Specificity T19 4
+A91	Eloquence T20 5
+A92	Evidence T20 4
+A93	Persuasiveness T20 4
+A94	Relevance T20 5
+A95	Specificity T20 4
+A96	Strength T20 4
+A97	Eloquence T21 4
+A98	Evidence T21 3
+A99	Persuasiveness T21 4
+A100	Relevance T21 5
+A101	Specificity T21 4
+A102	Strength T21 4
+A103	Eloquence T22 5
+A104	Evidence T22 3
+A105	Persuasiveness T22 4
+A106	Relevance T22 5
+A107	Specificity T22 3
+A108	Strength T22 4
+A109	Eloquence T14 4
+A110	Evidence T14 3
+A111	Persuasiveness T14 4
+A112	Relevance T14 5
+A113	Specificity T14 3
+A114	Strength T14 4

@@ -1,0 +1,178 @@
+T2	Claim 680 741	Vroeger hadden mannen duidelijk een hogere status dan vrouwen
+T3	Premise 743 812	De man voorzag namelijk in het levensonderhoud van zijn vrouw en kind
+T4	Premise 814 920	Hij ging werken en zorgde zo voor geld en eten, de vrouw bleef daarentegen thuis en paste op haar kinderen
+T7	Premise 1160 1242	zijn mannen en vrouwen evenwaardig en hoeven we helemaal geen onderscheid te maken
+T8	Premise 1251 1327	is er geen enkele reden om aan te nemen dat mannen harder werken dan vrouwen
+T9	Claim 1358 1405	vrouwen alleen maar werken om geld te verdienen
+T10	Premise 1417 1489	is dat ook een belangrijke drijfveer in onze dure consumptiemaatschappij
+T12	Premise 1530 1592	Het zijn namelijk niet alleen mannen die carrière willen maken
+T13	Premise 1594 1696	Vrouwen studeren en werken er zeker even hard voor en willen dus ook die welverdiende promotie krijgen
+T15	Claim 1988 2080	Er liggen enkele voorstellen op tafel die vrouwen alsnog de kans bieden om carrière te maken
+T16	Premise 2082 2124	Een van die voorstellen handelt over quota
+T17	Premise 2126 2227	Bedrijven krijgen dan een minimum opgelegd van het aantal vrouwen dat in een topfunctie moet belanden
+T18	Premise 2229 2326	Vrouwen hebben nu dus meer promotiemogelijkheden, maar voornamelijk omdat het een verplichting is
+T21	Premise 2328 2455	Het is bijgevolg perfect mogelijk dat veel werkgevers nog steeds niet geloven in de capaciteiten van hun vrouwelijke werknemers
+T22	Premise 2457 2556	Ondanks de maatregel kunnen ze dus nog steeds weigeren om in te zien dat ook vrouwen succesvol zijn
+T23	Claim 2618 2664	er is ook behoefte aan bijkomstige maatregelen
+T24	Premise 2677 2771	moet de overheid ervoor zorgen dat vrouwen hetzelfde loon krijgen als hun mannelijke collega's
+T25	Premise 2783 2848	vormt dat een extra motivatie voor vrouwen om toch door te zetten
+T26	Premise 2861 2948	is het een sein voor werkgevers dat vrouwen wel degelijk evenveel waard zijn dan mannen
+T27	Premise 2961 3023	moet er ook meer aandacht zijn voor succesverhalen van vrouwen
+T29	Premise 3025 3119	Zo kan onze maatschappij ontdekken dat het niet alleen de mannen zijn die goed werk verrichten
+T30	Premise 3128 3260	dient de overheid uiteraard het goede voorbeeld te geven en moet ze in de eerste plaats zelf genoeg vrouwen een topfunctie aanbieden
+T5	MajorClaim 3768 3924	Er zullen zeker bijkomstige maatregelen nodig zijn om iedere werkgever te overtuigen en om een toekomstige gelijkheid tussen mannen en vrouwen te garanderen
+A1	Stance T2 For
+#1	AnnotatorNotes T2	{'For': 2, 'Against': 2}
+A2	Stance T9 Against
+A3	Stance T15 For
+A4	Stance T23 For
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	attacks Arg1:T7 Arg2:T2	
+R4	supports Arg1:T8 Arg2:T7	
+R5	supports Arg1:T10 Arg2:T9	
+R6	attacks Arg1:T12 Arg2:T9	
+R7	supports Arg1:T13 Arg2:T12	
+R8	supports Arg1:T16 Arg2:T15	
+R9	supports Arg1:T17 Arg2:T16	
+R10	supports Arg1:T18 Arg2:T17	
+R11	supports Arg1:T21 Arg2:T18	
+R12	supports Arg1:T22 Arg2:T21	
+R13	supports Arg1:T24 Arg2:T23	
+R14	supports Arg1:T25 Arg2:T24	
+R15	supports Arg1:T26 Arg2:T24	
+R16	supports Arg1:T27 Arg2:T23	
+R17	supports Arg1:T29 Arg2:T27	
+R18	supports Arg1:T30 Arg2:T23	
+A5	Eloquence T2 4
+A6	Evidence T2 4
+A7	Persuasiveness T2 5
+A8	Relevance T2 4
+A9	Specificity T2 3
+A10	Eloquence T3 5
+A11	Evidence T3 4
+A12	Persuasiveness T3 5
+A13	Relevance T3 5
+A14	Specificity T3 4
+A15	Strength T3 4
+A16	Eloquence T4 4
+A17	Evidence T4 3
+A18	Persuasiveness T4 5
+A19	Relevance T4 5
+A20	Specificity T4 4
+A21	Strength T4 4
+A22	Eloquence T7 4
+A23	Evidence T7 3
+A24	Persuasiveness T7 5
+A25	Relevance T7 6
+A26	Specificity T7 3
+A27	Strength T7 4
+A28	Eloquence T8 4
+A29	Evidence T8 3
+A30	Persuasiveness T8 5
+A31	Relevance T8 6
+A32	Specificity T8 3
+A33	Strength T8 4
+A34	Eloquence T9 4
+A35	Evidence T9 4
+A36	Persuasiveness T9 4
+A37	Relevance T9 3
+A38	Specificity T9 2
+A39	Eloquence T10 4
+A40	Evidence T10 2
+A41	Persuasiveness T10 4
+A42	Relevance T10 5
+A43	Specificity T10 3
+A44	Strength T10 3
+A45	Eloquence T12 4
+A46	Evidence T12 4
+A47	Persuasiveness T12 4
+A48	Relevance T12 5
+A49	Specificity T12 4
+A50	Strength T12 4
+A51	Eloquence T13 4
+A52	Evidence T13 3
+A53	Persuasiveness T13 5
+A54	Relevance T13 6
+A55	Specificity T13 4
+A56	Strength T13 5
+A57	Eloquence T15 4
+A58	Evidence T15 4
+A59	Persuasiveness T15 4
+A60	Relevance T15 5
+A61	Specificity T15 3
+A62	Eloquence T16 4
+A63	Evidence T16 4
+A64	Persuasiveness T16 3
+A65	Relevance T16 5
+A66	Specificity T16 3
+A67	Strength T16 3
+A68	Eloquence T17 4
+A69	Evidence T17 4
+A70	Persuasiveness T17 4
+A71	Relevance T17 5
+A72	Specificity T17 4
+A73	Strength T17 4
+A74	Eloquence T18 5
+A75	Evidence T18 4
+A76	Persuasiveness T18 4
+A77	Relevance T18 5
+A78	Specificity T18 4
+A79	Strength T18 4
+A80	Eloquence T21 4
+A81	Evidence T21 3
+A82	Persuasiveness T21 4
+A83	Relevance T21 5
+A84	Specificity T21 4
+A85	Strength T21 4
+A86	Eloquence T22 4
+A87	Evidence T22 2
+A88	Persuasiveness T22 4
+A89	Relevance T22 5
+A90	Specificity T22 3
+A91	Strength T22 3
+A92	Eloquence T23 4
+A93	Evidence T23 3
+A94	Persuasiveness T23 4
+A95	Relevance T23 5
+A96	Specificity T23 2
+A97	Eloquence T24 4
+A98	Evidence T24 4
+A99	Persuasiveness T24 5
+A100	Relevance T24 6
+A101	Specificity T24 4
+A102	Strength T24 5
+A103	Eloquence T25 4
+A104	Evidence T25 3
+A105	Persuasiveness T25 5
+A106	Relevance T25 6
+A107	Specificity T25 3
+A108	Strength T25 4
+A109	Eloquence T26 4
+A110	Evidence T26 3
+A111	Persuasiveness T26 5
+A112	Relevance T26 5
+A113	Specificity T26 3
+A114	Strength T26 4
+A115	Eloquence T27 4
+A116	Evidence T27 3
+A117	Persuasiveness T27 3
+A118	Relevance T27 5
+A119	Specificity T27 3
+A120	Strength T27 3
+A121	Eloquence T29 4
+A122	Evidence T29 3
+A123	Persuasiveness T29 4
+A124	Relevance T29 5
+A125	Specificity T29 4
+A126	Strength T29 4
+A127	Eloquence T30 5
+A128	Evidence T30 2
+A129	Persuasiveness T30 5
+A130	Relevance T30 5
+A131	Specificity T30 4
+A132	Strength T30 5
+A133	Eloquence T5 4
+A134	Evidence T5 4
+A135	Persuasiveness T5 5
+A136	Specificity T5 4

@@ -1,0 +1,195 @@
+T1	MajorClaim 1126 1253	Het is dringend tijd dat de Europese overheden hun verantwoordelijkheid nemen en optreden tegen deze schandelijke discriminatie
+T2	Claim 1256 1313	Voor veel Europeanen is homoseksualiteit nog steeds taboe
+T3	Premise 1315 1451	Zelfs in België, waar het homohuwelijk al enkele jaren aanvaard is, worden er nog iedere dag homoseksuelen verbaal of fysiek aangevallen
+T4	Premise 1453 1527	Homoseksualiteit wordt vaak gezien als iets onnatuurlijks of zelfs heidens
+T5	Premise 1529 1599	Mensen zijn namelijk bang voor datgene waar ze niet vertrouwd mee zijn
+T6	Premise 1601 1692	Er is dan ook dringend nood aan een overkoepelende sensibiliseringscampagne in  heel Europa
+T7	Premise 1694 1774	Men moet de Europese bevolking vertrouwder maken met het begrip homoseksualiteit
+T8	Premise 1776 1822	Hierin speelt het onderwijs een heel grote rol
+T9	Premise 1834 1903	kinderen en jongeren het merendeel van hun tijd doorbrengen op school
+T10	Premise 1905 1978	oefent dit onderwijs een grote invloed uit op hun vorming en ontwikkeling
+T11	Premise 1980 2143	Indien kinderen en jongeren al op vroege leeftijd en op een goede manier in aanraking komen met het begrip homoseksualiteit, zou dat al zeer veel kunnen veranderen
+T13	Premise 2277 2412	is het vooral belangrijk dat kinderen en jongeren zich realiseren dat er absoluut niets mis is met het hebben van een andere geaardheid
+T15	Premise 2493 2627	Het is ontzettend belangrijk dat kinderen zich al op vroege leeftijd realiseren dat verbale of fysieke discriminatie onaanvaardbaar is
+T16	Premise 2629 2820	Hoe beter de kinderen van vandaag vertrouwd zijn met homoseksualiteit en hoe meer zij accepteren dat er verschillende geaardheden bestaan, hoe beter hun kinderen daar later mee om zullen gaan
+T17	Claim 2827 2915	de sociale media spelen een cruciale rol in het sensibiliseren van de Europese bevolking
+T18	Premise 2917 3031	Via netwerksites is het erg gemakkelijk om mensen verbaal lastig te vallen en dat wordt dan ook voortdurend gedaan
+T19	Premise 3033 3147	Europa kan hier tegen optreden door, net zoals op kindersites, het gebruik van onrespectvolle woorden te verbieden
+T20	Premise 3149 3270	Wanneer we iemand anders uitschelden wordt dit nog al te vaak als grappig of stoer ervaren, zeker in de ogen van jongeren
+T21	Premise 3272 3363	Zij moeten realiseren dat dit absoluut niet 'cool' of 'vet' is, maar net zwak en onbeschoft
+T22	Claim 3377 3451	spelen de Europese politici een heel grote rol in het stoppen van homohaat
+T23	Premise 3453 3577	Zij zijn immers de vertegenwoordigers van Europa en moeten dan ook aantonen dat respect en solidariteit heel belangrijk zijn
+T24	Premise 3589 3638	zij een voorbeeld zijn voor veel Europese burgers
+T25	Premise 3688 3771	De politici moeten erop hameren dat mensen verschillen en dat daar niets mis mee is
+T26	Premise 3773 3871	Dit kunnen ze doen in hun speeches, maar ook op een nonchalantere manier in interviews, gesprekken
+T12	Premise 3639 3686	is het hun taak om discriminatie te veroordelen
+A1	Stance T2 For
+A2	Stance T17 For
+A3	Stance T22 For
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T2	
+#1	AnnotatorNotes T6	{'T2': 2, 'T5': 2}
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T8 Arg2:T7	
+R7	supports Arg1:T9 Arg2:T8	
+R8	supports Arg1:T10 Arg2:T9	
+R9	supports Arg1:T11 Arg2:T10	
+R10	supports Arg1:T13 Arg2:T11	
+R11	supports Arg1:T15 Arg2:T13	
+R12	supports Arg1:T16 Arg2:T15	
+R13	supports Arg1:T18 Arg2:T17	
+R14	supports Arg1:T19 Arg2:T18	
+R15	supports Arg1:T20 Arg2:T19	
+R16	supports Arg1:T21 Arg2:T20	
+R17	supports Arg1:T23 Arg2:T22	
+R18	supports Arg1:T24 Arg2:T23	
+R19	supports Arg1:T12 Arg2:T24	
+R20	supports Arg1:T25 Arg2:T12	
+R21	supports Arg1:T26 Arg2:T25	
+A4	Eloquence T1 5
+A5	Evidence T1 4
+A6	Persuasiveness T1 4
+A7	Specificity T1 4
+A8	Eloquence T2 5
+A9	Evidence T2 4
+A10	Persuasiveness T2 4
+A11	Relevance T2 5
+A12	Specificity T2 4
+A13	Eloquence T3 5
+A14	Evidence T3 3
+A15	Persuasiveness T3 5
+A16	Relevance T3 5
+A17	Specificity T3 4
+A18	Strength T3 4
+A19	Eloquence T4 5
+A20	Evidence T4 3
+A21	Persuasiveness T4 4
+A22	Relevance T4 5
+A23	Specificity T4 4
+A24	Strength T4 4
+A25	Eloquence T5 4
+A26	Evidence T5 2
+A27	Persuasiveness T5 3
+A28	Relevance T5 4
+A29	Specificity T5 3
+A30	Strength T5 3
+A31	Eloquence T6 5
+A32	Evidence T6 3
+A33	Persuasiveness T6 4
+A34	Relevance T6 4
+A35	Specificity T6 4
+A36	Strength T6 5
+A37	Eloquence T7 4
+A38	Evidence T7 3
+A39	Persuasiveness T7 4
+A40	Relevance T7 5
+A41	Specificity T7 4
+A42	Strength T7 4
+A43	Eloquence T8 4
+A44	Evidence T8 4
+A45	Persuasiveness T8 3
+A46	Relevance T8 5
+A47	Specificity T8 3
+A48	Strength T8 3
+A49	Eloquence T9 5
+A50	Evidence T9 4
+A51	Persuasiveness T9 4
+A52	Relevance T9 5
+A53	Specificity T9 3
+A54	Strength T9 3
+A55	Eloquence T10 4
+A56	Evidence T10 4
+A57	Persuasiveness T10 3
+A58	Relevance T10 5
+A59	Specificity T10 4
+A60	Strength T10 5
+A61	Eloquence T11 5
+A62	Evidence T11 4
+A63	Persuasiveness T11 4
+A64	Relevance T11 5
+A65	Specificity T11 4
+A66	Strength T11 5
+A67	Eloquence T13 5
+A68	Evidence T13 3
+A69	Persuasiveness T13 4
+A70	Relevance T13 5
+A71	Specificity T13 4
+A72	Strength T13 4
+A73	Eloquence T15 5
+A74	Evidence T15 3
+A75	Persuasiveness T15 4
+A76	Relevance T15 4
+A77	Specificity T15 4
+A78	Strength T15 5
+A79	Eloquence T16 4
+A80	Evidence T16 3
+A81	Persuasiveness T16 5
+A82	Relevance T16 5
+A83	Specificity T16 4
+A84	Strength T16 4
+A85	Eloquence T17 5
+A86	Evidence T17 3
+A87	Persuasiveness T17 4
+A88	Relevance T17 4
+A89	Specificity T17 4
+A90	Eloquence T18 4
+A91	Evidence T18 4
+A92	Persuasiveness T18 5
+A93	Relevance T18 5
+A94	Specificity T18 4
+A95	Strength T18 4
+A96	Eloquence T19 4
+A97	Evidence T19 3
+A98	Persuasiveness T19 4
+A99	Relevance T19 5
+A100	Specificity T19 4
+A101	Strength T19 3
+A102	Eloquence T20 4
+A103	Evidence T20 3
+A104	Persuasiveness T20 3
+A105	Relevance T20 4
+A106	Specificity T20 4
+A107	Strength T20 3
+A108	Eloquence T21 4
+A109	Evidence T21 2
+A110	Persuasiveness T21 3
+A111	Relevance T21 5
+A112	Specificity T21 3
+A113	Strength T21 4
+A114	Eloquence T22 4
+A115	Evidence T22 4
+A116	Persuasiveness T22 3
+A117	Relevance T22 5
+A118	Specificity T22 4
+A119	Eloquence T23 4
+A120	Evidence T23 4
+A121	Persuasiveness T23 5
+A122	Relevance T23 6
+A123	Specificity T23 4
+A124	Strength T23 5
+A125	Eloquence T24 4
+A126	Evidence T24 4
+A127	Persuasiveness T24 3
+A128	Relevance T24 5
+A129	Specificity T24 3
+A130	Strength T24 3
+A131	Eloquence T25 5
+A132	Evidence T25 3
+A133	Persuasiveness T25 4
+A134	Relevance T25 4
+A135	Specificity T25 3
+A136	Strength T25 3
+A137	Eloquence T26 4
+A138	Evidence T26 2
+A139	Persuasiveness T26 2
+A140	Relevance T26 5
+A141	Specificity T26 4
+A142	Strength T26 4
+A143	Eloquence T12 4
+A144	Evidence T12 4
+A145	Persuasiveness T12 4
+A146	Relevance T12 5
+A147	Specificity T12 4
+A148	Strength T12 4

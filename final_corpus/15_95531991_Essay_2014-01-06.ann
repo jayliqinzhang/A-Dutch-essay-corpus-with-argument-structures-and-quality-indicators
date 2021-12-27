@@ -1,0 +1,159 @@
+T1	MajorClaim 45 103	Moeten werkloosheidsuitkeringen beperkt worden in de tijd?
+T2	Premise 952 1021	verliest wie een passende job weigert wel zijn werkloosheidsuitkering
+T3	Premise 1092 1141	moet er een verband zijn tussen werken en krijgen
+T4	Premise 1143 1189	Wie niets heeft bijgedragen, ontvangt ook niks
+T5	Premise 1338 1365	uitkeringen sneller afnemen
+T7	Premise 1367 1474	Open VLD lijkt hier dan weer recht tegenover te staan en wil vooral hogere uitkeringen in de eerste maanden
+T9	Premise 1553 1597	uitkeringen moeten beperkt worden in de tijd
+T10	Premise 1599 1665	Ook NV-A ziet geen heil in eeuwigdurenden werkloosheidsuitkeringen
+T11	Claim 1669 1839	De verkiezingsuitslag in Vlaanderen wil dus een regelgeving inzake werkloosheid die zorgt voor betere begeleiding van werklozen en een uitkering die beperkt is in de tijd
+T13	Premise 2310 2391	Het is dus de werkloosheid, en niet de uitkering, die moet beperkt worden in tijd
+T14	Claim 2769 2838	Het spreekt voor zich dat een consensus vormen geen sinecure zal zijn
+T15	Premise 2914 3016	als Vlamingen en Walen verschillende uitkeringen krijgen, voelt minstens één landshelft zich benadeeld
+T16	Claim 3219 3345	Het beperken van de werkloosheidsuitkeringen in de tijd zou tot een nefaste evolutie van de tewerkstellingsgraad kunnen leiden
+T17	Premise 3358 3481	stimuleert de eeuwigdurende uitkering de minder gemotiveerde medeburger wellicht om minder actief op zoek te gaan naar werk
+T19	Claim 3530 3691	Wanneer de regering er bijvoorbeeld eerst en vooral voor kiest om de minimumlonen op te trekken, dan motiveert dat meteen de werklozen om actiever werk te zoeken
+T20	Premise 3693 3818	Hoe groter de kloof is tussen een volwaardige werkloosheidsuitkering en een minimumloon, hoe meer het loont om te gaan werken
+T21	Premise 3860 3964	74 procent van de bevolking akkoord gaat met de stelling dat “misbruiken de sociale zekerheid bedreigen”
+T23	Premise 4030 4224	er mits een volwaardige werkloosheidsuitkering en wat schnabbels door zwartwerk, bijna evenveel of zelfs meer kan worden verdiend dan door het opnemen van een voltijdse job tegen een minimumloon
+T25	Premise 4676 4746	ook jeugdwerklozen mogen bijvoorbeeld niet uit het oog verloren worden
+T6	Claim 4457 4593	kan het optrekken van het minimumloon in combinatie met een werkloosheidsuitkering die beperkt is in de tijd straks werkelijkheid worden
+T8	MajorClaim 4750 4969	Werken stimuleren en belonen is dus de boodschap. De combinatie hiervan met een betere begeleiding van werklozen en een eventuele beperking van de uitkeringen in de tijd moet het streefdoel zijn van de volgende regering
+A1	Stance T11 For
+A2	Stance T14 For
+A3	Stance T16 For
+A4	Stance T19 For
+A5	Stance T6 For
+R1	supports Arg1:T2 Arg2:T11	
+R2	supports Arg1:T3 Arg2:T11	
+R3	supports Arg1:T4 Arg2:T3	
+R4	supports Arg1:T5 Arg2:T11	
+R5	attacks Arg1:T7 Arg2:T5	
+R6	supports Arg1:T9 Arg2:T11	
+R7	supports Arg1:T10 Arg2:T9	
+#1	AnnotatorNotes T10	{'T11': 2, 'T9': 2} my change to t9
+R8	attacks Arg1:T13 Arg2:T11	
+R9	supports Arg1:T15 Arg2:T14	
+R10	attacks Arg1:T17 Arg2:T16	
+R11	supports Arg1:T20 Arg2:T19	
+R12	supports Arg1:T21 Arg2:T19	
+#2	AnnotatorNotes T21	{'T20': 2, 'T19': 2} 
+R13	supports Arg1:T23 Arg2:T21	
+R14	supports Arg1:T25 Arg2:T6	
+A6	Eloquence T1 4
+A7	Evidence T1 4
+A8	Persuasiveness T1 3
+A9	Specificity T1 3
+A10	Eloquence T2 3
+A11	Evidence T2 2
+A12	Persuasiveness T2 4
+A13	Relevance T2 5
+A14	Specificity T2 3
+A15	Strength T2 4
+A16	Eloquence T3 4
+A17	Evidence T3 3
+A18	Persuasiveness T3 4
+A19	Relevance T3 5
+A20	Specificity T3 3
+A21	Strength T3 4
+A22	Eloquence T4 4
+A23	Evidence T4 2
+A24	Persuasiveness T4 4
+A25	Relevance T4 5
+A26	Specificity T4 4
+A27	Strength T4 4
+A28	Eloquence T5 3
+A29	Evidence T5 2
+A30	Persuasiveness T5 3
+A31	Relevance T5 4
+A32	Specificity T5 2
+A33	Strength T5 3
+A34	Eloquence T7 4
+A35	Evidence T7 2
+A36	Persuasiveness T7 3
+A37	Relevance T7 5
+A38	Specificity T7 4
+A39	Strength T7 3
+A40	Eloquence T9 4
+A41	Evidence T9 3
+A42	Persuasiveness T9 3
+A43	Relevance T9 5
+A44	Specificity T9 3
+A45	Strength T9 3
+A46	Eloquence T10 4
+A47	Evidence T10 3
+A48	Persuasiveness T10 3
+A49	Relevance T10 5
+A50	Specificity T10 3
+A51	Strength T10 3
+A52	Eloquence T11 4
+A53	Evidence T11 4
+A54	Persuasiveness T11 4
+A55	Relevance T11 6
+A56	Specificity T11 5
+A57	Eloquence T13 4
+A58	Evidence T13 2
+A59	Persuasiveness T13 4
+A60	Relevance T13 5
+A61	Specificity T13 3
+A62	Strength T13 4
+A63	Eloquence T14 5
+A64	Evidence T14 3
+A65	Persuasiveness T14 3
+A66	Relevance T14 3
+A67	Specificity T14 3
+A68	Eloquence T15 4
+A69	Evidence T15 3
+A70	Persuasiveness T15 5
+A71	Relevance T15 5
+A72	Specificity T15 4
+A73	Strength T15 4
+A74	Eloquence T16 4
+A75	Evidence T16 2
+A76	Persuasiveness T16 3
+A77	Relevance T16 5
+A78	Specificity T16 4
+A79	Eloquence T17 5
+A80	Evidence T17 2
+A81	Persuasiveness T17 4
+A82	Relevance T17 5
+A83	Specificity T17 4
+A84	Strength T17 4
+A85	Eloquence T19 4
+A86	Evidence T19 4
+A87	Persuasiveness T19 4
+A88	Relevance T19 4
+A89	Specificity T19 4
+A90	Eloquence T20 4
+A91	Evidence T20 3
+A92	Persuasiveness T20 5
+A93	Relevance T20 5
+A94	Specificity T20 4
+A95	Strength T20 5
+A96	Eloquence T21 4
+A97	Evidence T21 3
+A98	Persuasiveness T21 3
+A99	Relevance T21 4
+A100	Specificity T21 4
+A101	Strength T21 5
+A102	Eloquence T23 4
+A103	Evidence T23 2
+A104	Persuasiveness T23 6
+A105	Relevance T23 4
+A106	Specificity T23 4
+A107	Strength T23 5
+A108	Eloquence T25 4
+A109	Evidence T25 2
+A110	Persuasiveness T25 3
+A111	Relevance T25 2
+A112	Specificity T25 2
+A113	Strength T25 3
+A114	Eloquence T6 4
+A115	Evidence T6 2
+A116	Persuasiveness T6 3
+A117	Relevance T6 5
+A118	Specificity T6 4
+A119	Eloquence T8 4
+A120	Evidence T8 4
+A121	Persuasiveness T8 5
+A122	Specificity T8 4

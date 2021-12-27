@@ -1,0 +1,172 @@
+T1	Topic 838 920	Het invoeren van quota lijkt te winnen aan populariteit, maar of dat zo terecht is
+T3	Premise 2256 2381	het medicijn is aangeslagen: het aandeel zwarten dat een hogere functie bekleedt in het bedrijfsleven is aanzienlijk gestegen
+T4	Premise 2462 2536	de discriminatie tussen de bevolkingsgroepen is er niet minder om geworden
+T5	Premise 2558 2578	de blanken zijn boos
+T6	Premise 2585 2610	hun banen worden ingepikt
+T7	Premise 2612 2645	Haatgevoelens worden aangewakkerd
+T8	Premise 2649 2697	de negatieve spiraal lijkt allerminst doorbroken
+T9	Premise 3075 3221	u als organisatie de keuze heeft uit een mannelijke en een vrouwelijke kandidaat. Beiden lijken geschikt, maar de man heeft toch wat meer ervaring
+T10	Premise 3231 3335	het resultaat van het glazen plafond is dat mannen veel meer bestuursfuncties hebben vervuld dan vrouwen
+T11	Premise 3337 3419	De kans dat organisaties bekwame en ervaren vrouwen rekruteren is dus veel kleiner
+T12	Premise 3535 3630	na doorvoering van de maatregel zit u aan het maximale aantal mannen dat u in dienst mag hebben
+T13	Premise 3632 3663	U moet dus voor de vrouw kiezen
+T14	Premise 3665 3794	De man wijst u af met de woorden: "u past echt uitstekend binnen ons bedrijf, maar wij moeten een vrouw aannemen van de regering"
+T15	Premise 3796 3957	De vrouw staat een zeer warm welkom te wachten: "mag ik u feliciteren met uw nieuwe baan, dankzij de overheid hadden we weinig keus en konden we u niet weigeren"
+T16	Claim 4356 4473	Door een quotum voor het aantal mannelijke personeelsleden op te leggen wordt de kern van het probleem niet aangepakt
+T17	Premise 4559 4811	De leden van de eerste en tweede kamer zouden eens een kijkje moeten nemen op de onderwijsinstellingen: zij zullen de vrouwelijke studentes aantreffen op opleidingen als sociologie, verpleegkunde en communicatie, mannen zullen zij daar niet veel vinden
+T18	Premise 4818 4933	die zijn te vinden op opleidingen als management, economie en recht, technische bedrijfskunde, commerciële economie
+T19	Premise 5195 5326	De overheid zwijgt over eventuele belemmeringen voor vrouwen om dergelijke arbeidsintensieve en kostenrovende functies te vervullen
+T20	Premise 5328 5438	Het duurder maken van kinderopvang werkt niet bepaald bevorderlijk voor het aantal vrouwen dat wil doorgroeien
+T2	Premise 1203 1325	een groep met minder kansen op de arbeidsmarkt wordt positief bevooroordeeld ten opzichte van andere (meerderheids)groepen
+T21	Claim 1120 1201	Het opleggen van quota is een vorm van positieve discriminatie op de arbeidsmarkt
+T22	Claim 2922 3046	Een beetje fantasie kan helpen om een voorstelling te maken van hoe ons land invulling kan geven aan positieve discriminatie
+#17	AnnotatorNotes T1	for: het invoeren van quota is terecht; against: het invoeren van quota is niet terecht. 
+A1	Stance T21 For
+A2	Stance T22 Against
+A3	Stance T16 Against
+R1	supports Arg1:T2 Arg2:T21	
+R2	supports Arg1:T3 Arg2:T2	
+R3	attacks Arg1:T4 Arg2:T3	
+R4	supports Arg1:T5 Arg2:T4	
+R5	supports Arg1:T6 Arg2:T5	
+#1	AnnotatorNotes T3	{'T21': 2, 'T2': 2}
+R6	supports Arg1:T8 Arg2:T7	
+R7	supports Arg1:T7 Arg2:T4	
+#2	AnnotatorNotes T7	{'T4': 1, 'T8': 1, 'T5': 1, 'T6': 1}
+R8	supports Arg1:T9 Arg2:T22	
+R9	supports Arg1:T10 Arg2:T9	
+R10	supports Arg1:T11 Arg2:T10	
+R11	supports Arg1:T12 Arg2:T13	
+R12	supports Arg1:T13 Arg2:T9	
+#3	AnnotatorNotes T12	{'T11': 2, 'T13': 1, 'T9': 1} my change to t13
+#4	AnnotatorNotes T13	{'T12': 3, 'T9': 1} my change to t9
+R13	supports Arg1:T14 Arg2:T13	
+R14	supports Arg1:T15 Arg2:T13	
+#5	AnnotatorNotes T15	{'T14': 3, 'T13': 1} my change to t13
+R15	supports Arg1:T17 Arg2:T16	
+R16	supports Arg1:T18 Arg2:T17	
+R17	supports Arg1:T19 Arg2:T16	
+R18	supports Arg1:T20 Arg2:T19	
+A4	Eloquence T3 4
+A5	Evidence T3 4
+A6	Persuasiveness T3 5
+A7	Relevance T3 5
+A8	Specificity T3 4
+A9	Strength T3 5
+A10	Eloquence T4 4
+A11	Evidence T4 3
+A12	Persuasiveness T4 5
+A13	Relevance T4 5
+A14	Specificity T4 3
+A15	Strength T4 3
+A16	Eloquence T5 3
+A17	Evidence T5 2
+A18	Persuasiveness T5 4
+A19	Relevance T5 4
+A20	Specificity T5 2
+A21	Strength T5 2
+A22	Eloquence T6 3
+A23	Evidence T6 2
+A24	Persuasiveness T6 4
+A25	Relevance T6 5
+A26	Specificity T6 3
+A27	Strength T6 3
+A28	Eloquence T7 4
+A29	Evidence T7 2
+A30	Persuasiveness T7 3
+A31	Relevance T7 4
+A32	Specificity T7 3
+A33	Strength T7 3
+A34	Eloquence T8 5
+A35	Evidence T8 1
+A36	Persuasiveness T8 4
+A37	Relevance T8 5
+A38	Specificity T8 3
+A39	Strength T8 4
+A40	Eloquence T9 4
+A41	Evidence T9 4
+A42	Persuasiveness T9 4
+A43	Relevance T9 5
+A44	Specificity T9 4
+A45	Strength T9 4
+A46	Eloquence T10 4
+A47	Evidence T10 3
+A48	Persuasiveness T10 4
+A49	Relevance T10 5
+A50	Specificity T10 3
+A51	Strength T10 4
+A52	Eloquence T11 4
+A53	Evidence T11 2
+A54	Persuasiveness T11 4
+A55	Relevance T11 5
+A56	Specificity T11 3
+A57	Strength T11 4
+A58	Eloquence T12 4
+A59	Evidence T12 3
+A60	Persuasiveness T12 5
+A61	Relevance T12 5
+A62	Specificity T12 4
+A63	Strength T12 4
+A64	Eloquence T13 4
+A65	Evidence T13 4
+A66	Persuasiveness T13 4
+A67	Relevance T13 5
+A68	Specificity T13 4
+A69	Strength T13 4
+A70	Eloquence T14 4
+A71	Evidence T14 1
+A72	Persuasiveness T14 4
+A73	Relevance T14 5
+A74	Specificity T14 4
+A75	Strength T14 4
+A76	Eloquence T15 4
+A77	Evidence T15 1
+A78	Persuasiveness T15 4
+A79	Relevance T15 5
+A80	Specificity T15 4
+A81	Strength T15 5
+A82	Eloquence T16 4
+A83	Evidence T16 4
+A84	Persuasiveness T16 4
+A85	Relevance T16 5
+A86	Specificity T16 4
+A87	Eloquence T17 4
+A88	Evidence T17 3
+A89	Persuasiveness T17 5
+A90	Relevance T17 5
+A91	Specificity T17 4
+A92	Strength T17 4
+A93	Eloquence T18 4
+A94	Evidence T18 3
+A95	Persuasiveness T18 5
+A96	Relevance T18 5
+A97	Specificity T18 4
+A98	Strength T18 4
+A99	Eloquence T19 5
+A100	Evidence T19 3
+A101	Persuasiveness T19 4
+A102	Relevance T19 5
+A103	Specificity T19 4
+A104	Strength T19 4
+A105	Eloquence T20 4
+A106	Evidence T20 2
+A107	Persuasiveness T20 4
+A108	Relevance T20 5
+A109	Specificity T20 5
+A110	Strength T20 5
+A111	Eloquence T2 5
+A112	Evidence T2 4
+A113	Persuasiveness T2 5
+A114	Relevance T2 5
+A115	Specificity T2 4
+A116	Strength T2 5
+A117	Eloquence T21 5
+A118	Evidence T21 4
+A119	Persuasiveness T21 5
+A120	Relevance T21 5
+A121	Specificity T21 4
+A122	Eloquence T22 4
+A123	Evidence T22 3
+A124	Persuasiveness T22 3
+A125	Relevance T22 3
+A126	Specificity T22 3

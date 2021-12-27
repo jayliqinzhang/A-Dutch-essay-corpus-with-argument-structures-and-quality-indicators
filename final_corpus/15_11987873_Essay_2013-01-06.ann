@@ -1,0 +1,122 @@
+T1	Claim 728 791	religie is voor de gemiddelde burger niet meer dan een gewoonte
+T2	Premise 793 906	Doop, vormsel, huwelijk en begrafenis zijn alles dat overblijft van de Christelijke geloofsbelijdenis in ons land
+T3	Premise 911 967	de kruisjes tegen de muren, die hangen er ook nog steeds
+T4	Premise 974 1027	niet meer bij de dienst bevolking op het gemeentehuis
+T6	Premise 1379 1469	neutraliteit bij een adreswijziging of het afhalen van een nieuw paspoort een voorrecht is
+T7	Claim 1482 1572	zijn kruisjes, tulbanden en hoofddoeken niet meer dan persoonlijke uitingen van identiteit
+T8	Premise 1579 1713	ze verbreken de stilzwijgende overeenkomst tussen overheid en burger, namelijk het verbond dat werd gesloten ten tijde van Montesquieu
+T9	Claim 1840 1910	Vandaag de dag is de samenleving echter een smeltkroes van subculturen
+T10	Premise 1935 2144	Het is perfect mogelijk dat je een homofiele skater bent die, voorafgaand aan zijn dagelijks groet aan de zon, nog even zijn longen leegschreeuwt met het allernieuwste album van een metalband op de achtergrond
+T11	Premise 2183 2327	ga niet achter een loket zitten met een regenboog-t-shirt, omgekeerde pet, broek halverwege je achterwerk en ijzeren staven door je neus en oren
+T13	Premise 2379 2413	zou een hoofddoek iets anders zijn
+T14	Premise 2415 2500	Hem verbieden zou de vrijheid van de moslims aantasten, zou zelfs discriminerend zijn
+T15	Claim 2503 2606	Net zoals alle uitingen van individuele identiteit, hoort ook een hoofddoek niet thuis achter het loket
+T16	Premise 2619 2712	wanneer je spreekt over individuele expressie, geef je meteen toe dat er geen neutraliteit is
+T17	Premise 2729 2798	Kruisje? Verbieden. Keppie? Verbieden. Wit konijnenkostuum? Verbieden
+T5	MajorClaim 194 349	Er zijn door de geschiedenis heen heel wat koppen gerold om de macht van de Christelijke kerk te verminderen. Nu is het tijd om de genadeslag toe te dienen
+A1	Stance T1 For
+A2	Stance T7 For
+A3	Stance T9 For
+A4	Stance T15 For
+R1	supports Arg1:T2 Arg2:T1	
+R2	attacks Arg1:T3 Arg2:T1	
+R3	attacks Arg1:T4 Arg2:T3	
+#1	AnnotatorNotes T3	change to attacks
+R4	supports Arg1:T6 Arg2:T4	
+R5	attacks Arg1:T8 Arg2:T7	
+R6	supports Arg1:T10 Arg2:T9	
+R7	attacks Arg1:T11 Arg2:T10	
+R8	attacks Arg1:T13 Arg2:T11	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T16 Arg2:T15	
+R11	supports Arg1:T17 Arg2:T16	
+A5	Eloquence T1 4
+A6	Evidence T1 3
+A7	Persuasiveness T1 3
+A8	Relevance T1 5
+A9	Specificity T1 4
+A10	Eloquence T2 3
+A11	Evidence T2 2
+A12	Persuasiveness T2 3
+A13	Relevance T2 5
+A14	Specificity T2 4
+A15	Strength T2 3
+A16	Eloquence T3 3
+A17	Evidence T3 2
+A18	Persuasiveness T3 3
+A19	Relevance T3 5
+A20	Specificity T3 4
+A21	Strength T3 3
+A22	Eloquence T4 3
+A23	Evidence T4 2
+A24	Persuasiveness T4 2
+A25	Relevance T4 4
+A26	Specificity T4 3
+A27	Strength T4 3
+A28	Eloquence T6 4
+A29	Evidence T6 1
+A30	Persuasiveness T6 3
+A31	Relevance T6 4
+A32	Specificity T6 4
+A33	Strength T6 4
+A34	Eloquence T7 4
+A35	Evidence T7 2
+A36	Persuasiveness T7 3
+A37	Relevance T7 4
+A38	Specificity T7 4
+A39	Eloquence T8 5
+A40	Evidence T8 1
+A41	Persuasiveness T8 2
+A42	Relevance T8 3
+A43	Specificity T8 4
+A44	Strength T8 2
+A45	Eloquence T9 4
+A46	Evidence T9 3
+A47	Persuasiveness T9 3
+A48	Relevance T9 3
+A49	Specificity T9 3
+A50	Eloquence T10 5
+A51	Evidence T10 2
+A52	Persuasiveness T10 3
+A53	Relevance T10 4
+A54	Specificity T10 5
+A55	Strength T10 4
+A56	Eloquence T11 4
+A57	Evidence T11 3
+A58	Persuasiveness T11 4
+A59	Relevance T11 5
+A60	Specificity T11 5
+A61	Strength T11 4
+A62	Eloquence T13 4
+A63	Evidence T13 3
+A64	Persuasiveness T13 4
+A65	Relevance T13 5
+A66	Specificity T13 3
+A67	Strength T13 3
+A68	Eloquence T14 4
+A69	Evidence T14 2
+A70	Persuasiveness T14 4
+A71	Relevance T14 5
+A72	Specificity T14 4
+A73	Strength T14 4
+A74	Eloquence T15 5
+A75	Evidence T15 3
+A76	Persuasiveness T15 3
+A77	Relevance T15 4
+A78	Specificity T15 3
+A79	Eloquence T16 4
+A80	Evidence T16 3
+A81	Persuasiveness T16 3
+A82	Relevance T16 4
+A83	Specificity T16 3
+A84	Strength T16 3
+A85	Eloquence T17 3
+A86	Evidence T17 1
+A87	Persuasiveness T17 2
+A88	Relevance T17 4
+A89	Specificity T17 4
+A90	Strength T17 4
+A91	Eloquence T5 4
+A92	Evidence T5 3
+A93	Persuasiveness T5 3
+A94	Specificity T5 3

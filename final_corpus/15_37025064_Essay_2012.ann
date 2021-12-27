@@ -1,0 +1,205 @@
+T1	Topic 502 574	hij zal zijn stempel op het onderwijs drukken met een indrukwekkend plan
+#1	AnnotatorNotes T1	for: de indrukwekkend plan is nodig. against: de indrukwekkend plan is niet nodig. 
+T2	Claim 699 772	het huidig middelbaar onderwijs wordt gekenmerkt door een watervalsysteem
+T3	Premise 792 927	als je als jongere vandaag je draai niet vindt in het algemeen secundair onderwijs, word je doorverwezen naar de technische opleidingen
+T4	Premise 929 995	Kan je daar niet aarden, word je naar een beroepsrichting gestuurd
+T5	Premise 1026 1149	de motivatie van de 'watervaljongeren' verdwijnt als sneeuw voor de zon en ook zijn maatschappelijke status krijgt een deuk
+T6	Premise 1151 1194	Om nog maar te zwijgen van de schoolmoeheid
+T7	Claim 1255 1304	heeft minister Smet het watervalsysteem opgemerkt
+T8	Premise 1306 1380	Het pleit dan ook voor hem dat hij hemel en aarde beweegt om het te bannen
+T9	Premise 1382 1494	We hebben immers in de toekomst naast  hooggeschoolde werknemers nog steeds bekwame en gemotiveerde vaklui nodig
+T10	Premise 1496 1644	Die kunnen wel eens zeldzaam worden in een systeem waarin je door je  'mislukkingen' en niet door je eigen interesses in een beroepsafdeling tuimelt
+T12	Claim 1715 1808	het jouw taak erin bestaat het imago van technische scholen en beroepsopleiding op te krikken
+T13	Premise 1810 1908	Jij zou de eer krijgen het nut en de schoonheid van het technisch vak aan de bevolking te bewijzen
+T14	Claim 2002 2072	kan het probleem enkel door een heel systeemhervorming opgelost worden
+T15	Premise 2104 2163	hij wenst het volledige schoolsysteem op zijn kop te zetten
+T17	Claim 2236 2349	Smet profileert zich dus met een opvoedingsmodel waarin iedereen de kans krijgt op hetzelfde niveau les te volgen
+T19	Premise 2441 2524	Net als de lagere school wil hij dus één school waar iedereen gelijk voor de wet is
+T20	Premise 2531 2585	dit zal het zelfvertrouwen van de leerlingen opkrikken
+T21	Premise 2587 2681	Gelooft de minister werkelijk dat het mogelijk is iedereen op een zelfde manier te onderwijzen
+T22	Premise 2683 2764	Vergeet hij in zijn ideaalbeeld niet dat leerlingen elk hun eigen talenten hebben
+T23	Premise 2766 2858	Hoe zit het in zijn plan dan met de natuurlijke, aangeboren verschillen tussen de leerlingen
+T24	Claim 2861 2956	Het is erg kort door de bocht om te denken dat een nivellering de leerlingen zal vooruit helpen
+T25	Premise 2958 2998	alleen de 'middenmoot' is daarbij gebaat
+T26	Premise 3000 3092	Dit zien we al in de lagere school, waar de focus al langer op de 'gemiddelde leerling' ligt
+T27	Premise 3117 3246	door de diversiteit in een lagere school moet een leerkracht zich wel op de modale leerling richten om de leerstof aan te brengen
+T28	Premise 3248 3314	Hierdoor vallen de 'zwakkere' en 'sterkere' leerlingen uit de boot
+T29	Premise 3316 3400	De ene groep begrijpt de leerstof niet, de andere verveelt zich door te trage aanpak
+T30	Premise 3411 3449	verliezen beide groepen belangstelling
+A1	Stance T2 For
+A2	Stance T7 For
+A3	Stance T12 For
+A4	Stance T14 For
+A5	Stance T17 For
+A6	Stance T24 Against
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T8 Arg2:T7	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T10 Arg2:T9	
+R8	supports Arg1:T13 Arg2:T12	
+R9	supports Arg1:T15 Arg2:T14	
+R10	supports Arg1:T19 Arg2:T17	
+R11	supports Arg1:T20 Arg2:T19	
+R12	supports Arg1:T22 Arg2:T21	
+R13	supports Arg1:T23 Arg2:T21	
+#2	AnnotatorNotes T23	{'T21': 2, 'T22': 2}
+R14	supports Arg1:T25 Arg2:T24	
+R15	supports Arg1:T26 Arg2:T25	
+R16	supports Arg1:T27 Arg2:T26	
+R17	supports Arg1:T28 Arg2:T27	
+R18	supports Arg1:T29 Arg2:T28	
+R19	supports Arg1:T30 Arg2:T29	
+R20	attacks Arg1:T21 Arg2:T17	
+A7	Eloquence T2 4
+A8	Evidence T2 4
+A9	Persuasiveness T2 4
+A10	Relevance T2 5
+A11	Specificity T2 3
+A12	Eloquence T3 5
+A13	Evidence T3 3
+A14	Persuasiveness T3 4
+A15	Relevance T3 4
+A16	Specificity T3 4
+A17	Strength T3 4
+A18	Eloquence T4 4
+A19	Evidence T4 4
+A20	Persuasiveness T4 4
+A21	Relevance T4 5
+A22	Specificity T4 4
+A23	Strength T4 4
+A24	Eloquence T5 5
+A25	Evidence T5 3
+A26	Persuasiveness T5 4
+A27	Relevance T5 5
+A28	Specificity T5 4
+A29	Strength T5 5
+A30	Eloquence T6 4
+A31	Evidence T6 2
+A32	Persuasiveness T6 2
+A33	Relevance T6 3
+A34	Specificity T6 3
+A35	Strength T6 4
+A36	Eloquence T7 4
+A37	Evidence T7 3
+A38	Persuasiveness T7 3
+A39	Relevance T7 4
+A40	Specificity T7 3
+A41	Eloquence T8 4
+A42	Evidence T8 4
+A43	Persuasiveness T8 4
+A44	Relevance T8 5
+A45	Specificity T8 3
+A46	Strength T8 3
+A47	Eloquence T9 5
+A48	Evidence T9 3
+A49	Persuasiveness T9 4
+A50	Relevance T9 5
+A51	Specificity T9 4
+A52	Strength T9 5
+A53	Eloquence T10 5
+A54	Evidence T10 2
+A55	Persuasiveness T10 4
+A56	Relevance T10 5
+A57	Specificity T10 4
+A58	Strength T10 5
+A59	Eloquence T12 4
+A60	Evidence T12 2
+A61	Persuasiveness T12 3
+A62	Relevance T12 4
+A63	Specificity T12 5
+A64	Eloquence T13 4
+A65	Evidence T13 1
+A66	Persuasiveness T13 2
+A67	Relevance T13 4
+A68	Specificity T13 4
+A69	Strength T13 4
+A70	Eloquence T14 3
+A71	Evidence T14 3
+A72	Persuasiveness T14 3
+A73	Relevance T14 5
+A74	Specificity T14 4
+A75	Eloquence T15 5
+A76	Evidence T15 1
+A77	Persuasiveness T15 2
+A78	Relevance T15 4
+A79	Specificity T15 3
+A80	Strength T15 3
+A81	Eloquence T17 4
+A82	Evidence T17 3
+A83	Persuasiveness T17 3
+A84	Relevance T17 4
+A85	Specificity T17 4
+A86	Eloquence T19 4
+A87	Evidence T19 3
+A88	Persuasiveness T19 4
+A89	Relevance T19 4
+A90	Specificity T19 4
+A91	Strength T19 4
+A92	Eloquence T20 4
+A93	Evidence T20 3
+A94	Persuasiveness T20 4
+A95	Relevance T20 4
+A96	Specificity T20 3
+A97	Strength T20 3
+A98	Eloquence T21 4
+A99	Evidence T21 4
+A100	Persuasiveness T21 5
+A101	Relevance T21 5
+A102	Specificity T21 3
+A103	Strength T21 4
+A104	Eloquence T22 5
+A105	Evidence T22 3
+A106	Persuasiveness T22 5
+A107	Relevance T22 5
+A108	Specificity T22 4
+A109	Strength T22 5
+A110	Eloquence T23 5
+A111	Evidence T23 3
+A112	Persuasiveness T23 5
+A113	Relevance T23 5
+A114	Specificity T23 4
+A115	Strength T23 5
+A116	Eloquence T24 4
+A117	Evidence T24 4
+A118	Persuasiveness T24 5
+A119	Relevance T24 5
+A120	Specificity T24 4
+A121	Eloquence T25 4
+A122	Evidence T25 4
+A123	Persuasiveness T25 4
+A124	Relevance T25 5
+A125	Specificity T25 3
+A126	Strength T25 4
+A127	Eloquence T26 4
+A128	Evidence T26 4
+A129	Persuasiveness T26 4
+A130	Relevance T26 5
+A131	Specificity T26 4
+A132	Strength T26 4
+A133	Eloquence T27 4
+A134	Evidence T27 4
+A135	Persuasiveness T27 4
+A136	Relevance T27 5
+A137	Specificity T27 4
+A138	Strength T27 5
+A139	Eloquence T28 3
+A140	Evidence T28 4
+A141	Persuasiveness T28 5
+A142	Relevance T28 5
+A143	Specificity T28 3
+A144	Strength T28 5
+A145	Eloquence T29 4
+A146	Evidence T29 3
+A147	Persuasiveness T29 5
+A148	Relevance T29 5
+A149	Specificity T29 4
+A150	Strength T29 5
+A151	Eloquence T30 4
+A152	Evidence T30 2
+A153	Persuasiveness T30 4
+A154	Relevance T30 5
+A155	Specificity T30 4
+A156	Strength T30 5

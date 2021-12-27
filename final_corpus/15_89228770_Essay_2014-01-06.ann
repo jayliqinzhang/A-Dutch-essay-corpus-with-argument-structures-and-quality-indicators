@@ -1,0 +1,156 @@
+T1	MajorClaim 725 828	het wordt dringend tijd dat de sociale zekerheid in ons Belgenlandje eens een grondige make-over krijgt
+T2	Claim 832 894	De sociale zekerheid in België staat symbool voor solidariteit
+T3	Premise 1166 1205	die solidariteit is slechts een illusie
+T4	Premise 1276 1436	Solidariteit betekent immers dat iedereen die iets heeft bijgedragen aan de pot goud onderaan de denkbeeldige regenboog, ook van de voordelen ervan mag genieten
+T5	Premise 1464 1555	ook mensen die nog nooit iets in de pot hebben gelegd, hebben nu recht op een deeltje ervan
+T6	Premise 1619 1720	Hard werkende mensen laten betalen zodat anderen dit niet hoeven te doen, het is allesbehalve eerlijk
+T7	Claim 1722 1818	België is het enige land ter wereld waar mensen onbeperkte werkloosheidsuitkering kunnen krijgen
+T8	Claim 1948 1995	er is een gat in de begroting en dat moet dicht
+T9	Premise 2009 2157	moeten ze ook nog eens geld voor de meer dan 650 000 werklozen in ons land door ramen en deuren gooien, wat dat gat er niet bepaald kleiner op maakt
+T11	Premise 2196 2300	De enige - en de meest voor de hand liggende - oplossing is de werkloosheidsuitkeringen in tijd beperken
+T12	Premise 2302 2400	Van de groep twintig- tot vierenzestigjarigen in dit 'solidaire land', is er maar 67% aan het werk
+T15	Premise 2702 2873	is er nog het deel dat thuis in hun zetel zit te wachten op hun droomjob, en in afwachting daarvan alle andere werkaanbiedingen afwijzen en pretenderen geen werk te vinden
+T17	Premise 2875 2930	Deze kieskeurige minderheid vormt het grootste probleem
+T18	Premise 2935 3022	het is net die categorie die zal verdwijnen dankzij het sociale zekerheidsplan van N-VA
+T19	Premise 3105 3140	zijn niet alle werklozen profiteurs
+T20	Claim 3142 3276	Het is dan ook niet N-VA's bedoeling om zij die echt geen werk vinden of voor langere tijd arbeidsongeschikt zijn in de steek te laten
+T21	Premise 3339 3571	het hun bedoeling is om de werklozen beter te begeleiden bij het vinden van een job, op de simpele voorwaarde dat ze de eerste job die geschikt voor hen is, aanvaarden en niet kieskeurig het hoofd schudden en wachten op een volgende
+T22	Premise 3581 3672	moeten we dan niet streven naar een samenleving waarin iedereen van zijn of haar job houdt?
+T24	Premise 3791 3916	je krijgt twee à drie jaar om je droomjob te vinden. Wanneer je deze in die tijd nog niet gevonden hebt, moet je aan het werk
+T26	Premise 3923 4010	niemand houdt je tegen om ondertussen uit te kijken naar een job die je liever zou doen
+A1	Stance T2 Against
+A2	Stance T7 For
+A3	Stance T8 For
+A4	Stance T20 For
+R1	attacks Arg1:T3 Arg2:T2	
+R2	supports Arg1:T6 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T6	
+R4	supports Arg1:T4 Arg2:T6	
+#1	AnnotatorNotes T6	{'T5': 2, 'T3': 1, 'T7': 1} my change to t3
+#2	AnnotatorNotes T5	{'T4': 3, 'T6': 1} my change to t6
+#3	AnnotatorNotes T4	{'T3': 3, 'T6': 1} my change to t6
+R5	supports Arg1:T9 Arg2:T8	
+R6	supports Arg1:T11 Arg2:T8	
+R7	supports Arg1:T12 Arg2:T11	
+R8	supports Arg1:T15 Arg2:T12	
+R9	supports Arg1:T17 Arg2:T15	
+R10	supports Arg1:T18 Arg2:T17	
+R11	supports Arg1:T19 Arg2:T20	
+R12	supports Arg1:T21 Arg2:T20	
+R13	attacks Arg1:T22 Arg2:T21	
+R14	attacks Arg1:T24 Arg2:T22	
+R15	attacks Arg1:T26 Arg2:T24	
+A5	Eloquence T1 4
+A6	Evidence T1 4
+A7	Persuasiveness T1 4
+A8	Specificity T1 4
+A9	Eloquence T2 4
+A10	Evidence T2 3
+A11	Persuasiveness T2 4
+A12	Relevance T2 4
+A13	Specificity T2 4
+A14	Eloquence T3 4
+A15	Evidence T3 3
+A16	Persuasiveness T3 3
+A17	Relevance T3 5
+A18	Specificity T3 3
+A19	Strength T3 3
+A20	Eloquence T4 4
+A21	Evidence T4 2
+A22	Persuasiveness T4 4
+A23	Relevance T4 4
+A24	Specificity T4 4
+A25	Strength T4 5
+A26	Eloquence T5 4
+A27	Evidence T5 2
+A28	Persuasiveness T5 4
+A29	Relevance T5 5
+A30	Specificity T5 3
+A31	Strength T5 5
+A32	Eloquence T6 4
+A33	Evidence T6 4
+A34	Persuasiveness T6 4
+A35	Relevance T6 5
+A36	Specificity T6 3
+A37	Strength T6 5
+A38	Eloquence T7 4
+A39	Evidence T7 1
+A40	Persuasiveness T7 3
+A41	Relevance T7 4
+A42	Specificity T7 5
+A43	Eloquence T8 4
+A44	Evidence T8 4
+A45	Persuasiveness T8 4
+A46	Relevance T8 4
+A47	Specificity T8 4
+A48	Eloquence T9 4
+A49	Evidence T9 2
+A50	Persuasiveness T9 4
+A51	Relevance T9 5
+A52	Specificity T9 5
+A53	Strength T9 4
+A54	Eloquence T11 4
+A55	Evidence T11 4
+A56	Persuasiveness T11 4
+A57	Relevance T11 5
+A58	Specificity T11 4
+A59	Strength T11 4
+A60	Eloquence T12 4
+A61	Evidence T12 4
+A62	Persuasiveness T12 4
+A63	Relevance T12 5
+A64	Specificity T12 5
+A65	Strength T12 5
+A66	Eloquence T15 4
+A67	Evidence T15 3
+A68	Persuasiveness T15 5
+A69	Relevance T15 5
+A70	Specificity T15 4
+A71	Strength T15 5
+A72	Eloquence T17 4
+A73	Evidence T17 3
+A74	Persuasiveness T17 4
+A75	Relevance T17 5
+A76	Specificity T17 4
+A77	Strength T17 3
+A78	Eloquence T18 4
+A79	Evidence T18 2
+A80	Persuasiveness T18 3
+A81	Relevance T18 5
+A82	Specificity T18 4
+A83	Strength T18 5
+A84	Eloquence T19 4
+A85	Evidence T19 3
+A86	Persuasiveness T19 4
+A87	Relevance T19 5
+A88	Specificity T19 4
+A89	Strength T19 4
+A90	Eloquence T20 4
+A91	Evidence T20 4
+A92	Persuasiveness T20 4
+A93	Relevance T20 5
+A94	Specificity T20 4
+A95	Eloquence T21 4
+A96	Evidence T21 4
+A97	Persuasiveness T21 5
+A98	Relevance T21 5
+A99	Specificity T21 4
+A100	Strength T21 5
+A101	Eloquence T22 4
+A102	Evidence T22 3
+A103	Persuasiveness T22 3
+A104	Relevance T22 5
+A105	Specificity T22 4
+A106	Strength T22 5
+A107	Eloquence T24 4
+A108	Evidence T24 3
+A109	Persuasiveness T24 4
+A110	Relevance T24 5
+A111	Specificity T24 5
+A112	Strength T24 5
+A113	Eloquence T26 4
+A114	Evidence T26 2
+A115	Persuasiveness T26 4
+A116	Relevance T26 5
+A117	Specificity T26 3
+A118	Strength T26 4

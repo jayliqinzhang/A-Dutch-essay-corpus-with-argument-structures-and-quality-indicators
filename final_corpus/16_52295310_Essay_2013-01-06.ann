@@ -1,0 +1,149 @@
+T1	Claim 1189 1358	Misschien zouden de protesterende Fransen zelf zeggen dat zij homo's niet haten, maar dat zij het huwelijk en ouderschap toch liever gereserveerd zien voor heterostellen
+T4	Premise 1360 1493	Als reden dragen ze dan aan dat het ongezond en onnatuurlijk is voor kinderen om op te groeien bij twee ouders van hetzelfde geslacht
+T6	Premise 1500 1596	is al meerdere keren en door verschillende onderzoeken aangetoond dat dit simpelweg niet waar is
+T7	Premise 1598 1738	Kinderen die opgroeien in zulke alternatieve gezinssituaties presteren even goed en zijn even gelukkig als kinderen in traditionele gezinnen
+T8	Claim 1741 1874	De reden dat sommige mensen toch nog altijd tegen het homohuwelijk zijn, heeft dan ook niets te maken met feiten of gegronde bezwaren
+T9	Premise 1876 2015	Het zijn hun persoonlijke aversie en onwetendheid, die maken dat zij denken dat er iets inherent ziek of gevaarlijk is aan homoseksualiteit
+T10	Premise 2020 2057	onwetendheid is de wortel van de haat
+T11	Premise 2064 2148	wie vindt dat anderen geen gelijke rechten hebben, die stelt zichzelf boven de ander
+T12	Premise 2153 2334	wanneer je jezelf eenmaal boven de ander geplaatst hebt dan is het opeens heel makkelijk om die neer te halen en te kwetsen. Zonder dan nog stil te hoeven staan bij de consequenties
+T14	Premise 2486 2587	President Hollande weet dat hij het grootste deel van de Franse bevolking wél achter zich heeft staan
+T15	Claim 2836 2905	De gevolgen van haat zijn duidelijker te merken op individueel niveau
+T16	Premise 2907 2992	Ook bij ons in West-Europa horen we nog te vaak de berichten over geweld tegen homo's
+T17	Premise 2994 3117	Mannen en vrouwen die worden uitgescholden en in de ergste gevallen in elkaar worden geslagen en in het ziekenhuis belanden
+T19	Premise 3313 3404	Om echt iets te bereiken, moet niet het gevolg maar de oorzaak van de haat worden aangepakt
+T20	Premise 3406 3486	Daar zouden de overheden mee moeten beginnen: het bestrijden van de onwetendheid
+T21	Premise 3501 3636	door lessen over homoseksualiteit en over discriminatie van homoseksuelen te verplichten op scholen in het basis en secundair onderwijs
+T22	Premise 3638 3767	Kinderen die jong leren dat ze anderen moeten respecteren zullen opgroeien tot volwassenen die hun medemensen in hun waarde laten
+T23	MajorClaim 3776 3812	homohaat is nog steeds van deze tijd
+T2	Premise 3119 3172	Kan de overheid iets doen om deze haat te bestrijden?
+A1	Stance T1 For
+#1	AnnotatorNotes T1	{'For': 2, 'Against': 2}
+A2	Stance T8 For
+A3	Stance T15 For
+R1	supports Arg1:T4 Arg2:T1	
+R2	attacks Arg1:T6 Arg2:T4	
+R3	supports Arg1:T7 Arg2:T6	
+R4	supports Arg1:T9 Arg2:T8	
+R5	supports Arg1:T10 Arg2:T9	
+R6	supports Arg1:T11 Arg2:T10	
+R7	supports Arg1:T12 Arg2:T11	
+R8	supports Arg1:T14 Arg2:T15	
+#2	AnnotatorNotes R8	{'T15': 1, 'T1': 2, 'T12': 1} change to t15
+R9	supports Arg1:T16 Arg2:T15	
+R10	supports Arg1:T17 Arg2:T16	
+R11	supports Arg1:T19 Arg2:T2	
+R12	supports Arg1:T20 Arg2:T19	
+#3	AnnotatorNotes T20	{'T2': 2, 'T19': 2}
+R13	supports Arg1:T21 Arg2:T20	
+R14	supports Arg1:T22 Arg2:T21	
+R15	supports Arg1:T2 Arg2:T15	
+A4	Eloquence T1 5
+A5	Evidence T1 3
+A6	Persuasiveness T1 4
+A7	Relevance T1 4
+A8	Specificity T1 4
+A9	Eloquence T4 5
+A10	Evidence T4 3
+A11	Persuasiveness T4 3
+A12	Relevance T4 5
+A13	Specificity T4 3
+A14	Strength T4 4
+A15	Eloquence T6 4
+A16	Evidence T6 4
+A17	Persuasiveness T6 4
+A18	Relevance T6 5
+A19	Specificity T6 3
+A20	Strength T6 4
+A21	Eloquence T7 5
+A22	Evidence T7 3
+A23	Persuasiveness T7 5
+A24	Relevance T7 5
+A25	Specificity T7 4
+A26	Strength T7 5
+A27	Eloquence T8 4
+A28	Evidence T8 3
+A29	Persuasiveness T8 3
+A30	Relevance T8 4
+A31	Specificity T8 4
+A32	Eloquence T9 5
+A33	Evidence T9 3
+A34	Persuasiveness T9 4
+A35	Relevance T9 5
+A36	Specificity T9 4
+A37	Strength T9 5
+A38	Eloquence T10 4
+A39	Evidence T10 3
+A40	Persuasiveness T10 3
+A41	Relevance T10 5
+A42	Specificity T10 4
+A43	Strength T10 4
+A44	Eloquence T11 4
+A45	Evidence T11 3
+A46	Persuasiveness T11 4
+A47	Relevance T11 4
+A48	Specificity T11 4
+A49	Strength T11 4
+A50	Eloquence T12 4
+A51	Evidence T12 2
+A52	Persuasiveness T12 4
+A53	Relevance T12 5
+A54	Specificity T12 4
+A55	Strength T12 5
+A56	Eloquence T14 4
+A57	Evidence T14 1
+A58	Persuasiveness T14 3
+A59	Relevance T14 3
+A60	Specificity T14 3
+A61	Strength T14 4
+A62	Eloquence T15 4
+A63	Evidence T15 3
+A64	Persuasiveness T15 4
+A65	Relevance T15 5
+A66	Specificity T15 3
+A67	Eloquence T16 4
+A68	Evidence T16 3
+A69	Persuasiveness T16 4
+A70	Relevance T16 4
+A71	Specificity T16 3
+A72	Strength T16 4
+A73	Eloquence T17 4
+A74	Evidence T17 2
+A75	Persuasiveness T17 4
+A76	Relevance T17 5
+A77	Specificity T17 3
+A78	Strength T17 4
+A79	Eloquence T19 4
+A80	Evidence T19 3
+A81	Persuasiveness T19 4
+A82	Relevance T19 5
+A83	Specificity T19 3
+A84	Strength T19 4
+A85	Eloquence T20 4
+A86	Evidence T20 3
+A87	Persuasiveness T20 4
+A88	Relevance T20 4
+A89	Specificity T20 4
+A90	Strength T20 4
+A91	Eloquence T21 5
+A92	Evidence T21 3
+A93	Persuasiveness T21 4
+A94	Relevance T21 5
+A95	Specificity T21 4
+A96	Strength T21 5
+A97	Eloquence T22 5
+A98	Evidence T22 2
+A99	Persuasiveness T22 4
+A100	Relevance T22 5
+A101	Specificity T22 4
+A102	Strength T22 5
+A103	Eloquence T23 4
+A104	Evidence T23 4
+A105	Persuasiveness T23 5
+A106	Specificity T23 3
+A107	Eloquence T2 4
+A108	Evidence T2 2
+A109	Persuasiveness T2 3
+A110	Relevance T2 4
+A111	Specificity T2 3
+A112	Strength T2 3

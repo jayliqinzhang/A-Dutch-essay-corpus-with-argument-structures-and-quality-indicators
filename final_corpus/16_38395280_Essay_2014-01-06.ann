@@ -1,0 +1,299 @@
+T1	MajorClaim 371 485	is een beperking van de werkloosheidsuitkeringen iets wat moet gebeuren om de Belgische welvaartsstaat te behouden
+T2	Claim 487 562	Op het vlak van werkgelegenheid is er in België nog veel werk aan de winkel
+T3	Premise 620 747	De Europese werkgelegenheidsdoelstelling om tegen 2020 dit getal te verhogen naar 75 procent lijkt momenteel slechts een utopie
+T4	Premise 749 854	Ongeveer acht procent van de Belgen is werkloos en de jeugdwerkloosheid bedraagt net geen twintig procent
+T5	Premise 856 923	De werkloosheid stijgt twee keer sneller bij mannen dan bij vrouwen
+T6	Premise 927 1002	in 2013 kregen meer dan een half miljoen werklozen een uitkering van de RVA
+T7	Claim 1102 1157	Het socialezekerheidssysteem is een om trots op te zijn
+T8	Premise 1159 1217	België scoort op dit vlak beter dan andere Europese landen
+T9	Premise 1289 1346	Werkloos zijn in België is dan ook niet echt een probleem
+T10	Premise 1359 1404	zijn er wel psychische en financiële gevolgen
+T11	Premise 1411 1535	niemand hoeft bang te zijn dat hij zijn huur volgende maand niet meer zal kunnen betalen omdat hij zijn job is kwijt geraakt
+T12	Premise 1537 1587	Iedereen kan rekenen op een werkloosheidsuitkering
+T14	Premise 1589 1639	Zo lang ze willen. En daar zit nu net het probleem
+T15	Claim 1642 1709	Mensen die tijdelijk werkloos zijn, moeten een vergoeding ontvangen
+T16	Premise 1748 1784	Iedereen heeft al eens een tegenslag
+T17	Premise 1789 1881	de arbeidsmarkt is veranderd sinds de financieel-economische crisis van enkele jaren geleden
+T18	Premise 1893 1989	is een sociaal vangnet een van de bouwstenen van de Belgische maatschappij en een welvaartsstaat
+T19	Premise 2005 2192	staat het feit dat mensen die jaren na elkaar niet werken en ook niet actief op zoek gaan naar een nieuwe job, kunnen genieten van een 'free ride' door het leven op kosten van de overheid
+T20	Claim 2194 2272	De grootste problemen zijn de hoogte en de duur van een werkloosheidsuitkering
+T21	Premise 2274 2373	De vergoedingen liggen soms zo hoog dat vrouwen zonder diploma en met kinderen liever thuis blijven
+T22	Premise 2375 2576	Gaan werken tegen een laag loon en opvang betalen voor de kinderen, of iedere dag thuis zijn, zelf voor de kinderen zorgen, en toch nog een aanvaardbare uitkering krijgen? De keuze is vaak snel gemaakt
+T23	Premise 2590 2640	is er geen beperking op de duur van de uitkeringen
+T24	Premise 2642 2722	Ingeschreven zijn bij de VDAB is eigenlijk voldoende om een uitkering te krijgen
+T25	Premise 2724 2770	Je kan werk weigeren en blijven geld ontvangen
+T26	Claim 2793 2823	er iets mis is met dit systeem
+T27	Premise 2825 3009	De sociale zekerheid en de welvaartsstaat zijn systemen die tot stand zijn gekomen in de jaren zestig; een periode gekenmerkt door een zeer grote economische bloei en lage werkloosheid
+T28	Premise 3042 3109	de tijden veranderd zijn en dat het systeem bijgestuurd moet worden
+T29	Premise 3111 3196	Meer mensen aan het werk krijgen en uitkeringen beperken in de tijd zijn noodzakelijk
+T31	Premise 3198 3283	Misschien hebben langdurig werklozen grotere incentives nodig om een job aan te nemen
+T32	Premise 3288 3356	een grotere incentive dan het verliezen van een uitkering is er niet
+T33	Claim 3358 3476	Ook de meeste politieke partijen lijken te beseffen dat er behoefte is aan hervorming van het socialezekerheidssysteem
+T34	Premise 3478 3549	Het was ook een van de belangrijke punten van de verkiezingen op 25 mei
+T35	Premise 3551 3652	N-VA, veruit de grootste partij in Vlaanderen, legt de nadruk op het verband tussen werken en krijgen
+T36	Premise 3654 3699	Wie niets heeft bijgedragen, krijgt ook niets
+T37	Premise 3701 3741	De partij wil werklozen beter begeleiden
+T38	Premise 3748 3814	wie een passende job weigert, verliest zijn werkloosheidsuitkering
+T39	Premise 3816 3943	Deze mening is verzoenbaar met die van Open VLD en CD&V, die ook beide pleiten voor een beperking van de uitkeringen in de tijd
+T40	MajorClaim 4651 4700	Het socialezekerheidssysteem moet hervormd worden
+A1	Stance T2 For
+A2	Stance T7 Against
+A3	Stance T15 Against
+#1	AnnotatorNotes T15	{'Against': 2, 'For': 2} 
+A4	Stance T20 For
+A5	Stance T26 For
+A6	Stance T33 For
+R1	supports Arg1:T4 Arg2:T2	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T6 Arg2:T2	
+R5	supports Arg1:T8 Arg2:T7	
+R6	supports Arg1:T9 Arg2:T8	
+#2	AnnotatorNotes T9	{'T7': 2, 'T8': 2}
+R7	attacks Arg1:T10 Arg2:T9	
+R8	attacks Arg1:T11 Arg2:T10	
+R9	supports Arg1:T12 Arg2:T11	
+R10	attacks Arg1:T14 Arg2:T12	
+#3	AnnotatorNotes T14	{'supports': 2, 'attacks': 2}
+R11	supports Arg1:T16 Arg2:T15	
+R12	supports Arg1:T17 Arg2:T16	
+#4	AnnotatorNotes T17	{'T16': 2, 'T15': 2}
+R13	supports Arg1:T18 Arg2:T15	
+R14	attacks Arg1:T19 Arg2:T15	
+R15	supports Arg1:T21 Arg2:T20	
+R16	supports Arg1:T22 Arg2:T21	
+R17	supports Arg1:T23 Arg2:T20	
+R18	supports Arg1:T24 Arg2:T23	
+R19	supports Arg1:T25 Arg2:T24	
+R20	supports Arg1:T27 Arg2:T28	
+R21	supports Arg1:T28 Arg2:T26	
+#5	AnnotatorNotes T28	{'T26': 1, 'T27': 3} change to claim t26
+#6	AnnotatorNotes T27	{'T28': 1, 'T26': 3} change to t28
+R22	supports Arg1:T29 Arg2:T28	
+R23	supports Arg1:T31 Arg2:T29	
+R24	supports Arg1:T32 Arg2:T31	
+R25	supports Arg1:T34 Arg2:T33	
+R26	supports Arg1:T35 Arg2:T34	
+R27	supports Arg1:T36 Arg2:T35	
+R28	attacks Arg1:T37 Arg2:T36	
+R29	supports Arg1:T38 Arg2:T37	
+#7	AnnotatorNotes T37	{'supports': 3, 'attacks': 1} change to attack
+R30	supports Arg1:T39 Arg2:T38	
+A7	Eloquence T1 5
+A8	Evidence T1 4
+A9	Persuasiveness T1 4
+A10	Specificity T1 4
+A11	Eloquence T2 4
+A12	Evidence T2 4
+A13	Persuasiveness T2 4
+A14	Relevance T2 4
+A15	Specificity T2 3
+A16	Eloquence T3 5
+A17	Evidence T3 3
+A18	Persuasiveness T3 4
+A19	Relevance T3 4
+A20	Specificity T3 4
+A21	Strength T3 4
+A22	Eloquence T4 5
+A23	Evidence T4 3
+A24	Persuasiveness T4 4
+A25	Relevance T4 5
+A26	Specificity T4 5
+A27	Strength T4 4
+A28	Eloquence T5 4
+A29	Evidence T5 3
+A30	Persuasiveness T5 4
+A31	Relevance T5 5
+A32	Specificity T5 4
+A33	Strength T5 4
+A34	Eloquence T6 4
+A35	Evidence T6 3
+A36	Persuasiveness T6 5
+A37	Relevance T6 5
+A38	Specificity T6 5
+A39	Strength T6 4
+A40	Eloquence T7 4
+A41	Evidence T7 4
+A42	Persuasiveness T7 4
+A43	Relevance T7 5
+A44	Specificity T7 3
+A45	Eloquence T8 4
+A46	Evidence T8 3
+A47	Persuasiveness T8 5
+A48	Relevance T8 5
+A49	Specificity T8 4
+A50	Strength T8 4
+A51	Eloquence T9 4
+A52	Evidence T9 3
+A53	Persuasiveness T9 3
+A54	Relevance T9 5
+A55	Specificity T9 3
+A56	Strength T9 3
+A57	Eloquence T10 4
+A58	Evidence T10 3
+A59	Persuasiveness T10 3
+A60	Relevance T10 5
+A61	Specificity T10 3
+A62	Strength T10 4
+A63	Eloquence T11 4
+A64	Evidence T11 4
+A65	Persuasiveness T11 4
+A66	Relevance T11 5
+A67	Specificity T11 4
+A68	Strength T11 4
+A69	Eloquence T12 4
+A70	Evidence T12 3
+A71	Persuasiveness T12 4
+A72	Relevance T12 5
+A73	Specificity T12 4
+A74	Strength T12 4
+A75	Eloquence T14 4
+A76	Evidence T14 2
+A77	Persuasiveness T14 4
+A78	Relevance T14 5
+A79	Specificity T14 4
+A80	Strength T14 4
+A81	Eloquence T15 4
+A82	Evidence T15 4
+A83	Persuasiveness T15 4
+A84	Relevance T15 5
+A85	Specificity T15 3
+A86	Eloquence T16 3
+A87	Evidence T16 3
+A88	Persuasiveness T16 4
+A89	Relevance T16 4
+A90	Specificity T16 3
+A91	Strength T16 3
+A92	Eloquence T17 4
+A93	Evidence T17 2
+A94	Persuasiveness T17 4
+A95	Relevance T17 4
+A96	Specificity T17 3
+A97	Strength T17 4
+A98	Eloquence T18 5
+A99	Evidence T18 3
+A100	Persuasiveness T18 4
+A101	Relevance T18 5
+A102	Specificity T18 4
+A103	Strength T18 5
+A104	Eloquence T19 4
+A105	Evidence T19 2
+A106	Persuasiveness T19 5
+A107	Relevance T19 5
+A108	Specificity T19 4
+A109	Strength T19 5
+A110	Eloquence T20 4
+A111	Evidence T20 4
+A112	Persuasiveness T20 4
+A113	Relevance T20 5
+A114	Specificity T20 4
+A115	Eloquence T21 4
+A116	Evidence T21 3
+A117	Persuasiveness T21 4
+A118	Relevance T21 5
+A119	Specificity T21 4
+A120	Strength T21 4
+A121	Eloquence T22 4
+A122	Evidence T22 2
+A123	Persuasiveness T22 5
+A124	Relevance T22 5
+A125	Specificity T22 4
+A126	Strength T22 5
+A127	Eloquence T23 5
+A128	Evidence T23 4
+A129	Persuasiveness T23 3
+A130	Relevance T23 5
+A131	Specificity T23 4
+A132	Strength T23 5
+A133	Eloquence T24 4
+A134	Evidence T24 2
+A135	Persuasiveness T24 3
+A136	Relevance T24 5
+A137	Specificity T24 4
+A138	Strength T24 5
+A139	Eloquence T25 4
+A140	Evidence T25 2
+A141	Persuasiveness T25 4
+A142	Relevance T25 5
+A143	Specificity T25 3
+A144	Strength T25 5
+A145	Eloquence T26 4
+A146	Evidence T26 4
+A147	Persuasiveness T26 3
+A148	Relevance T26 5
+A149	Specificity T26 3
+A150	Eloquence T27 5
+A151	Evidence T27 4
+A152	Persuasiveness T27 5
+A153	Relevance T27 5
+A154	Specificity T27 5
+A155	Strength T27 5
+A156	Eloquence T28 4
+A157	Evidence T28 3
+A158	Persuasiveness T28 4
+A159	Relevance T28 5
+A160	Specificity T28 4
+A161	Strength T28 4
+A162	Eloquence T29 4
+A163	Evidence T29 3
+A164	Persuasiveness T29 4
+A165	Relevance T29 5
+A166	Specificity T29 4
+A167	Strength T29 4
+A168	Eloquence T31 4
+A169	Evidence T31 3
+A170	Persuasiveness T31 4
+A171	Relevance T31 5
+A172	Specificity T31 4
+A173	Strength T31 4
+A174	Eloquence T32 4
+A175	Evidence T32 3
+A176	Persuasiveness T32 4
+A177	Relevance T32 5
+A178	Specificity T32 4
+A179	Strength T32 4
+A180	Eloquence T33 4
+A181	Evidence T33 3
+A182	Persuasiveness T33 4
+A183	Relevance T33 5
+A184	Specificity T33 3
+A185	Eloquence T34 4
+A186	Evidence T34 3
+A187	Persuasiveness T34 4
+A188	Relevance T34 5
+A189	Specificity T34 4
+A190	Strength T34 5
+A191	Eloquence T35 4
+A192	Evidence T35 3
+A193	Persuasiveness T35 4
+A194	Relevance T35 4
+A195	Specificity T35 3
+A196	Strength T35 5
+A197	Eloquence T36 4
+A198	Evidence T36 4
+A199	Persuasiveness T36 4
+A200	Relevance T36 5
+A201	Specificity T36 4
+A202	Strength T36 4
+A203	Eloquence T37 4
+A204	Evidence T37 3
+A205	Persuasiveness T37 3
+A206	Relevance T37 4
+A207	Specificity T37 3
+A208	Strength T37 4
+A209	Eloquence T38 4
+A210	Evidence T38 2
+A211	Persuasiveness T38 3
+A212	Relevance T38 4
+A213	Specificity T38 4
+A214	Strength T38 5
+A215	Eloquence T39 5
+A216	Evidence T39 2
+A217	Persuasiveness T39 4
+A218	Relevance T39 4
+A219	Specificity T39 4
+A220	Strength T39 5
+A221	Eloquence T40 4
+A222	Evidence T40 4
+A223	Persuasiveness T40 4
+A224	Specificity T40 4

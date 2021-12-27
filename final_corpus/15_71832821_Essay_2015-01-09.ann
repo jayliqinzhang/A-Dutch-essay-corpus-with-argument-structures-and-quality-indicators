@@ -1,0 +1,127 @@
+T1	MajorClaim 395 498	Een verlaging van de promillegrens voor jonge chauffeurs kan het aantal dodelijke ongelukken doen dalen
+T4	Claim 1491 1536	is alcohol in het verkeer nooit een goed idee
+T5	Premise 1543 1599	de chemische stof altijd een effect heeft op ons lichaam
+T6	Premise 1638 1702	Mensen hoeven niet dronken te zijn om een ongeval te veroorzaken
+T7	Premise 1704 1730	Alcohol maakt ons slaperig
+T8	Premise 1743 1775	zijn we minder alert in de wagen
+T9	Premise 1961 2081	een voertuig besturen onder invloed sowieso een impact heeft op onze rijstijl, ongeacht het aantal promille in het bloed
+T10	Claim 2095 2148	hebben jonge bestuurders niet veel ervaring op de weg
+T11	Premise 2274 2333	ze meer betrokken zijn bij ongevallen dan oudere chauffeurs
+T12	Premise 2367 2473	jongeren minder inzicht hebben in het verkeer dan bestuurders die al tientallen jaren hun rijbewijs hebben
+T13	Premise 3256 3323	zal de jeugd minder geneigd zijn om feesten en rijden te combineren
+T14	Premise 3330 3358	ze geen boete willen krijgen
+T15	Claim 3443 3532	een leeftijd niets zegt over de ervaring die iemand heeft als bestuurder van een voertuig
+T16	Premise 3534 3679	Het kan zijn dat een persoon van 24 jaar al zes jaar een rijbewijs heeft en dat iemand van 25 jaar nog maar twee jaar over een rijbewijs beschikt
+T17	Premise 3681 3769	De oudere bestuurder mag dan meer alcohol drinken terwijl hij toch minder ervaring heeft
+T19	Premise 3838 3908	de regering moet ergens een grens trekken als het een wet wil invoeren
+A1	Stance T4 For
+A2	Stance T10 For
+A3	Stance T15 Against
+R1	supports Arg1:T5 Arg2:T4	
+R2	supports Arg1:T6 Arg2:T4	
+R3	supports Arg1:T7 Arg2:T8	
+R4	supports Arg1:T8 Arg2:T6	
+#1	AnnotatorNotes T7	{'T5': 1, 'T8': 1, 'T6': 2}, my change to t8
+#2	AnnotatorNotes T8	{'T5': 1, 'T6': 1, 'T7': 2} my change to t6
+R5	supports Arg1:T9 Arg2:T4	
+R6	supports Arg1:T11 Arg2:T10	
+R7	supports Arg1:T12 Arg2:T11	
+R8	supports Arg1:T13 Arg2:T10	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T16 Arg2:T17	
+R11	supports Arg1:T17 Arg2:T15	
+R12	attacks Arg1:T19 Arg2:T17	
+#3	AnnotatorNotes T19	{'T17': 2, 'T15': 2} 
+#4	AnnotatorNotes T17	{'T15': 1, 'T16': 3} change to t15
+#5	AnnotatorNotes T16	{'T15': 4}, my change to t17
+A4	Eloquence T1 5
+A5	Evidence T1 4
+A6	Persuasiveness T1 4
+A7	Specificity T1 4
+A8	Eloquence T4 4
+A9	Evidence T4 5
+A10	Persuasiveness T4 5
+A11	Relevance T4 5
+A12	Specificity T4 3
+A13	Eloquence T5 4
+A14	Evidence T5 3
+A15	Persuasiveness T5 5
+A16	Relevance T5 6
+A17	Specificity T5 3
+A18	Strength T5 5
+A19	Eloquence T6 4
+A20	Evidence T6 4
+A21	Persuasiveness T6 5
+A22	Relevance T6 5
+A23	Specificity T6 3
+A24	Strength T6 3
+A25	Eloquence T7 4
+A26	Evidence T7 3
+A27	Persuasiveness T7 5
+A28	Relevance T7 6
+A29	Specificity T7 3
+A30	Strength T7 3
+A31	Eloquence T8 4
+A32	Evidence T8 4
+A33	Persuasiveness T8 5
+A34	Relevance T8 5
+A35	Specificity T8 4
+A36	Strength T8 4
+A37	Eloquence T9 4
+A38	Evidence T9 3
+A39	Persuasiveness T9 5
+A40	Relevance T9 6
+A41	Specificity T9 4
+A42	Strength T9 5
+A43	Eloquence T10 4
+A44	Evidence T10 4
+A45	Persuasiveness T10 4
+A46	Relevance T10 5
+A47	Specificity T10 3
+A48	Eloquence T11 4
+A49	Evidence T11 4
+A50	Persuasiveness T11 5
+A51	Relevance T11 5
+A52	Specificity T11 4
+A53	Strength T11 4
+A54	Eloquence T12 4
+A55	Evidence T12 3
+A56	Persuasiveness T12 5
+A57	Relevance T12 5
+A58	Specificity T12 4
+A59	Strength T12 4
+A60	Eloquence T13 5
+A61	Evidence T13 3
+A62	Persuasiveness T13 3
+A63	Relevance T13 4
+A64	Specificity T13 4
+A65	Strength T13 3
+A66	Eloquence T14 4
+A67	Evidence T14 2
+A68	Persuasiveness T14 3
+A69	Relevance T14 5
+A70	Specificity T14 4
+A71	Strength T14 4
+A72	Eloquence T15 4
+A73	Evidence T15 4
+A74	Persuasiveness T15 3
+A75	Relevance T15 5
+A76	Specificity T15 4
+A77	Eloquence T16 4
+A78	Evidence T16 4
+A79	Persuasiveness T16 4
+A80	Relevance T16 5
+A81	Specificity T16 5
+A82	Strength T16 5
+A83	Eloquence T17 4
+A84	Evidence T17 4
+A85	Persuasiveness T17 4
+A86	Relevance T17 5
+A87	Specificity T17 4
+A88	Strength T17 5
+A89	Eloquence T19 4
+A90	Evidence T19 2
+A91	Persuasiveness T19 3
+A92	Relevance T19 5
+A93	Specificity T19 3
+A94	Strength T19 3

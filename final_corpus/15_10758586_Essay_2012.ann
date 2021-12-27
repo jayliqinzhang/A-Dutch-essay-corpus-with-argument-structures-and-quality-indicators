@@ -1,0 +1,161 @@
+T2	Claim 1312 1362	heeft 'milieubewust leven' geen positieve bijklank
+T3	Premise 1364 1489	We moeten de woorden nog maar horen of we stellen ons meteen een bord vol sla, een korte douche en een  elektrische auto voor
+T4	Premise 1557 1636	vegetarisch eten en producten uit eigen land ook bijdragen tot een beter milieu
+T5	Premise 1638 1705	Om milieubewust te leven hoeft u helemaal geen ander mens te worden
+T6	Premise 1707 1781	Gewoon allemaal samen af en toe letten op wat we kopen, eten en verbruiken
+T7	Claim 1842 1913	bestaat er de verkeerde opvatting dat  milieubewust zijn veel geld kost
+T9	Premise 1915 1969	Een spaarlamp is inderdaad duurder dan een gewone lamp
+T10	Premise 1974 2013	zonnepanelen installeren kost veel geld
+T11	Premise 2020 2174	wanneer u die investering vergelijkt met de kosten die u uitspaart op uw energiefactuur, zal u snel tot de conclusie komen dat uw investering rendabel was
+T12	Premise 2180 2320	de fiets of het openbaar vervoeren nemen in plaats van de auto, kan - zeker met de huidige brandstofprijzen - geen kwaad voor uw portemonnee
+T13	Premise 2460 2501	is fietsen vermoeiender dan de auto nemen
+T14	Premise 2505 2584	is letten op de tijd die u onder de douche doorbrengt, niet altijd even prettig
+T15	Premise 2586 2688	Er zijn echter genoeg zaken die bijdragen tot een beter milieu die u kan doen zonder al te veel moeite
+T16	Premise 2690 2792	Installeer bijvoorbeeld een spaarkop op uw douche, die verbruikt minder water dan een gewone douchekop
+T17	Premise 2877 3009	voor wc's bestaan er dergelijke systemen die uw waterverbruik kunnen doen dalen, er bestaat gerecycleerd papier, herbruikbare zakken
+T18	Premise 3146 3241	Door vegetarisch te eten bijvoorbeeld, kunnen we onze ecologische voetafdruk drastisch verlagen
+T19	Premise 3243 3339	Een of twee keer per week het vlees laten, zorgt op grote schaal al voor ingrijpen veranderingen
+T20	Premise 3341 3585	Door onze elektrische apparaten niet op stand-by te laten staan maar steeds de stekker uit te trekken, door het licht uit te doen wanneer we een kamer verlaten, door het deksel op onze pannen te zetten, kunnen we ons energieverbruik verminderen
+T21	MajorClaim 3656 3721	ecologisch leven is helemaal niet zo duur en moeilijk als u denkt
+T8	Claim 2383 2447	het veel moeite vergt om uw ecologische voetafdruk te verkleinen
+T1	MajorClaim 0 64	De ecologische voetafdruk van België: we kunnen er iets aan doen
+A1	Stance T2 Against
+A2	Stance T7 For
+A3	Stance T8 Against
+R1	supports Arg1:T3 Arg2:T2	
+R2	attacks Arg1:T4 Arg2:T3	
+R3	attacks Arg1:T5 Arg2:T2	
+R4	supports Arg1:T6 Arg2:T5	
+R5	attacks Arg1:T9 Arg2:T7	
+R6	attacks Arg1:T10 Arg2:T7	
+R7	supports Arg1:T11 Arg2:T7	
+R8	supports Arg1:T12 Arg2:T7	
+#1	AnnotatorNotes T11	change to supports
+R9	supports Arg1:T13 Arg2:T8	
+R10	supports Arg1:T14 Arg2:T8	
+R11	attacks Arg1:T15 Arg2:T8	
+R12	supports Arg1:T16 Arg2:T15	
+R13	supports Arg1:T17 Arg2:T15	
+R14	supports Arg1:T18 Arg2:T15	
+#2	AnnotatorNotes T18	{'T6': 1, 'T15': 1, 'T21': 1, 'T8': 1} my choice
+R15	supports Arg1:T19 Arg2:T18	
+R16	supports Arg1:T20 Arg2:T15	
+A4	Eloquence T2 4
+A5	Evidence T2 4
+A6	Persuasiveness T2 4
+A7	Relevance T2 4
+A8	Specificity T2 4
+A9	Eloquence T3 4
+A10	Evidence T3 4
+A11	Persuasiveness T3 5
+A12	Relevance T3 5
+A13	Specificity T3 4
+A14	Strength T3 4
+A15	Eloquence T4 3
+A16	Evidence T4 2
+A17	Persuasiveness T4 3
+A18	Relevance T4 5
+A19	Specificity T4 4
+A20	Strength T4 4
+A21	Eloquence T5 4
+A22	Evidence T5 3
+A23	Persuasiveness T5 3
+A24	Relevance T5 5
+A25	Specificity T5 3
+A26	Strength T5 3
+A27	Eloquence T6 4
+A28	Evidence T6 2
+A29	Persuasiveness T6 4
+A30	Relevance T6 5
+A31	Specificity T6 3
+A32	Strength T6 4
+A33	Eloquence T7 4
+A34	Evidence T7 4
+A35	Persuasiveness T7 4
+A36	Relevance T7 5
+A37	Specificity T7 4
+A38	Eloquence T9 4
+A39	Evidence T9 3
+A40	Persuasiveness T9 5
+A41	Relevance T9 5
+A42	Specificity T9 4
+A43	Strength T9 4
+A44	Eloquence T10 4
+A45	Evidence T10 3
+A46	Persuasiveness T10 5
+A47	Relevance T10 5
+A48	Specificity T10 4
+A49	Strength T10 4
+A50	Eloquence T11 4
+A51	Evidence T11 3
+A52	Persuasiveness T11 5
+A53	Relevance T11 5
+A54	Specificity T11 4
+A55	Strength T11 5
+A56	Eloquence T12 4
+A57	Evidence T12 3
+A58	Persuasiveness T12 4
+A59	Relevance T12 5
+A60	Specificity T12 4
+A61	Strength T12 5
+A62	Eloquence T13 4
+A63	Evidence T13 1
+A64	Persuasiveness T13 3
+A65	Relevance T13 5
+A66	Specificity T13 4
+A67	Strength T13 4
+A68	Eloquence T14 4
+A69	Evidence T14 1
+A70	Persuasiveness T14 3
+A71	Relevance T14 5
+A72	Specificity T14 4
+A73	Strength T14 4
+A74	Eloquence T15 3
+A75	Evidence T15 5
+A76	Persuasiveness T15 5
+A77	Relevance T15 5
+A78	Specificity T15 3
+A79	Strength T15 3
+A80	Eloquence T16 4
+A81	Evidence T16 3
+A82	Persuasiveness T16 4
+A83	Relevance T16 5
+A84	Specificity T16 4
+A85	Strength T16 5
+A86	Eloquence T17 4
+A87	Evidence T17 3
+A88	Persuasiveness T17 3
+A89	Relevance T17 5
+A90	Specificity T17 4
+A91	Strength T17 5
+A92	Eloquence T18 4
+A93	Evidence T18 4
+A94	Persuasiveness T18 4
+A95	Relevance T18 5
+A96	Specificity T18 4
+A97	Strength T18 4
+A98	Eloquence T19 3
+A99	Evidence T19 3
+A100	Persuasiveness T19 4
+A101	Relevance T19 5
+A102	Specificity T19 4
+A103	Strength T19 5
+A104	Eloquence T20 3
+A105	Evidence T20 3
+A106	Persuasiveness T20 5
+A107	Relevance T20 5
+A108	Specificity T20 4
+A109	Strength T20 5
+A110	Eloquence T21 4
+A111	Evidence T21 4
+A112	Persuasiveness T21 5
+A113	Specificity T21 4
+A114	Eloquence T8 4
+A115	Evidence T8 4
+A116	Persuasiveness T8 4
+A117	Relevance T8 5
+A118	Specificity T8 4
+A119	Eloquence T1 4
+A120	Evidence T1 4
+A121	Persuasiveness T1 5
+A122	Specificity T1 4

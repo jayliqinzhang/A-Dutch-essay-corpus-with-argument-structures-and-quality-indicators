@@ -1,0 +1,175 @@
+T1	Topic 256 321	kan de overheid ons verplichten tot automatische donorregistratie
+T5	Claim 1284 1328	één donor in principe acht levens kan redden
+T6	Premise 1330 1461	Indien bruikbaar kan één (overleden) persoon het hart, twee nieren, twee longen, de lever, de alvleesklier en de dunne darm doneren
+T7	Premise 1474 1507	zijn dit uitzonderlijke situaties
+T8	Premise 1514 1559	gemiddeld doneert een donor toch drie organen
+T9	Premise 1576 1631	redden orgaandonoren zo de levens van circa 1200 mensen
+T10	Premise 1633 1789	Dat is exact het aantal mensen dat in Nederland op de wachtlijst staan voor een nieuw orgaan, waarvan er per jaar minimaal 150 mensen dus onnodig overlijden
+T11	Claim 1810 1943	De gedoneerde organen wijzen de dokters sowieso toe aan de meest urgente patiënten, bijvoorbeeld nierpatiënten als Rosanne en Susanne
+T12	Premise 1945 2065	Rokers, alcholisten en (drugs)verslaafden komen niet op de wachtlijst terecht zolang zij nog roken, drinken of gebruiken
+T14	Premise 2067 2199	Door middel van die eerlijke procedure weet u, als orgaandonor, dat de organen bij iemand terecht komen die het werkelijk 'verdient'
+T15	Claim 2231 2355	Mensen met bepaalde religies of geloofsovertuigingen denken kritisch na over het niet intact zijn van het lichaam na de dood
+T16	Premise 2357 2432	Er mag bijvoorbeeld geen scheiding van de ziel met het lichaam plaatsvinden
+T17	Premise 2435 2628	Als je echter naar de statistische gegevens kijkt, zie je al gauw dat bijvoorbeeld bij de Islam amper 30% van de mensen organen afstaat, maar wel meer dan 50% van de Islamieten organen ontvangt
+T18	Premise 2714 2839	als je een orgaan ontvangt, is dit orgaan ook niet meer 'eigen' en vindt er al een soort scheiding van lichaam en ziel plaats
+T19	Premise 2841 2982	Dat principe houdt mensen van alle religie of geloofsovertuiging in ieder geval niet tegen om in de rij te gaan staan om organen te ontvangen
+T20	Claim 3344 3386	de nabestaanden geen afscheid kunnen nemen
+T21	Premise 3388 3518	Hoe vaak komt het echter niet voor dat mensen omkomen door een misdrijf, een auto-ongeluk of tegenwoordig ook een vliegtuigongeluk
+T23	Premise 3528 3690	hebben de nabestaanden geen kans om afscheid te nemen en meestal worden de stoffelijke overblijfselen van hun geliefden in dat soort situaties nooit meer gevonden
+T24	Premise 3692 3769	Bij orgaandonatie herstelt de operatiearts de overledene netjes in oude staat
+T25	Premise 3773 3865	is er nog de mogelijkheid tot een plechtige afscheidsceremonie in de vorm van een begrafenis
+T26	Premise 3877 4008	zorgt de registratie in het Donorregister ervoor dat de nabestaanden op een emotioneel moment hierover geen besluit hoeven te nemen
+T27	Premise 4010 4119	Dat is een enorme last die al van de schouders afvalt en ze hebben nog alle tijd om hun geliefde te herdenken
+T28	Claim 4214 4316	Door de automatische donorregistratie dalen de Belgische sterfecijfers en blijven wachtlijsten stabiel
+#1	AnnotatorNotes T1	for: ja, verplichten tot automatische donorregistratie; against: nee, niet verplichten 
+A1	Stance T5 For
+A2	Stance T11 For
+A3	Stance T15 Against
+A4	Stance T20 Against
+A5	Stance T28 For
+R1	supports Arg1:T6 Arg2:T5	
+R2	attacks Arg1:T7 Arg2:T6	
+R3	attacks Arg1:T8 Arg2:T7	
+R4	supports Arg1:T9 Arg2:T8	
+R5	supports Arg1:T10 Arg2:T9	
+R6	supports Arg1:T12 Arg2:T11	
+R7	supports Arg1:T14 Arg2:T12	
+R8	supports Arg1:T16 Arg2:T15	
+R9	supports Arg1:T17 Arg2:T19	
+R10	supports Arg1:T18 Arg2:T17	
+#2	AnnotatorNotes R9	{'T15': 1, 'T19': 1, 'T16': 2} my change to t19
+R11	attacks Arg1:T19 Arg2:T16	
+#3	AnnotatorNotes T19	{'T15': 1, 'T16': 1, 'T18': 2} my change to t15
+R12	attacks Arg1:T21 Arg2:T20	
+R13	supports Arg1:T23 Arg2:T21	
+R14	attacks Arg1:T24 Arg2:T20	
+R15	supports Arg1:T25 Arg2:T24	
+R16	supports Arg1:T26 Arg2:T25	
+R17	supports Arg1:T27 Arg2:T26	
+A6	Eloquence T5 4
+A7	Evidence T5 4
+A8	Persuasiveness T5 5
+A9	Relevance T5 5
+A10	Specificity T5 4
+A11	Eloquence T6 4
+A12	Evidence T6 4
+A13	Persuasiveness T6 5
+A14	Relevance T6 5
+A15	Specificity T6 5
+A16	Strength T6 5
+A17	Eloquence T7 4
+A18	Evidence T7 3
+A19	Persuasiveness T7 4
+A20	Relevance T7 5
+A21	Specificity T7 3
+A22	Strength T7 4
+A23	Eloquence T8 4
+A24	Evidence T8 4
+A25	Persuasiveness T8 4
+A26	Relevance T8 5
+A27	Specificity T8 4
+A28	Strength T8 4
+A29	Eloquence T9 4
+A30	Evidence T9 4
+A31	Persuasiveness T9 5
+A32	Relevance T9 5
+A33	Specificity T9 4
+A34	Strength T9 5
+A35	Eloquence T10 4
+A36	Evidence T10 3
+A37	Persuasiveness T10 5
+A38	Relevance T10 6
+A39	Specificity T10 5
+A40	Strength T10 5
+A41	Eloquence T11 4
+A42	Evidence T11 4
+A43	Persuasiveness T11 4
+A44	Relevance T11 4
+A45	Specificity T11 4
+A46	Eloquence T12 5
+A47	Evidence T12 4
+A48	Persuasiveness T12 5
+A49	Relevance T12 5
+A50	Specificity T12 4
+A51	Strength T12 5
+A52	Eloquence T14 4
+A53	Evidence T14 2
+A54	Persuasiveness T14 5
+A55	Relevance T14 5
+A56	Specificity T14 4
+A57	Strength T14 4
+A58	Eloquence T15 4
+A59	Evidence T15 4
+A60	Persuasiveness T15 4
+A61	Relevance T15 4
+A62	Specificity T15 4
+A63	Eloquence T16 4
+A64	Evidence T16 3
+A65	Persuasiveness T16 4
+A66	Relevance T16 4
+A67	Specificity T16 4
+A68	Strength T16 4
+A69	Eloquence T17 3
+A70	Evidence T17 3
+A71	Persuasiveness T17 5
+A72	Relevance T17 5
+A73	Specificity T17 4
+A74	Strength T17 5
+A75	Eloquence T18 4
+A76	Evidence T18 3
+A77	Persuasiveness T18 4
+A78	Relevance T18 5
+A79	Specificity T18 4
+A80	Strength T18 5
+A81	Eloquence T19 4
+A82	Evidence T19 3
+A83	Persuasiveness T19 4
+A84	Relevance T19 5
+A85	Specificity T19 3
+A86	Strength T19 3
+A87	Eloquence T20 5
+A88	Evidence T20 3
+A89	Persuasiveness T20 4
+A90	Relevance T20 4
+A91	Specificity T20 3
+A92	Eloquence T21 4
+A93	Evidence T21 2
+A94	Persuasiveness T21 2
+A95	Relevance T21 4
+A96	Specificity T21 3
+A97	Strength T21 4
+A98	Eloquence T23 4
+A99	Evidence T23 2
+A100	Persuasiveness T23 3
+A101	Relevance T23 5
+A102	Specificity T23 4
+A103	Strength T23 5
+A104	Eloquence T24 4
+A105	Evidence T24 4
+A106	Persuasiveness T24 5
+A107	Relevance T24 5
+A108	Specificity T24 4
+A109	Strength T24 4
+A110	Eloquence T25 5
+A111	Evidence T25 3
+A112	Persuasiveness T25 4
+A113	Relevance T25 5
+A114	Specificity T25 4
+A115	Strength T25 4
+A116	Eloquence T26 4
+A117	Evidence T26 3
+A118	Persuasiveness T26 4
+A119	Relevance T26 4
+A120	Specificity T26 4
+A121	Strength T26 5
+A122	Eloquence T27 4
+A123	Evidence T27 3
+A124	Persuasiveness T27 3
+A125	Relevance T27 5
+A126	Specificity T27 3
+A127	Strength T27 4
+A128	Eloquence T28 5
+A129	Evidence T28 4
+A130	Persuasiveness T28 4
+A131	Relevance T28 5
+A132	Specificity T28 4

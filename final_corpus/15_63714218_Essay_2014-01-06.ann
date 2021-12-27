@@ -1,0 +1,170 @@
+T1	MajorClaim 0 62	Langer blijven werken is nefast voor de geestelijke gezondheid
+T2	Premise 495 568	Het gaat achteruit met de geestelijke gezondheid van de Belgische burgers
+T3	Premise 609 662	ongeveer 700 000 Belgen hebben een psychisch probleem
+T4	Claim 664 706	In de werksfeer is er voortdurend spanning
+T5	Premise 708 782	We kampen met hevige bewijsdrang en gaan er op lange termijn aan onderdoor
+T6	Premise 789 844	zullen we de komende jaren de werkduur eerder opdrijven
+T7	Premise 851 917	er is nog steeds de welbekende vergrijzing die we moeten tegengaan
+T9	Claim 1112 1228	Een job is niet alleen een plaats waar spanning heer en meester is, of waar er onvermoeibaar moet worden doorgewerkt
+T10	Premise 1230 1367	Het is ook een plaats waar velen hun sociaal net opbouwen, waar collega's meer zijn dan pionnen in het schaakbord van de werkmaatschappij
+T11	Premise 1376 1430	is werken niet alleen een synoniem voor geld verdienen
+T12	Premise 1432 1520	Werken is ook jezelf ontplooien, bijleren en beter worden in wat je (meestal) graag doet
+T13	Claim 1523 1634	Op zich is langer werken dan ook niet de grote boosdoener, wel de sfeer die soms op de werkvloer gecreërd wordt
+T14	Premise 1658 1758	er bedrijven zijn waar men de productiviteit koste wat het kost wil opdrijven tot het hoogste niveau
+T15	Premise 1763 1845	er zijn natuurlijk mensen die er soms niet voor kiezen om een bepaalde job te doen
+T16	Premise 1852 1922	voor veel mensen is dat tegenwoordig geen criterium meer voor een baan
+T17	Claim 1924 1966	Het beleid kan en moet dus hervormd worden
+T18	Premise 1968 2066	Er zijn al heel wat werkgevers die meer investeren in de geestelijke gezondheid van hun werknemers
+T19	Premise 2068 2149	Dat zouden ze niet doen als er ook voor hen geen voordelen aan vast zouden zitten
+T20	Premise 2151 2249	'Gezonde' werkkrachten zijn namelijk veel productiever en creatiever dan hun uitgebluste collega's
+T21	Premise 2319 2396	Leiders van een bedrijf kunnen bijvoorbeeld permanent een psycholoog aannemen
+T22	Premise 2398 2503	Zo hebben werknemers, al is het maar voor het gevoel, steeds iemand om op terug te vallen op de werkvloer
+T23	Premise 2509 2574	meer betrokkenheid van de werkgever zou een vooruitgang betekenen
+A1	Stance T4 For
+A2	Stance T9 Against
+A3	Stance T13 Against
+A4	Stance T17 For
+R1	supports Arg1:T2 Arg2:T4	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T6	
+R6	supports Arg1:T10 Arg2:T9	
+R7	supports Arg1:T11 Arg2:T9	
+#1	AnnotatorNotes T11	{'T9': 2, 'T10': 2}
+R8	supports Arg1:T12 Arg2:T11	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T15 Arg2:T13	
+R11	attacks Arg1:T16 Arg2:T15	
+R12	supports Arg1:T18 Arg2:T17	
+R13	supports Arg1:T19 Arg2:T18	
+R14	supports Arg1:T20 Arg2:T19	
+R15	supports Arg1:T21 Arg2:T20	
+R16	supports Arg1:T22 Arg2:T21	
+R17	supports Arg1:T23 Arg2:T22	
+A5	Eloquence T1 4
+A6	Evidence T1 3
+A7	Persuasiveness T1 3
+A8	Specificity T1 3
+A9	Eloquence T2 5
+A10	Evidence T2 3
+A11	Persuasiveness T2 3
+A12	Relevance T2 3
+A13	Specificity T2 3
+A14	Strength T2 3
+A15	Eloquence T3 4
+A16	Evidence T3 3
+A17	Persuasiveness T3 4
+A18	Relevance T3 5
+A19	Specificity T3 4
+A20	Strength T3 4
+A21	Eloquence T4 4
+A22	Evidence T4 3
+A23	Persuasiveness T4 4
+A24	Relevance T4 4
+A25	Specificity T4 3
+A26	Eloquence T5 4
+A27	Evidence T5 4
+A28	Persuasiveness T5 4
+A29	Relevance T5 4
+A30	Specificity T5 3
+A31	Strength T5 4
+A32	Eloquence T6 4
+A33	Evidence T6 3
+A34	Persuasiveness T6 3
+A35	Relevance T6 4
+A36	Specificity T6 3
+A37	Strength T6 3
+A38	Eloquence T7 4
+A39	Evidence T7 2
+A40	Persuasiveness T7 3
+A41	Relevance T7 4
+A42	Specificity T7 3
+A43	Strength T7 4
+A44	Eloquence T9 4
+A45	Evidence T9 4
+A46	Persuasiveness T9 4
+A47	Relevance T9 5
+A48	Specificity T9 4
+A49	Eloquence T10 5
+A50	Evidence T10 3
+A51	Persuasiveness T10 5
+A52	Relevance T10 5
+A53	Specificity T10 4
+A54	Strength T10 5
+A55	Eloquence T11 4
+A56	Evidence T11 4
+A57	Persuasiveness T11 4
+A58	Relevance T11 5
+A59	Specificity T11 3
+A60	Strength T11 5
+A61	Eloquence T12 4
+A62	Evidence T12 3
+A63	Persuasiveness T12 4
+A64	Relevance T12 5
+A65	Specificity T12 4
+A66	Strength T12 5
+A67	Eloquence T13 4
+A68	Evidence T13 3
+A69	Persuasiveness T13 3
+A70	Relevance T13 5
+A71	Specificity T13 4
+A72	Eloquence T14 5
+A73	Evidence T14 3
+A74	Persuasiveness T14 3
+A75	Relevance T14 5
+A76	Specificity T14 3
+A77	Strength T14 5
+A78	Eloquence T15 3
+A79	Evidence T15 2
+A80	Persuasiveness T15 3
+A81	Relevance T15 4
+A82	Specificity T15 2
+A83	Strength T15 2
+A84	Eloquence T16 3
+A85	Evidence T16 1
+A86	Persuasiveness T16 2
+A87	Relevance T16 3
+A88	Specificity T16 2
+A89	Strength T16 2
+A90	Eloquence T17 4
+A91	Evidence T17 4
+A92	Persuasiveness T17 3
+A93	Relevance T17 4
+A94	Specificity T17 2
+A95	Eloquence T18 4
+A96	Evidence T18 3
+A97	Persuasiveness T18 4
+A98	Relevance T18 5
+A99	Specificity T18 3
+A100	Strength T18 4
+A101	Eloquence T19 4
+A102	Evidence T19 4
+A103	Persuasiveness T19 4
+A104	Relevance T19 5
+A105	Specificity T19 3
+A106	Strength T19 4
+A107	Eloquence T20 5
+A108	Evidence T20 3
+A109	Persuasiveness T20 5
+A110	Relevance T20 5
+A111	Specificity T20 4
+A112	Strength T20 5
+A113	Eloquence T21 4
+A114	Evidence T21 3
+A115	Persuasiveness T21 3
+A116	Relevance T21 4
+A117	Specificity T21 4
+A118	Strength T21 4
+A119	Eloquence T22 4
+A120	Evidence T22 3
+A121	Persuasiveness T22 3
+A122	Relevance T22 4
+A123	Specificity T22 4
+A124	Strength T22 4
+A125	Eloquence T23 4
+A126	Evidence T23 3
+A127	Persuasiveness T23 3
+A128	Relevance T23 4
+A129	Specificity T23 2
+A130	Strength T23 4

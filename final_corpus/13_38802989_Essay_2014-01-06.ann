@@ -1,0 +1,160 @@
+T2	MajorClaim 856 940	De enige manier om mannen en vrouwen gelijk te stellen, is een mentaliteitswijziging
+T3	Claim 1705 1768	tot op vandaag blijft de ongelijkheid in die functies zichtbaar
+T4	Premise 1770 1842	Een vrouw aan het hoofd van een bedrijf is eerder uitzondering dan regel
+T5	Claim 1844 1929	De quota lijken dan ook een logische stap voor de gelijke rechten tussen man en vrouw
+T6	Premise 1931 1975	Ze zorgen voor gelijkheid binnen een bedrijf
+T7	Premise 1982 2039	dragen ze ook een belangrijk negatief aspect met zich mee
+T8	Premise 2041 2125	Het gaat hier dan over de zogenaamde positieve discriminatie als gevolg van de quota
+T10	Premise 2131 2196	moete de helft van de topfuncties uitgeoefend worden door vrouwen
+T11	Premise 2203 2304	op die manier gaat de functie ingevuld worden op basis van geslacht, en niet op basis van competentie
+T12	Premise 2306 2396	De vrouw die de job krijgt, heeft misschien helemaal geen verstand van haar nieuwe functie
+T14	Premise 2406 2486	de mannelijke solicitant dezelfde functie al in een ander bedrijf had uitgevoerd
+T15	Claim 2488 2531	De quota zijn te drastisch en ongenuanceerd
+T16	Premise 2536 2577	zullen kwantiteit boven kwaliteit stellen
+T17	Claim 2603 2680	grote, drastische veranderingen brengen altijd negatieve stemmen met zich mee
+T18	Premise 2682 2749	Het gelijkstellen van mannen en vrouwen is zo een grote verandering
+T20	Premise 2920 3011	er negatieve stemmen te horen zijn bij diegenen die zich goed voelen in het huidige systeem
+T22	Premise 3131 3227	Door quota in te voeren en rechten te eisen, zetten de vrouwen al grote stap richting gelijkheid
+T23	Claim 3236 3285	met quota alleen zal dit doel niet bereikt worden
+T24	Premise 3287 3336	Het zijn slechts schakeltjes in een groter geheel
+T25	Premise 3338 3484	Al die 'kleine' ingrepen, zullen uiteindelijk zorgen voor de belangrijkste verandering: de mentaliteitswijziging rond de beeldvorming over vrouwen
+T27	Premise 3582 3697	Zowel mannen als vrouwen hebben tijd nodig om aan dit nieuwe idee te wennen en hun normen en waarden bij te stellen
+A1	Stance T3 For
+A2	Stance T5 Against
+A3	Stance T15 For
+A4	Stance T17 For
+A5	Stance T23 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T6 Arg2:T5	
+R3	attacks Arg1:T7 Arg2:T5	
+R4	supports Arg1:T8 Arg2:T7	
+R5	supports Arg1:T10 Arg2:T8	
+R6	supports Arg1:T11 Arg2:T10	
+R7	supports Arg1:T12 Arg2:T11	
+R8	supports Arg1:T14 Arg2:T11	
+R9	supports Arg1:T16 Arg2:T15	
+R10	supports Arg1:T18 Arg2:T17	
+R11	supports Arg1:T20 Arg2:T17	
+R12	attacks Arg1:T22 Arg2:T20	
+R13	supports Arg1:T24 Arg2:T23	
+R14	supports Arg1:T25 Arg2:T24	
+R15	supports Arg1:T27 Arg2:T25	
+A6	Eloquence T2 5
+A7	Evidence T2 3
+A8	Persuasiveness T2 4
+A9	Specificity T2 4
+A10	Eloquence T3 4
+A11	Evidence T3 3
+A12	Persuasiveness T3 4
+A13	Relevance T3 4
+A14	Specificity T3 4
+A15	Eloquence T4 5
+A16	Evidence T4 3
+A17	Persuasiveness T4 3
+A18	Relevance T4 5
+A19	Specificity T4 4
+A20	Strength T4 5
+A21	Eloquence T5 4
+A22	Evidence T5 4
+A23	Persuasiveness T5 4
+A24	Relevance T5 5
+A25	Specificity T5 4
+A26	Eloquence T6 4
+A27	Evidence T6 2
+A28	Persuasiveness T6 3
+A29	Relevance T6 5
+A30	Specificity T6 4
+A31	Strength T6 5
+A32	Eloquence T7 4
+A33	Evidence T7 3
+A34	Persuasiveness T7 4
+A35	Relevance T7 5
+A36	Specificity T7 3
+A37	Strength T7 4
+A38	Eloquence T8 4
+A39	Evidence T8 4
+A40	Persuasiveness T8 4
+A41	Relevance T8 5
+A42	Specificity T8 4
+A43	Strength T8 4
+A44	Eloquence T10 3
+A45	Evidence T10 4
+A46	Persuasiveness T10 3
+A47	Relevance T10 5
+A48	Specificity T10 4
+A49	Strength T10 4
+A50	Eloquence T11 4
+A51	Evidence T11 3
+A52	Persuasiveness T11 3
+A53	Relevance T11 6
+A54	Specificity T11 4
+A55	Strength T11 5
+A56	Eloquence T12 3
+A57	Evidence T12 2
+A58	Persuasiveness T12 3
+A59	Relevance T12 5
+A60	Specificity T12 3
+A61	Strength T12 4
+A62	Eloquence T14 3
+A63	Evidence T14 2
+A64	Persuasiveness T14 3
+A65	Relevance T14 5
+A66	Specificity T14 3
+A67	Strength T14 4
+A68	Eloquence T15 5
+A69	Evidence T15 3
+A70	Persuasiveness T15 3
+A71	Relevance T15 5
+A72	Specificity T15 4
+A73	Eloquence T16 5
+A74	Evidence T16 1
+A75	Persuasiveness T16 3
+A76	Relevance T16 5
+A77	Specificity T16 3
+A78	Strength T16 5
+A79	Eloquence T17 4
+A80	Evidence T17 3
+A81	Persuasiveness T17 4
+A82	Relevance T17 4
+A83	Specificity T17 3
+A84	Eloquence T18 4
+A85	Evidence T18 2
+A86	Persuasiveness T18 2
+A87	Relevance T18 5
+A88	Specificity T18 3
+A89	Strength T18 3
+A90	Eloquence T20 4
+A91	Evidence T20 2
+A92	Persuasiveness T20 3
+A93	Relevance T20 5
+A94	Specificity T20 3
+A95	Strength T20 4
+A96	Eloquence T22 4
+A97	Evidence T22 2
+A98	Persuasiveness T22 2
+A99	Relevance T22 4
+A100	Specificity T22 4
+A101	Strength T22 4
+A102	Eloquence T23 5
+A103	Evidence T23 3
+A104	Persuasiveness T23 3
+A105	Relevance T23 5
+A106	Specificity T23 3
+A107	Eloquence T24 4
+A108	Evidence T24 2
+A109	Persuasiveness T24 2
+A110	Relevance T24 5
+A111	Specificity T24 3
+A112	Strength T24 3
+A113	Eloquence T25 5
+A114	Evidence T25 3
+A115	Persuasiveness T25 3
+A116	Relevance T25 6
+A117	Specificity T25 4
+A118	Strength T25 4
+A119	Eloquence T27 5
+A120	Evidence T27 2
+A121	Persuasiveness T27 3
+A122	Relevance T27 5
+A123	Specificity T27 4
+A124	Strength T27 4

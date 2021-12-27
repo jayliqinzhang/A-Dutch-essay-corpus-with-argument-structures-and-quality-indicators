@@ -1,0 +1,223 @@
+T1	MajorClaim 362 424	Er zijn veel externe factoren die voor geluk of ongeluk zorgen
+T2	Claim 493 549	Een eerste belangrijke factor is je geografische locatie
+T3	Premise 551 760	Zo ben je volgens de Internationale Geluksindex, een index opgesteld met de hulp van 100.000 mensen uit 90 verschillende landen, gelukkiger als je in Denemarken of Zwitserland woont dan als in België verblijft
+T4	Premise 762 808	In Europa ben je ook gelukkiger dan in Amerika
+T5	Premise 810 869	Dit komt natuurlijk door de levensomstandigheden in je land
+T6	Premise 871 944	hoe vrijer en individualistischer het bestuur, hoe gelukkiger de inwoners
+T8	Claim 1259 1373	Dit is onder andere te wijten aan de dreiging van de economische crisis: mensen hebben steeds minder werkzekerheid
+T9	Premise 1375 1405	Dat zorgt voor een hoop stress
+T10	Premise 1407 1493	werklozen zijn over het algemeen namelijk minder gelukkig dan mensen met een vaste job
+T11	Premise 1495 1556	Er is ook steeds minder zekerheid op gebied van sociale steun
+T12	Claim 1558 1619	Door de crisis zijn mensen ook minder zeker van hun financiën
+T13	Premise 1621 1697	Het leven wordt steeds duurder en daardoor worden mensen steeds ongelukkiger
+T14	Premise 1720 1786	geld niet gelukkig maakt, ongelukkig word je er zeker ook niet van
+T16	Premise 1788 1857	Welvarende mensen zijn in ieder geval vaak tevredener dan arme mensen
+T17	Premise 1868 1974	de relatie tussen geluk en geld is veel kleiner dan bijvoorbeeld het verband tussen geluk en 'actief zijn'
+T18	Premise 1976 2038	Heb je iets te doen in het leven, dan ben je minder ongelukkig
+T19	Premise 2040 2121	Wie sport bijvoorbeeld, maakt endorfines aan, een stof waar je gelukkig van wordt
+T20	Premise 2130 2222	kan je in een trieste bui beter gaan joggen dan voor de televisie te kruipen met een bak ijs
+T21	Claim 2450 2515	kan je hopelijk nog terugvallen op een uitgebreid sociaal netwerk
+T22	Premise 2517 2608	Krijg je veel steun van collega's, vrienden en familieleden, dan kom je er wel weer bovenop
+T23	Premise 2610 2663	Dit heeft namelijk een heel grote invloed op je geluk
+T24	Claim 2695 2783	gelukkig kan je de factoren die tot geluk leiden in sommige gevallen wel wat beïnvloeden
+T25	Premise 2872 3049	Probeer je in de  eerste plaats te focussen op je sociale netwerk: onderhoud je vriendschappen, maak geen onnodige ruzies met familieleden en wees vriendelijk tegen je collega's
+T26	Premise 3051 3103	Geluk is tenslotte alleen maar echt als je het deelt
+T27	Premise 3208 3296	kan je dan eventueel de hulp van een collega inroepen als het niet goed gaat op het werk
+T28	Premise 3354 3401	Probeer regelmatig te sporten en gezond te eten
+T29	Premise 3407 3434	daar word je tevredener van
+T30	Claim 3436 3497	Wat je wel volledig in de hand hebt, is je visie op het leven
+T31	Premise 3499 3619	Je kiest zelf in hoeverre je focust op de dingen die niet goed gaan, in plaats van op de dingen die je voor de wind gaan
+A1	Stance T2 For
+A2	Stance T8 For
+A3	Stance T12 For
+A4	Stance T21 For
+A5	Stance T24 Against
+A6	Stance T30 Against
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T2	
+R4	supports Arg1:T6 Arg2:T5	
+R5	supports Arg1:T9 Arg2:T8	
+R6	supports Arg1:T10 Arg2:T9	
+R7	supports Arg1:T11 Arg2:T8	
+R8	supports Arg1:T13 Arg2:T12	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T16 Arg2:T14	
+R11	attacks Arg1:T17 Arg2:T13	
+R12	supports Arg1:T18 Arg2:T17	
+R13	supports Arg1:T19 Arg2:T18	
+R14	supports Arg1:T20 Arg2:T19	
+R15	supports Arg1:T22 Arg2:T21	
+R16	supports Arg1:T23 Arg2:T22	
+R17	supports Arg1:T25 Arg2:T24	
+R18	supports Arg1:T26 Arg2:T25	
+R19	supports Arg1:T27 Arg2:T25	
+R20	supports Arg1:T28 Arg2:T24	
+R21	supports Arg1:T29 Arg2:T28	
+R22	supports Arg1:T31 Arg2:T30	
+A7	Eloquence T1 4
+A8	Evidence T1 3
+A9	Persuasiveness T1 4
+A10	Specificity T1 4
+A11	Eloquence T2 4
+A12	Evidence T2 4
+A13	Persuasiveness T2 4
+A14	Relevance T2 5
+A15	Specificity T2 4
+A16	Eloquence T3 4
+A17	Evidence T3 5
+A18	Persuasiveness T3 5
+A19	Relevance T3 5
+A20	Specificity T3 5
+A21	Strength T3 5
+A22	Eloquence T4 4
+A23	Evidence T4 3
+A24	Persuasiveness T4 3
+A25	Relevance T4 5
+A26	Specificity T4 3
+A27	Strength T4 4
+A28	Eloquence T5 4
+A29	Evidence T5 3
+A30	Persuasiveness T5 3
+A31	Relevance T5 5
+A32	Specificity T5 3
+A33	Strength T5 3
+A34	Eloquence T6 4
+A35	Evidence T6 2
+A36	Persuasiveness T6 4
+A37	Relevance T6 5
+A38	Specificity T6 4
+A39	Strength T6 4
+A40	Eloquence T8 4
+A41	Evidence T8 4
+A42	Persuasiveness T8 4
+A43	Relevance T8 5
+A44	Specificity T8 4
+A45	Eloquence T9 3
+A46	Evidence T9 3
+A47	Persuasiveness T9 3
+A48	Relevance T9 4
+A49	Specificity T9 3
+A50	Strength T9 4
+A51	Eloquence T10 4
+A52	Evidence T10 2
+A53	Persuasiveness T10 3
+A54	Relevance T10 5
+A55	Specificity T10 3
+A56	Strength T10 4
+A57	Eloquence T11 3
+A58	Evidence T11 2
+A59	Persuasiveness T11 3
+A60	Relevance T11 4
+A61	Specificity T11 2
+A62	Strength T11 3
+A63	Eloquence T12 4
+A64	Evidence T12 3
+A65	Persuasiveness T12 4
+A66	Relevance T12 4
+A67	Specificity T12 3
+A68	Eloquence T13 4
+A69	Evidence T13 3
+A70	Persuasiveness T13 4
+A71	Relevance T13 5
+A72	Specificity T13 3
+A73	Strength T13 3
+A74	Eloquence T14 4
+A75	Evidence T14 3
+A76	Persuasiveness T14 3
+A77	Relevance T14 5
+A78	Specificity T14 3
+A79	Strength T14 4
+A80	Eloquence T16 4
+A81	Evidence T16 2
+A82	Persuasiveness T16 4
+A83	Relevance T16 4
+A84	Specificity T16 3
+A85	Strength T16 4
+A86	Eloquence T17 4
+A87	Evidence T17 3
+A88	Persuasiveness T17 3
+A89	Relevance T17 5
+A90	Specificity T17 4
+A91	Strength T17 4
+A92	Eloquence T18 3
+A93	Evidence T18 3
+A94	Persuasiveness T18 4
+A95	Relevance T18 5
+A96	Specificity T18 3
+A97	Strength T18 4
+A98	Eloquence T19 4
+A99	Evidence T19 3
+A100	Persuasiveness T19 4
+A101	Relevance T19 5
+A102	Specificity T19 4
+A103	Strength T19 4
+A104	Eloquence T20 3
+A105	Evidence T20 2
+A106	Persuasiveness T20 3
+A107	Relevance T20 5
+A108	Specificity T20 4
+A109	Strength T20 4
+A110	Eloquence T21 4
+A111	Evidence T21 3
+A112	Persuasiveness T21 3
+A113	Relevance T21 3
+A114	Specificity T21 3
+A115	Eloquence T22 4
+A116	Evidence T22 3
+A117	Persuasiveness T22 3
+A118	Relevance T22 5
+A119	Specificity T22 4
+A120	Strength T22 4
+A121	Eloquence T23 4
+A122	Evidence T23 2
+A123	Persuasiveness T23 4
+A124	Relevance T23 5
+A125	Specificity T23 3
+A126	Strength T23 2
+A127	Eloquence T24 4
+A128	Evidence T24 3
+A129	Persuasiveness T24 3
+A130	Relevance T24 5
+A131	Specificity T24 2
+A132	Eloquence T25 5
+A133	Evidence T25 3
+A134	Persuasiveness T25 4
+A135	Relevance T25 5
+A136	Specificity T25 4
+A137	Strength T25 5
+A138	Eloquence T26 4
+A139	Evidence T26 2
+A140	Persuasiveness T26 2
+A141	Relevance T26 4
+A142	Specificity T26 3
+A143	Strength T26 3
+A144	Eloquence T27 4
+A145	Evidence T27 2
+A146	Persuasiveness T27 3
+A147	Relevance T27 4
+A148	Specificity T27 3
+A149	Strength T27 4
+A150	Eloquence T28 4
+A151	Evidence T28 3
+A152	Persuasiveness T28 3
+A153	Relevance T28 5
+A154	Specificity T28 3
+A155	Strength T28 4
+A156	Eloquence T29 3
+A157	Evidence T29 1
+A158	Persuasiveness T29 2
+A159	Relevance T29 4
+A160	Specificity T29 3
+A161	Strength T29 3
+A162	Eloquence T30 4
+A163	Evidence T30 3
+A164	Persuasiveness T30 3
+A165	Relevance T30 4
+A166	Specificity T30 2
+A167	Eloquence T31 4
+A168	Evidence T31 2
+A169	Persuasiveness T31 3
+A170	Relevance T31 4
+A171	Specificity T31 3
+A172	Strength T31 4

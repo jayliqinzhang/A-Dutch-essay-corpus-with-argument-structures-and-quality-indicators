@@ -1,0 +1,153 @@
+T1	Topic 378 451	Zit het eigenlijk wel zo Freddie Mercury-snor met Europese homotolerantie
+#1	AnnotatorNotes T1	for: wel met Europese homotolerantie; against: geen met Europese homotolerantie
+T2	Claim 680 811	De homoseksueel worstelt zich echter nog tot op de dag van vandaag door een vrijwel volledig heteronormatief ingerichte samenleving
+T3	Premise 813 886	Gelijkheid voor wet en rechtsspraak is misschien relatief vanzelfsprekend
+T4	Premise 888 923	als Europa zijn we er nog lang niet
+T5	Premise 1019 1091	kunnen particuliere bedrijven nog altijd onderscheid maken op geaardheid
+T6	Premise 1093 1184	De selectieprocedure voor homo-adoptie is zwaarder dan de bergetappes van de Tour de France
+T7	Premise 1188 1301	het is bij een bloedbank als Sanquin gewoon mogelijk om homo's te weren vanwege een hogere kans op HIV-bestemming
+T9	Premise 1309 1362	verkapt discriminerende praktijken zijn ontoelaatbaar
+T10	Claim 1524 1766	Een tweede verantwoordelijkheid die Europese overheden al lang op zich hadden moeten nemen is het spelen van een actieve rol in het ontkrachten van de stereotypen waar homo's, lesbiennes, biseksuelen, transgenders nog dagelijks tegenaan lopen
+T11	Premise 1768 1858	De stereotypen die met de homocultuur gepaard gaan zijn op zijn minst flamboyant te noemen
+T16	Premise 2223 2378	Europese landen toleranter zijn geworden met het verder vorderen van de individualisering en de overgang van een roomblanke naar multiculturele samenleving
+T17	Premise 2385 2403	dat is een illusie
+T18	Premise 2405 2498	De polarisatie begint meer en meer te lijken op die gezellige verzuiling van de jaren vijftig
+T19	Premise 2502 2723	Terwijl de Europese unie zich intensief met de landelijke economie bemoeit lijkt ze niet zo bijzonder begaan met haar burgers en de toch zorgwekkende ontwikkelingen die zich binnen en buiten de eigen landsgrenzen afspelen
+T20	Premise 2725 2840	De spectaculaire stijging van het willekeurige geweld tegen homo's in de afgelopen tien, vijftien jaar bijvoorbeeld
+T25	Premise 3579 3748	de puberteit voor de meesten van ons al een periode van grote onzekerheid en kwetsbaarheid is, zijn de latente homo-jongeren vaak een makkelijker doelwit voor pesterijen
+T26	Claim 3750 3913	De Europese overheden hebben met dank aan de verzorgingsstaten voor iedereen wel een sociaal vangnetje  opgebouwd, maar niet voor die gepeste of onzekere homopuber
+T27	Premise 3915 3978	Homojongeren blijven nog altijd relatief lang in de kast zitten
+T28	Premise 3985 4051	ze bang zijn dat de reactie van hun omgeving erg negatief zal zijn
+T29	Premise 4053 4185	Waarom bestaat hier geen overheidsdienst of hotline voor? Of dan ten minste misschien een site waarop jongeren vragen kunnen stellen
+A1	Stance T2 Against
+A2	Stance T10 Against
+A3	Stance T26 Against
+R1	attacks Arg1:T4 Arg2:T3	
+R2	supports Arg1:T5 Arg2:T4	
+R3	supports Arg1:T6 Arg2:T4	
+R4	supports Arg1:T7 Arg2:T4	
+#2	AnnotatorNotes T7	{'T4': 1, 'T9': 1, 'T5': 2} change to t4
+R5	supports Arg1:T9 Arg2:T7	
+R6	supports Arg1:T11 Arg2:T10	
+R7	supports Arg1:T16 Arg2:T10	
+#3	AnnotatorNotes R7	{'T11': 2, 'T10': 2}
+R8	attacks Arg1:T17 Arg2:T16	
+R9	supports Arg1:T18 Arg2:T17	
+R10	supports Arg1:T19 Arg2:T10	
+R11	supports Arg1:T20 Arg2:T19	
+R12	supports Arg1:T25 Arg2:T26	
+R13	supports Arg1:T27 Arg2:T26	
+R14	supports Arg1:T28 Arg2:T27	
+R15	supports Arg1:T29 Arg2:T28	
+R16	attacks Arg1:T3 Arg2:T2	
+A4	Eloquence T2 5
+A5	Evidence T2 4
+A6	Persuasiveness T2 5
+A7	Relevance T2 5
+A8	Specificity T2 4
+A9	Eloquence T3 4
+A10	Evidence T3 4
+A11	Persuasiveness T3 4
+A12	Relevance T3 5
+A13	Specificity T3 3
+A14	Strength T3 4
+A15	Eloquence T4 4
+A16	Evidence T4 3
+A17	Persuasiveness T4 3
+A18	Relevance T4 4
+A19	Specificity T4 3
+A20	Strength T4 3
+A21	Eloquence T5 5
+A22	Evidence T5 2
+A23	Persuasiveness T5 3
+A24	Relevance T5 5
+A25	Specificity T5 4
+A26	Strength T5 4
+A27	Eloquence T6 5
+A28	Evidence T6 2
+A29	Persuasiveness T6 4
+A30	Relevance T6 5
+A31	Specificity T6 3
+A32	Strength T6 4
+A33	Eloquence T7 5
+A34	Evidence T7 3
+A35	Persuasiveness T7 4
+A36	Relevance T7 5
+A37	Specificity T7 4
+A38	Strength T7 5
+A39	Eloquence T9 5
+A40	Evidence T9 2
+A41	Persuasiveness T9 4
+A42	Relevance T9 5
+A43	Specificity T9 4
+A44	Strength T9 4
+A45	Eloquence T10 5
+A46	Evidence T10 4
+A47	Persuasiveness T10 5
+A48	Relevance T10 5
+A49	Specificity T10 4
+A50	Eloquence T11 4
+A51	Evidence T11 2
+A52	Persuasiveness T11 3
+A53	Relevance T11 4
+A54	Specificity T11 3
+A55	Strength T11 4
+A56	Eloquence T16 4
+A57	Evidence T16 3
+A58	Persuasiveness T16 4
+A59	Relevance T16 4
+A60	Specificity T16 3
+A61	Strength T16 4
+A62	Eloquence T17 4
+A63	Evidence T17 3
+A64	Persuasiveness T17 3
+A65	Relevance T17 4
+A66	Specificity T17 3
+A67	Strength T17 3
+A68	Eloquence T18 5
+A69	Evidence T18 2
+A70	Persuasiveness T18 3
+A71	Relevance T18 5
+A72	Specificity T18 4
+A73	Strength T18 4
+A74	Eloquence T19 5
+A75	Evidence T19 4
+A76	Persuasiveness T19 4
+A77	Relevance T19 4
+A78	Specificity T19 3
+A79	Strength T19 3
+A80	Eloquence T20 4
+A81	Evidence T20 2
+A82	Persuasiveness T20 4
+A83	Relevance T20 5
+A84	Specificity T20 4
+A85	Strength T20 5
+A86	Eloquence T25 5
+A87	Evidence T25 3
+A88	Persuasiveness T25 4
+A89	Relevance T25 5
+A90	Specificity T25 4
+A91	Strength T25 5
+A92	Eloquence T26 5
+A93	Evidence T26 3
+A94	Persuasiveness T26 4
+A95	Relevance T26 4
+A96	Specificity T26 4
+A97	Eloquence T27 5
+A98	Evidence T27 3
+A99	Persuasiveness T27 3
+A100	Relevance T27 4
+A101	Specificity T27 3
+A102	Strength T27 4
+A103	Eloquence T28 4
+A104	Evidence T28 3
+A105	Persuasiveness T28 3
+A106	Relevance T28 5
+A107	Specificity T28 4
+A108	Strength T28 5
+A109	Eloquence T29 4
+A110	Evidence T29 2
+A111	Persuasiveness T29 4
+A112	Relevance T29 5
+A113	Specificity T29 4
+A114	Strength T29 4

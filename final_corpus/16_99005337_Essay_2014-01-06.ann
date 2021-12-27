@@ -1,0 +1,190 @@
+T2	MajorClaim 837 958	lijkt het mij dan ook overbodig om op de barricades te gaan staan voor vrouwelijke quota aan de top van het bedrijfsleven
+T3	Claim 960 1056	Angela Merkel is één van de mooiste voorbeelden waarom quota niet nodig zijn voor de bedrijfstop
+T4	Premise 1058 1163	Ze is een self-made vrouw die zich tot de top van het machtigste land van Europa heeft weten op te werken
+T5	Premise 1165 1224	De bondkanselier bepaalt het reilen en zeilen binnen Europa
+T7	Premise 1228 1243	haar wil is wet
+T8	Premise 1423 1526	Deze vrouwelijke ijzeren greep houdt Europa in het gareel en heeft ons uit de economische crisis geleid
+T9	Claim 1809 1879	Tradities binnen culturen verander je niet van de ene dag op de andere
+T10	Premise 1881 1941	De bedrijfswereld is nu eenmaal een zeer mannelijke omgeving
+T11	Premise 1948 1994	dit wil niet zeggen dat dit ook zo zal blijven
+T13	Premise 2009 2055	er al meer vrouwen aan de top zijn dan vroeger
+T15	Premise 2069 2102	De vooruitgang is misschien traag
+T16	Premise 2108 2143	Rome is ook niet op één dag gebouwd
+T17	Premise 2145 2176	Laten we alles zijn beloop gaan
+T18	Premise 2180 2281	de situatie zal gegarandeerd uit zichzelf verbeteren door het verhoogde opleidingsniveau tegenwoordig
+T19	Claim 2283 2364	Er is een algemene tendens van vrouwen met een hoger opleidingsniveau dan vroeger
+T20	Premise 2366 2476	Meer en meer meisjes studeren af met een universitair diploma, terwijl het aantal jongens er op achteruit gaat
+T23	Premise 2478 2594	Jobs die een academisch getuigschrift vereisen zullen dus meer en meer worden opgevuld door het vrouwelijke geslacht
+T24	Premise 2596 2678	Vanuit deze positie zullen ze dan een carrière kunnen uitbouwen binnen een bedrijf
+T25	Premise 2734 2882	Als deze onderwijsevolutie zo doorgaat dan spreekt het voor zich dat bedrijven bepaalde aantallen zullen bereiken zonder tussenkomst van de overheid
+T26	Premise 2910 2961	er een feminisering van onze maatschappij gaande is
+T27	Premise 2970 2985	is het nog pril
+T28	Claim 2987 3044	Deze feminisering kunnen we sterk zien in het straatbeeld
+T29	Premise 3046 3162	Mannen die een sjaal dragen in de zomer, broeken dragen in alle kleuren van de regenboog en gezichtscrèmes gebruiken
+T30	Premise 3302 3395	het is wel een duidelijke evolutie die zich zeker het voorbije decennium heeft gemanifesteerd
+A1	Stance T3 For
+A2	Stance T9 For
+A3	Stance T19 For
+A4	Stance T28 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T5 Arg2:T4	
+R3	supports Arg1:T7 Arg2:T5	
+#1	AnnotatorNotes T7	{'T5': 2, 'T4': 2}
+R4	supports Arg1:T8 Arg2:T4	
+#2	AnnotatorNotes T8	{'T7': 2, 'T3': 1, 'T4': 1} change to t4
+R5	supports Arg1:T10 Arg2:T9	
+R6	attacks Arg1:T11 Arg2:T10	
+R7	supports Arg1:T13 Arg2:T11	
+R8	attacks Arg1:T15 Arg2:T13	
+R9	attacks Arg1:T16 Arg2:T15	
+#3	AnnotatorNotes R9	{'supports': 3, 'attacks': 1} change to attack
+R10	supports Arg1:T17 Arg2:T16	
+R11	supports Arg1:T18 Arg2:T17	
+R12	supports Arg1:T20 Arg2:T19	
+R13	supports Arg1:T23 Arg2:T20	
+R14	supports Arg1:T24 Arg2:T23	
+R15	supports Arg1:T25 Arg2:T24	
+R16	supports Arg1:T26 Arg2:T25	
+#4	AnnotatorNotes T26	{'T19': 2, 'T25': 2}
+R17	attacks Arg1:T27 Arg2:T26	
+R18	supports Arg1:T29 Arg2:T28	
+R19	supports Arg1:T30 Arg2:T28	
+#5	AnnotatorNotes T30	{'T29': 2, 'T28': 2}
+A5	Eloquence T2 5
+A6	Evidence T2 3
+A7	Persuasiveness T2 4
+A8	Specificity T2 3
+A9	Eloquence T3 4
+A10	Evidence T3 3
+A11	Persuasiveness T3 3
+A12	Relevance T3 5
+A13	Specificity T3 4
+A14	Eloquence T4 4
+A15	Evidence T4 3
+A16	Persuasiveness T4 4
+A17	Relevance T4 5
+A18	Specificity T4 4
+A19	Strength T4 4
+A20	Eloquence T5 5
+A21	Evidence T5 3
+A22	Persuasiveness T5 3
+A23	Relevance T5 5
+A24	Specificity T5 3
+A25	Strength T5 4
+A26	Eloquence T7 4
+A27	Evidence T7 2
+A28	Persuasiveness T7 3
+A29	Relevance T7 4
+A30	Specificity T7 3
+A31	Strength T7 3
+A32	Eloquence T8 5
+A33	Evidence T8 2
+A34	Persuasiveness T8 3
+A35	Relevance T8 4
+A36	Specificity T8 3
+A37	Strength T8 4
+A38	Eloquence T9 4
+A39	Evidence T9 3
+A40	Persuasiveness T9 4
+A41	Relevance T9 5
+A42	Specificity T9 3
+A43	Eloquence T10 4
+A44	Evidence T10 3
+A45	Persuasiveness T10 3
+A46	Relevance T10 5
+A47	Specificity T10 3
+A48	Strength T10 4
+A49	Eloquence T11 3
+A50	Evidence T11 2
+A51	Persuasiveness T11 3
+A52	Relevance T11 4
+A53	Specificity T11 3
+A54	Strength T11 3
+A55	Eloquence T13 4
+A56	Evidence T13 3
+A57	Persuasiveness T13 3
+A58	Relevance T13 5
+A59	Specificity T13 3
+A60	Strength T13 3
+A61	Eloquence T15 4
+A62	Evidence T15 2
+A63	Persuasiveness T15 2
+A64	Relevance T15 4
+A65	Specificity T15 2
+A66	Strength T15 3
+A67	Eloquence T16 4
+A68	Evidence T16 2
+A69	Persuasiveness T16 2
+A70	Relevance T16 3
+A71	Specificity T16 2
+A72	Strength T16 3
+A73	Eloquence T17 4
+A74	Evidence T17 1
+A75	Persuasiveness T17 1
+A76	Relevance T17 2
+A77	Specificity T17 2
+A78	Strength T17 3
+A79	Eloquence T18 4
+A80	Evidence T18 2
+A81	Persuasiveness T18 3
+A82	Relevance T18 4
+A83	Specificity T18 3
+A84	Strength T18 4
+A85	Eloquence T19 4
+A86	Evidence T19 4
+A87	Persuasiveness T19 4
+A88	Relevance T19 5
+A89	Specificity T19 4
+A90	Eloquence T20 4
+A91	Evidence T20 4
+A92	Persuasiveness T20 4
+A93	Relevance T20 5
+A94	Specificity T20 3
+A95	Strength T20 4
+A96	Eloquence T23 4
+A97	Evidence T23 3
+A98	Persuasiveness T23 3
+A99	Relevance T23 5
+A100	Specificity T23 3
+A101	Strength T23 3
+A102	Eloquence T24 4
+A103	Evidence T24 3
+A104	Persuasiveness T24 4
+A105	Relevance T24 5
+A106	Specificity T24 3
+A107	Strength T24 3
+A108	Eloquence T25 4
+A109	Evidence T25 3
+A110	Persuasiveness T25 3
+A111	Relevance T25 5
+A112	Specificity T25 3
+A113	Strength T25 4
+A114	Eloquence T26 5
+A115	Evidence T26 2
+A116	Persuasiveness T26 3
+A117	Relevance T26 4
+A118	Specificity T26 3
+A119	Strength T26 3
+A120	Eloquence T27 4
+A121	Evidence T27 1
+A122	Persuasiveness T27 3
+A123	Relevance T27 4
+A124	Specificity T27 2
+A125	Strength T27 2
+A126	Eloquence T28 5
+A127	Evidence T28 3
+A128	Persuasiveness T28 3
+A129	Relevance T28 3
+A130	Specificity T28 3
+A131	Eloquence T29 4
+A132	Evidence T29 2
+A133	Persuasiveness T29 2
+A134	Relevance T29 2
+A135	Specificity T29 4
+A136	Strength T29 2
+A137	Eloquence T30 5
+A138	Evidence T30 2
+A139	Persuasiveness T30 3
+A140	Relevance T30 4
+A141	Specificity T30 2
+A142	Strength T30 2

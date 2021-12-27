@@ -1,0 +1,220 @@
+T3	Claim 720 822	Een eerste aspect van ons gedrag dat moet veranderen, is de drang om allemaal een eigen auto te hebben
+T4	Premise 1024 1098	Het moet echter best mogelijk  zijn om met één auto per gezin toe te komen
+T5	Premise 1108 1148	het een gezin van tweeverdieners betreft
+T6	Premise 1150 1233	Steeds meer mensen maken dan ook gebruik van het openbaar vervoer om te gaan werken
+T7	Premise 1235 1330	Als je de ellenlange files in Brussel wil vermijden, is de trein nemen inderdaad het beste idee
+T8	Premise 1332 1379	Je kan ook voor een job dichter bij huis kiezen
+T9	Premise 1387 1411	je met de fiets kan gaan
+T11	Premise 1441 1504	is dat een veel aangenamere optie dan uren in een snikhete auto
+T13	Premise 1586 1644	Een recent fenomeen in België op dat vlak is het autodelen
+T14	Premise 1746 1783	Dit is ook financieel erg interessant
+T15	Premise 1785 1863	wie het te duur vindt om een auto te kopen, kan zo de kosten delen met anderen
+T16	Premise 1869 1897	het onderhoud wordt verdeeld
+T17	Premise 1899 1974	iedere maand is iemand anders ervoor verantwoordelijk dat de auto proper is
+T18	Premise 1986 2047	zorgt dit systeem er ook voor dat de auto vaak gebruikt wordt
+T19	Premise 2152 2237	je zal er beter over nadenken of je de auto echt nodig hebt om ergens naartoe te gaan
+T20	Premise 2241 2338	het produceren van één auto is natuurlijk  milieuvriendelijker dan het produceren van vier auto's
+T21	Claim 2352 2384	moeten we ook op ons eten letten
+T22	Premise 2428 2507	Het is veel beter voor het milieu om seizoensgebonden groenten en fruit te eten
+T23	Premise 2515 2563	hiervoor geen lange vliegtuigvluchten nodig zijn
+T24	Premise 2583 2636	kan je ook beter plaatselijke groenten en fruit kopen
+T26	Premise 2845 2903	Als je seizoensgroenten eet, zal je ook afwisselender eten
+T27	Premise 2905 2993	het is des te leuker om de eerste asperges te eten als je er lang op hebt moeten wachten
+T28	Claim 3006 3044	moeten we ook meer op ons afval letten
+T31	Premise 3193 3240	zijn we al gedwongen om steeds meer te sorteren
+T32	Premise 3244 3307	supermarkten geven vaak enkel tegen betaling nog plastic zakjes
+T34	Premise 3363 3433	als je een beetje moeite doet, je heel wat minder afval kan produceren
+T35	Premise 3440 3568	zijn er ook nog velen die zich er niets van aantrekken en elke week (trots) drie of vier volle vuilniszakken op hun stoep zetten
+T2	MajorClaim 542 647	Als we samen de Belgische voetafdruk willen verkleinen, moet er dus eerst een mentaliteitswijziging komen
+A1	Stance T3 For
+A2	Stance T21 For
+A3	Stance T28 For
+R1	supports Arg1:T4 Arg2:T3	
+R2	supports Arg1:T5 Arg2:T4	
+R3	supports Arg1:T6 Arg2:T3	
+#1	AnnotatorNotes T6	{'T4': 1, 'T5': 2, 'T3': 1} my change to T3
+R4	supports Arg1:T7 Arg2:T6	
+R5	supports Arg1:T8 Arg2:T3	
+R6	supports Arg1:T9 Arg2:T8	
+R7	supports Arg1:T11 Arg2:T9	
+R8	supports Arg1:T13 Arg2:T3	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T15 Arg2:T14	
+R11	supports Arg1:T16 Arg2:T15	
+R12	supports Arg1:T17 Arg2:T16	
+R13	supports Arg1:T18 Arg2:T13	
+R14	supports Arg1:T19 Arg2:T13	
+R15	supports Arg1:T20 Arg2:T13	
+R16	supports Arg1:T22 Arg2:T21	
+R17	supports Arg1:T23 Arg2:T22	
+R18	supports Arg1:T24 Arg2:T21	
+R19	supports Arg1:T26 Arg2:T21	
+R20	supports Arg1:T27 Arg2:T26	
+#2	AnnotatorNotes T26	{'T21': 1, 'T24': 1, 'T22': 2} my change to T21 claim
+R21	supports Arg1:T31 Arg2:T28	
+R22	supports Arg1:T32 Arg2:T28	
+R23	supports Arg1:T34 Arg2:T28	
+R24	attacks Arg1:T35 Arg2:T34	
+A4	Eloquence T3 4
+A5	Evidence T3 4
+A6	Persuasiveness T3 4
+A7	Relevance T3 4
+A8	Specificity T3 5
+A9	Eloquence T4 4
+A10	Evidence T4 2
+A11	Persuasiveness T4 3
+A12	Relevance T4 5
+A13	Specificity T4 3
+A14	Strength T4 4
+A15	Eloquence T5 5
+A16	Evidence T5 1
+A17	Persuasiveness T5 3
+A18	Relevance T5 4
+A19	Specificity T5 4
+A20	Strength T5 4
+A21	Eloquence T6 4
+A22	Evidence T6 2
+A23	Persuasiveness T6 2
+A24	Relevance T6 2
+A25	Specificity T6 4
+A26	Strength T6 5
+A27	Eloquence T7 4
+A28	Evidence T7 3
+A29	Persuasiveness T7 4
+A30	Relevance T7 4
+A31	Specificity T7 4
+A32	Strength T7 5
+A33	Eloquence T8 5
+A34	Evidence T8 2
+A35	Persuasiveness T8 2
+A36	Relevance T8 4
+A37	Specificity T8 4
+A38	Strength T8 3
+A39	Eloquence T9 4
+A40	Evidence T9 3
+A41	Persuasiveness T9 3
+A42	Relevance T9 5
+A43	Specificity T9 4
+A44	Strength T9 4
+A45	Eloquence T11 4
+A46	Evidence T11 2
+A47	Persuasiveness T11 3
+A48	Relevance T11 4
+A49	Specificity T11 4
+A50	Strength T11 4
+A51	Eloquence T13 5
+A52	Evidence T13 5
+A53	Persuasiveness T13 4
+A54	Relevance T13 4
+A55	Specificity T13 4
+A56	Strength T13 5
+A57	Eloquence T14 5
+A58	Evidence T14 4
+A59	Persuasiveness T14 4
+A60	Relevance T14 5
+A61	Specificity T14 3
+A62	Strength T14 4
+A63	Eloquence T15 4
+A64	Evidence T15 4
+A65	Persuasiveness T15 4
+A66	Relevance T15 5
+A67	Specificity T15 4
+A68	Strength T15 5
+A69	Eloquence T16 4
+A70	Evidence T16 3
+A71	Persuasiveness T16 3
+A72	Relevance T16 4
+A73	Specificity T16 3
+A74	Strength T16 4
+A75	Eloquence T17 4
+A76	Evidence T17 2
+A77	Persuasiveness T17 3
+A78	Relevance T17 3
+A79	Specificity T17 4
+A80	Strength T17 4
+A81	Eloquence T18 5
+A82	Evidence T18 2
+A83	Persuasiveness T18 3
+A84	Relevance T18 4
+A85	Specificity T18 4
+A86	Strength T18 3
+A87	Eloquence T19 4
+A88	Evidence T19 3
+A89	Persuasiveness T19 4
+A90	Relevance T19 4
+A91	Specificity T19 4
+A92	Strength T19 3
+A93	Eloquence T20 5
+A94	Evidence T20 3
+A95	Persuasiveness T20 4
+A96	Relevance T20 4
+A97	Specificity T20 4
+A98	Strength T20 5
+A99	Eloquence T21 3
+A100	Evidence T21 4
+A101	Persuasiveness T21 4
+A102	Relevance T21 3
+A103	Specificity T21 3
+A104	Eloquence T22 5
+A105	Evidence T22 3
+A106	Persuasiveness T22 4
+A107	Relevance T22 5
+A108	Specificity T22 4
+A109	Strength T22 5
+A110	Eloquence T23 4
+A111	Evidence T23 2
+A112	Persuasiveness T23 4
+A113	Relevance T23 5
+A114	Specificity T23 4
+A115	Strength T23 4
+A116	Eloquence T24 4
+A117	Evidence T24 2
+A118	Persuasiveness T24 4
+A119	Relevance T24 5
+A120	Specificity T24 4
+A121	Strength T24 4
+A122	Eloquence T26 5
+A123	Evidence T26 3
+A124	Persuasiveness T26 3
+A125	Relevance T26 4
+A126	Specificity T26 3
+A127	Strength T26 3
+A128	Eloquence T27 4
+A129	Evidence T27 1
+A130	Persuasiveness T27 2
+A131	Relevance T27 5
+A132	Specificity T27 3
+A133	Strength T27 3
+A134	Eloquence T28 3
+A135	Evidence T28 3
+A136	Persuasiveness T28 3
+A137	Relevance T28 3
+A138	Specificity T28 3
+A139	Eloquence T31 4
+A140	Evidence T31 1
+A141	Persuasiveness T31 1
+A142	Relevance T31 4
+A143	Specificity T31 4
+A144	Strength T31 3
+A145	Eloquence T32 5
+A146	Evidence T32 1
+A147	Persuasiveness T32 2
+A148	Relevance T32 4
+A149	Specificity T32 4
+A150	Strength T32 4
+A151	Eloquence T34 4
+A152	Evidence T34 3
+A153	Persuasiveness T34 2
+A154	Relevance T34 4
+A155	Specificity T34 3
+A156	Strength T34 3
+A157	Eloquence T35 4
+A158	Evidence T35 1
+A159	Persuasiveness T35 3
+A160	Relevance T35 4
+A161	Specificity T35 3
+A162	Strength T35 3
+A163	Eloquence T2 4
+A164	Evidence T2 3
+A165	Persuasiveness T2 4
+A166	Specificity T2 5

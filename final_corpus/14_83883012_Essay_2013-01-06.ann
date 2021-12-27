@@ -1,0 +1,177 @@
+T1	Claim 473 554	België is een democratisch land met godsdienstvrijheid en een pluratieve politiek
+T2	Premise 556 678	Iedere burger geniet de vrijheid om een zelfgekozen religie te belijden of er een atheïstische levensstijl op na te houden
+T3	Premise 680 788	Dankzij de vrijheid van meningsuiting heeft hij bovendien het recht om openlijk voor deze keuze uit te komen
+T4	Premise 794 828	biseksualiteit is bij wet aanvaard
+T6	Premise 830 888	sinds enkele jaren mag je als holebi trouwen en samenwonen
+T7	Premise 890 1036	Dit gegeven staat in schril contrast met de vele landen waar je verstoten of zelfs vermoord wordt wanneer je uitkomt voor je biseksuele geaardheid
+T8	Premise 1393 1518	Wanneer we kiezen voor de eerste optie, komen we slechts sporadisch in aanraking met andere culturen, visies en levensstijlen
+T9	Premise 1520 1629	We laten een gouden kans onbenut om onze medemens beter te leren kennen en waardevolle zaken van hem te leren
+T10	Claim 1631 1741	Het zit in ieder van ons ingebakken om tot op zekere hoogte wat angstig te staan tegenover wat ons 'vreemd' is
+T11	Premise 1743 1837	Wanneer we echter weigeren dat 'vreemde' beter te leren kennen, zal deze vrees niet verdwijnen
+T12	Premise 1870 1982	op die manier gun je jezelf de kans niet om je horizon te verbreden en je (conservatieve) mensbeeld te verruimen
+T13	Premise 1984 2136	Indien we kiezen voor de tweede optie, het leven mét elkaar, wapenen we ons tegen vooroordelen die vaak aan de basis liggen van onbegrip en onwetendheid
+T14	Premise 2169 2334	trachten we te begrijpen waarom mensen waarde hechten aan bepaalde rituelen, houden van een typische klederdracht of verliefd worden op mensen van hetzelfde geslacht
+T15	Premise 2350 2435	rekenen we af met vooroordelen als 'alle Turken heten Ali' of 'hij is een vuile janet
+T16	Premise 2440 2510	kunnen we verder kijken dan de bevoordeelde stempel 'homo' of 'moslim'
+T17	Claim 2577 2632	Je religie of geaardheid maakt deel uit van wie je bent
+T18	Premise 2826 2950	In een samenleving waarin we mét elkaar leven, zouden we aan beide kanten de moeite moeten opbrengen om elkaar te aanvaarden
+T19	Premise 2952 3189	Achter het loket dient een ambtenaar te zitten die - ongeacht zijn of haar eigen overtuigingen, kledij of levensstijl - de cliënten wil helpen, maar desalniettemin dient vóór het loket ook iemand te staan die de loketbediende respecteert
+T22	Claim 3191 3314	De uiterlijke kenmerken vormen slechts een dunne bovenlaag, het fundamenteel probleem wortelt in de innerlijke ideeënwereld
+T24	Premise 3316 3585	Wanneer je een vrouw met hoofddoek ziet en je afvraagt of ze kindsoldaten ronselt om te gaan vechten in Syrië, als je je bedenkt dat je die man met dat regenboog-t-shirt door zijn kleurige keuze plots een stuk minder aardig vindt, is er dan iets fout met wat zij dragen
+T25	Premise 3597 3647	bevindt de fout zich in je vastgeroest denkpatroon
+T26	Premise 3649 3772	Door het verbieden van levensbeschouwelijke tekens achter het loket, pakken we deze cirkelredenering allerminst grondig aan
+T5	Topic 3851 3961	We kunnen ons bij het debat over het al dan niet verbieden van levensbeschouwelijke tekens vele vragen stellen
+#1	AnnotatorNotes T5	for: niet verbieden;  against: verbieden
+A1	Stance T1 For
+A2	Stance T17 For
+A3	Stance T22 For
+A4	Stance T10 Against
+R1	supports Arg1:T2 Arg2:T1	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T4 Arg2:T1	
+#2	AnnotatorNotes T4	{'T3': 2, 'T1': 1, 'T2': 1} my change T1
+R4	supports Arg1:T6 Arg2:T4	
+R5	supports Arg1:T7 Arg2:T4	
+#3	AnnotatorNotes T7	{'T1': 1, 'T6': 2, 'T4': 1} my change t4
+R6	supports Arg1:T8 Arg2:T10	
+R7	supports Arg1:T9 Arg2:T8	
+R8	attacks Arg1:T11 Arg2:T10	
+R9	supports Arg1:T12 Arg2:T11	
+R10	attacks Arg1:T13 Arg2:T10	
+R11	supports Arg1:T14 Arg2:T13	
+R12	supports Arg1:T15 Arg2:T14	
+R13	supports Arg1:T16 Arg2:T15	
+R14	supports Arg1:T18 Arg2:T17	
+R15	supports Arg1:T19 Arg2:T18	
+R16	supports Arg1:T24 Arg2:T22	
+R17	attacks Arg1:T25 Arg2:T24	
+R18	supports Arg1:T26 Arg2:T25	
+#4	AnnotatorNotes T26	{'T25': 1, 'T22': 1, 'T24': 2} my change t25
+A5	Eloquence T1 5
+A6	Evidence T1 4
+A7	Persuasiveness T1 4
+A8	Relevance T1 5
+A9	Specificity T1 5
+A10	Eloquence T2 5
+A11	Evidence T2 4
+A12	Persuasiveness T2 5
+A13	Relevance T2 5
+A14	Specificity T2 4
+A15	Strength T2 5
+A16	Eloquence T3 4
+A17	Evidence T3 4
+A18	Persuasiveness T3 5
+A19	Relevance T3 5
+A20	Specificity T3 4
+A21	Strength T3 5
+A22	Eloquence T4 5
+A23	Evidence T4 5
+A24	Persuasiveness T4 4
+A25	Relevance T4 4
+A26	Specificity T4 4
+A27	Strength T4 4
+A28	Eloquence T6 4
+A29	Evidence T6 2
+A30	Persuasiveness T6 4
+A31	Relevance T6 5
+A32	Specificity T6 5
+A33	Strength T6 5
+A34	Eloquence T7 5
+A35	Evidence T7 3
+A36	Persuasiveness T7 4
+A37	Relevance T7 5
+A38	Specificity T7 4
+A39	Strength T7 5
+A40	Eloquence T8 4
+A41	Evidence T8 3
+A42	Persuasiveness T8 3
+A43	Relevance T8 4
+A44	Specificity T8 4
+A45	Strength T8 4
+A46	Eloquence T9 5
+A47	Evidence T9 2
+A48	Persuasiveness T9 3
+A49	Relevance T9 4
+A50	Specificity T9 3
+A51	Strength T9 4
+A52	Eloquence T10 5
+A53	Evidence T10 4
+A54	Persuasiveness T10 4
+A55	Relevance T10 4
+A56	Specificity T10 4
+A57	Eloquence T11 5
+A58	Evidence T11 2
+A59	Persuasiveness T11 2
+A60	Relevance T11 4
+A61	Specificity T11 4
+A62	Strength T11 4
+A63	Eloquence T12 5
+A64	Evidence T12 2
+A65	Persuasiveness T12 3
+A66	Relevance T12 4
+A67	Specificity T12 4
+A68	Strength T12 5
+A69	Eloquence T13 5
+A70	Evidence T13 4
+A71	Persuasiveness T13 4
+A72	Relevance T13 5
+A73	Specificity T13 4
+A74	Strength T13 4
+A75	Eloquence T14 5
+A76	Evidence T14 3
+A77	Persuasiveness T14 4
+A78	Relevance T14 5
+A79	Specificity T14 5
+A80	Strength T14 5
+A81	Eloquence T15 4
+A82	Evidence T15 3
+A83	Persuasiveness T15 3
+A84	Relevance T15 5
+A85	Specificity T15 4
+A86	Strength T15 5
+A87	Eloquence T16 4
+A88	Evidence T16 2
+A89	Persuasiveness T16 3
+A90	Relevance T16 4
+A91	Specificity T16 4
+A92	Strength T16 5
+A93	Eloquence T17 4
+A94	Evidence T17 3
+A95	Persuasiveness T17 4
+A96	Relevance T17 5
+A97	Specificity T17 4
+A98	Eloquence T18 4
+A99	Evidence T18 4
+A100	Persuasiveness T18 3
+A101	Relevance T18 4
+A102	Specificity T18 4
+A103	Strength T18 5
+A104	Eloquence T19 5
+A105	Evidence T19 3
+A106	Persuasiveness T19 4
+A107	Relevance T19 5
+A108	Specificity T19 4
+A109	Strength T19 5
+A110	Eloquence T22 4
+A111	Evidence T22 4
+A112	Persuasiveness T22 4
+A113	Relevance T22 4
+A114	Specificity T22 4
+A115	Eloquence T24 4
+A116	Evidence T24 3
+A117	Persuasiveness T24 4
+A118	Relevance T24 4
+A119	Specificity T24 4
+A120	Strength T24 5
+A121	Eloquence T25 4
+A122	Evidence T25 3
+A123	Persuasiveness T25 4
+A124	Relevance T25 4
+A125	Specificity T25 4
+A126	Strength T25 5
+A127	Eloquence T26 5
+A128	Evidence T26 3
+A129	Persuasiveness T26 3
+A130	Relevance T26 5
+A131	Specificity T26 3
+A132	Strength T26 4

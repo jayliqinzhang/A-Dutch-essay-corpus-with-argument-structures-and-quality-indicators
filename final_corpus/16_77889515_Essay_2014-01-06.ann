@@ -1,0 +1,188 @@
+T1	MajorClaim 304 455	de overheid de geestelijke gezondheid van de burgers in gevaar brengt door ze langer dan 45 jaar te laten zwoegen op de werkvloer. Niets is minder waar
+T2	Claim 743 791	mensen een baan nodig hebben om gelukkig te zijn
+T3	Premise 793 910	Op de werkplaats komen arbeidskrachten in contact met collega's waardoor ze sociale contacten opbouwen en onderhouden
+T4	Premise 912 984	Samen aan de slag gaan bezorgt hen een identiteit en een bepaalde status
+T5	Premise 1000 1028	voelen arbeiders zich nuttig
+T6	Premise 1080 1205	Daarnaast verhoogt het inkomen dat ze voor de zware inspanningen ontvangen hun koopkracht, levenskwaliteit en levensstandaard
+T7	Premise 1217 1253	structureert het werkritme hun leven
+T8	Premise 1255 1287	de arbeidsuren delen hun tijd in
+T9	Claim 1426 1555	Belgische burgers die het pensioen niet willen uitstellen, wijzen op het hoge percentage van geestelijke aandoeningen in ons land
+T10	Premise 1557 1645	De tegenstanders leggen uitdrukkelijk de link tussen werkverzuim en psychische problemen
+T11	Premise 1650 1737	zijn 25% van alle uitkeringen voor werkonbekwaamheid te wijten aan geestelijk onwelzijn
+T12	Premise 1741 1807	staat België op de lijst met de hoogste zelfmoordcijfers in Europa
+T14	Premise 1816 1877	een kwart van onze inwoners vroeg of laat een depressie heeft
+T15	Premise 1879 1927	mogen we de werkgevers niet met de vinger wijzen
+T16	Premise 1929 1987	Vaak leggen mannen en vrouwen de lat te hoog voor zichzelf
+T17	Premise 1989 2111	Tweeverdienders streven naar een succesvolle carrière en willen daarnaast nog tijd maken voor hobby's, familie en vrienden
+T18	Premise 2310 2401	Een realistischere arbeids- en tijdsverdeling zou alvast een stap in de goede richting zijn
+T19	Claim 2403 2561	Als werkgevers meer oog hebben voor het geestelijk welzijn van hun werknemers, blijven er minder arbeidskrachten thuis waardoor bedrijven weer kunnen floreren
+T20	Premise 2636 2756	In plaats van individuen onder druk te zetten met onrealistische doelstellingen, moeten directies inzetten op groepswerk
+T21	Premise 2758 2819	Vele handen samen maken het werk lichter en vooral aangenamer
+T22	Premise 2829 2982	is het belangrijk om potentiële werkkrachten tijdens hun sollicitatie grondig te screenen zodat ze aangepaste takenpakketten krijgen tijdens hun loopbaan
+T23	Premise 2998 3109	kunnen teamleiders rekening houden met ieders talenten waardoor de tevredenheid op de werkvloer meteen verhoogt
+T24	Premise 3187 3315	Wanneer Belgen de ruimte krijgen om te presteren in een ontspannen sfeer, zullen ze met plezier blijven werken tot 65 of 68 jaar
+T25	Premise 1032 1078	dragen ze hun steentje bij aan de maatschappij
+A1	Stance T2 For
+A2	Stance T9 Against
+A3	Stance T19 For
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T3	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T25 Arg2:T5	
+#1	AnnotatorNotes T25	{'T5': 2, 'T4': 2}
+R5	supports Arg1:T6 Arg2:T2	
+R6	supports Arg1:T7 Arg2:T2	
+R7	supports Arg1:T8 Arg2:T7	
+R8	supports Arg1:T10 Arg2:T9	
+R9	supports Arg1:T11 Arg2:T10	
+R10	supports Arg1:T12 Arg2:T10	
+R11	supports Arg1:T14 Arg2:T10	
+R12	attacks Arg1:T15 Arg2:T14	
+R13	supports Arg1:T16 Arg2:T15	
+R14	supports Arg1:T17 Arg2:T16	
+R15	supports Arg1:T18 Arg2:T17	
+R16	supports Arg1:T20 Arg2:T19	
+R17	supports Arg1:T21 Arg2:T20	
+R18	supports Arg1:T22 Arg2:T19	
+R19	supports Arg1:T23 Arg2:T22	
+R20	supports Arg1:T24 Arg2:T23	
+#2	AnnotatorNotes T24	{'T19': 2, 'T23': 2}
+A4	Eloquence T1 4
+A5	Evidence T1 4
+A6	Persuasiveness T1 4
+A7	Specificity T1 4
+A8	Eloquence T2 4
+A9	Evidence T2 3
+A10	Persuasiveness T2 4
+A11	Relevance T2 5
+A12	Specificity T2 4
+A13	Eloquence T3 4
+A14	Evidence T3 4
+A15	Persuasiveness T3 4
+A16	Relevance T3 5
+A17	Specificity T3 4
+A18	Strength T3 5
+A19	Eloquence T4 4
+A20	Evidence T4 4
+A21	Persuasiveness T4 4
+A22	Relevance T4 5
+A23	Specificity T4 4
+A24	Strength T4 5
+A25	Eloquence T5 4
+A26	Evidence T5 3
+A27	Persuasiveness T5 4
+A28	Relevance T5 4
+A29	Specificity T5 3
+A30	Strength T5 4
+A31	Eloquence T6 5
+A32	Evidence T6 3
+A33	Persuasiveness T6 4
+A34	Relevance T6 5
+A35	Specificity T6 4
+A36	Strength T6 5
+A37	Eloquence T7 4
+A38	Evidence T7 3
+A39	Persuasiveness T7 4
+A40	Relevance T7 5
+A41	Specificity T7 4
+A42	Strength T7 4
+A43	Eloquence T8 4
+A44	Evidence T8 2
+A45	Persuasiveness T8 4
+A46	Relevance T8 5
+A47	Specificity T8 3
+A48	Strength T8 3
+A49	Eloquence T9 4
+A50	Evidence T9 4
+A51	Persuasiveness T9 5
+A52	Relevance T9 5
+A53	Specificity T9 4
+A54	Eloquence T10 5
+A55	Evidence T10 4
+A56	Persuasiveness T10 5
+A57	Relevance T10 5
+A58	Specificity T10 4
+A59	Strength T10 5
+A60	Eloquence T11 5
+A61	Evidence T11 4
+A62	Persuasiveness T11 5
+A63	Relevance T11 5
+A64	Specificity T11 5
+A65	Strength T11 5
+A66	Eloquence T12 4
+A67	Evidence T12 3
+A68	Persuasiveness T12 4
+A69	Relevance T12 5
+A70	Specificity T12 3
+A71	Strength T12 4
+A72	Eloquence T14 4
+A73	Evidence T14 4
+A74	Persuasiveness T14 4
+A75	Relevance T14 5
+A76	Specificity T14 4
+A77	Strength T14 4
+A78	Eloquence T15 4
+A79	Evidence T15 3
+A80	Persuasiveness T15 3
+A81	Relevance T15 5
+A82	Specificity T15 3
+A83	Strength T15 3
+A84	Eloquence T16 4
+A85	Evidence T16 3
+A86	Persuasiveness T16 3
+A87	Relevance T16 5
+A88	Specificity T16 3
+A89	Strength T16 4
+A90	Eloquence T17 5
+A91	Evidence T17 3
+A92	Persuasiveness T17 4
+A93	Relevance T17 5
+A94	Specificity T17 4
+A95	Strength T17 5
+A96	Eloquence T18 5
+A97	Evidence T18 3
+A98	Persuasiveness T18 5
+A99	Relevance T18 4
+A100	Specificity T18 4
+A101	Strength T18 5
+A102	Eloquence T19 4
+A103	Evidence T19 4
+A104	Persuasiveness T19 5
+A105	Relevance T19 5
+A106	Specificity T19 4
+A107	Eloquence T20 4
+A108	Evidence T20 3
+A109	Persuasiveness T20 3
+A110	Relevance T20 4
+A111	Specificity T20 4
+A112	Strength T20 4
+A113	Eloquence T21 4
+A114	Evidence T21 2
+A115	Persuasiveness T21 3
+A116	Relevance T21 5
+A117	Specificity T21 3
+A118	Strength T21 3
+A119	Eloquence T22 5
+A120	Evidence T22 3
+A121	Persuasiveness T22 3
+A122	Relevance T22 5
+A123	Specificity T22 4
+A124	Strength T22 4
+A125	Eloquence T23 4
+A126	Evidence T23 3
+A127	Persuasiveness T23 3
+A128	Relevance T23 5
+A129	Specificity T23 4
+A130	Strength T23 4
+A131	Eloquence T24 5
+A132	Evidence T24 2
+A133	Persuasiveness T24 3
+A134	Relevance T24 5
+A135	Specificity T24 4
+A136	Strength T24 5
+A137	Eloquence T25 4
+A138	Evidence T25 3
+A139	Persuasiveness T25 3
+A140	Relevance T25 5
+A141	Specificity T25 3
+A142	Strength T25 4

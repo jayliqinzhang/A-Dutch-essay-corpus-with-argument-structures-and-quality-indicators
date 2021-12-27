@@ -1,0 +1,217 @@
+T1	MajorClaim 559 640	Er zijn dus dringend quota nodig om deze werknemers een duwtje in de rug te geven
+T2	Premise 642 719	De vrouw staat er tegenwoordig allang niet meer alleen voor in het huishouden
+T3	Premise 721 813	De man steekt vaker een handje toe en zijn wederhelft hoeft niet meer aan de haard te zitten
+T4	Premise 825 880	zijn we geëvolueerd naar een tweeverdienersmaatschappij
+T5	Premise 889 938	beide partijen financieel bijdragen aan het gezin
+T6	Premise 940 1057	Vrouwen mogen nu ook ambitie hebben en doorgroeien naar een hogere functie, terwijl manlief thuis op de kinderen past
+T8	Claim 1121 1182	geraken de ambitieuze vrouwen niet gemakkelijk tot aan de top
+T9	Claim 1257 1351	Van de Belgische economische topvrouwen vraagt 64 procent zelf om de invoering van zulke quota
+T10	Premise 1370 1430	ze, ondanks hun ambitie, vaak benadeeld werden bij promoties
+T11	Premise 1438 1510	deze maatregel hun vrouwelijke collega's zeker zal helpen in de toekomst
+T12	Claim 1522 1605	is het gewoon een goede zaak om meer vrouwelijke werknemers in je bedrijf te hebben
+T13	Premise 1806 1867	meer vrouwen aan de top een betere return on investment geeft
+T14	Premise 1875 1937	het bedrijf op termijn een beter operationeel resultaat levert
+T15	Premise 1947 2058	evolueerde de aandelenkoers van deze 'vrouwelijke bedrijven' positiever dan die van hun mannelijke tegenhangers
+T17	Premise 2060 2200	Binnen de bedrijven zelf beschreven teamleden en werknemers de vrouwelijke managers menselijker en rechtvaardiger dan de mannelijke oversten
+T18	Premise 2202 2306	Ze gebruikten woorden als 'gemotiveerd' en 'betrokken' en gaven aan dat er meer ruimte was voor inspraak
+T19	Claim 2308 2393	Andere Europese landen bewijzen trouwens in de praktijk dat quota een goede zaak zijn
+T20	Premise 2398 2499	is het in Noorwegen sinds 2006 verplicht om 40 procent vrouwen te hebben in beursgenoteerde bedrijven
+T21	Premise 2501 2534	Deze regel is duidelijk succesvol
+T22	Premise 2541 2634	op dit moment is het vrouwelijk aandeel in de raden van bestuur er al gestegen tot 28 procent
+T23	Premise 2636 2737	In de buurlanden Zweden en Finland schommelt dat aandeel rond de 25 procent. Ze zijn er nog lang niet
+T25	Premise 2744 2842	de invoering is wel een goede aanzet en leidt stilaan tot een aangepast beleid binnen de bedrijven
+T27	Claim 3034 3096	is een hoger percentage vrouwen aan de top een win-winsituatie
+T28	Premise 3098 3133	De bedrijven hebben er voordeel bij
+T29	Premise 3140 3193	vrouwelijke managers een duidelijke meerwaarde bieden
+T30	Premise 3195 3284	Ze voegen een menselijkere aanpak toe aan het bedrijf en tillen het naar een hoger niveau
+T31	Premise 3286 3364	Voor de vrouwelijke werknemers brengt het eveneens een verademing met zich mee
+T32	Premise 3366 3501	Zij hoeven zich minder zorgen te maken over eventuele discriminatie en krijgen meer ruimte om zich te ontwikkelen op professioneel vlak
+A1	Stance T8 For
+A2	Stance T9 For
+A3	Stance T12 For
+A4	Stance T19 For
+A5	Stance T27 For
+R1	attacks Arg1:T2 Arg2:T8	
+R2	supports Arg1:T3 Arg2:T2	
+R3	supports Arg1:T5 Arg2:T4	
+R4	supports Arg1:T4 Arg2:T2	
+#1	AnnotatorNotes T4	{'T2': 1, 'T8': 2, 'T6': 1} change to t2
+R5	supports Arg1:T6 Arg2:T5	
+R6	supports Arg1:T10 Arg2:T9	
+R7	supports Arg1:T11 Arg2:T9	
+R8	supports Arg1:T13 Arg2:T12	
+R9	supports Arg1:T14 Arg2:T12	
+R10	supports Arg1:T15 Arg2:T12	
+R11	supports Arg1:T17 Arg2:T12	
+R12	supports Arg1:T18 Arg2:T17	
+R13	supports Arg1:T20 Arg2:T19	
+R14	supports Arg1:T21 Arg2:T20	
+R15	supports Arg1:T22 Arg2:T21	
+R16	supports Arg1:T23 Arg2:T22	
+R17	supports Arg1:T25 Arg2:T23	
+R18	supports Arg1:T28 Arg2:T27	
+R19	supports Arg1:T29 Arg2:T28	
+R20	supports Arg1:T30 Arg2:T29	
+R21	supports Arg1:T31 Arg2:T27	
+R22	supports Arg1:T32 Arg2:T31	
+A6	Eloquence T1 4
+A7	Evidence T1 4
+A8	Persuasiveness T1 4
+A9	Specificity T1 3
+A10	Eloquence T2 4
+A11	Evidence T2 3
+A12	Persuasiveness T2 4
+A13	Relevance T2 4
+A14	Specificity T2 3
+A15	Strength T2 3
+A16	Eloquence T3 4
+A17	Evidence T3 2
+A18	Persuasiveness T3 4
+A19	Relevance T3 5
+A20	Specificity T3 4
+A21	Strength T3 3
+A22	Eloquence T4 4
+A23	Evidence T4 4
+A24	Persuasiveness T4 4
+A25	Relevance T4 5
+A26	Specificity T4 3
+A27	Strength T4 4
+A28	Eloquence T5 4
+A29	Evidence T5 4
+A30	Persuasiveness T5 4
+A31	Relevance T5 5
+A32	Specificity T5 3
+A33	Strength T5 4
+A34	Eloquence T6 4
+A35	Evidence T6 2
+A36	Persuasiveness T6 4
+A37	Relevance T6 5
+A38	Specificity T6 4
+A39	Strength T6 5
+A40	Eloquence T8 4
+A41	Evidence T8 2
+A42	Persuasiveness T8 3
+A43	Relevance T8 5
+A44	Specificity T8 3
+A45	Eloquence T9 4
+A46	Evidence T9 4
+A47	Persuasiveness T9 4
+A48	Relevance T9 5
+A49	Specificity T9 5
+A50	Eloquence T10 4
+A51	Evidence T10 3
+A52	Persuasiveness T10 4
+A53	Relevance T10 5
+A54	Specificity T10 3
+A55	Strength T10 4
+A56	Eloquence T11 3
+A57	Evidence T11 3
+A58	Persuasiveness T11 4
+A59	Relevance T11 5
+A60	Specificity T11 3
+A61	Strength T11 3
+A62	Eloquence T12 4
+A63	Evidence T12 4
+A64	Persuasiveness T12 5
+A65	Relevance T12 5
+A66	Specificity T12 3
+A67	Eloquence T13 5
+A68	Evidence T13 2
+A69	Persuasiveness T13 4
+A70	Relevance T13 5
+A71	Specificity T13 4
+A72	Strength T13 5
+A73	Eloquence T14 5
+A74	Evidence T14 3
+A75	Persuasiveness T14 4
+A76	Relevance T14 5
+A77	Specificity T14 3
+A78	Strength T14 5
+A79	Eloquence T15 5
+A80	Evidence T15 3
+A81	Persuasiveness T15 4
+A82	Relevance T15 5
+A83	Specificity T15 4
+A84	Strength T15 5
+A85	Eloquence T17 4
+A86	Evidence T17 4
+A87	Persuasiveness T17 4
+A88	Relevance T17 5
+A89	Specificity T17 4
+A90	Strength T17 5
+A91	Eloquence T18 5
+A92	Evidence T18 3
+A93	Persuasiveness T18 4
+A94	Relevance T18 5
+A95	Specificity T18 4
+A96	Strength T18 5
+A97	Eloquence T19 4
+A98	Evidence T19 4
+A99	Persuasiveness T19 4
+A100	Relevance T19 5
+A101	Specificity T19 3
+A102	Eloquence T20 4
+A103	Evidence T20 4
+A104	Persuasiveness T20 3
+A105	Relevance T20 5
+A106	Specificity T20 5
+A107	Strength T20 4
+A108	Eloquence T21 4
+A109	Evidence T21 4
+A110	Persuasiveness T21 4
+A111	Relevance T21 5
+A112	Specificity T21 3
+A113	Strength T21 3
+A114	Eloquence T22 4
+A115	Evidence T22 4
+A116	Persuasiveness T22 4
+A117	Relevance T22 5
+A118	Specificity T22 5
+A119	Strength T22 5
+A120	Eloquence T23 4
+A121	Evidence T23 3
+A122	Persuasiveness T23 4
+A123	Relevance T23 5
+A124	Specificity T23 5
+A125	Strength T23 4
+A126	Eloquence T25 4
+A127	Evidence T25 2
+A128	Persuasiveness T25 4
+A129	Relevance T25 5
+A130	Specificity T25 4
+A131	Strength T25 5
+A132	Eloquence T27 4
+A133	Evidence T27 4
+A134	Persuasiveness T27 5
+A135	Relevance T27 5
+A136	Specificity T27 3
+A137	Eloquence T28 4
+A138	Evidence T28 4
+A139	Persuasiveness T28 4
+A140	Relevance T28 5
+A141	Specificity T28 3
+A142	Strength T28 3
+A143	Eloquence T29 4
+A144	Evidence T29 3
+A145	Persuasiveness T29 4
+A146	Relevance T29 5
+A147	Specificity T29 3
+A148	Strength T29 3
+A149	Eloquence T30 4
+A150	Evidence T30 3
+A151	Persuasiveness T30 4
+A152	Relevance T30 6
+A153	Specificity T30 4
+A154	Strength T30 4
+A155	Eloquence T31 4
+A156	Evidence T31 3
+A157	Persuasiveness T31 4
+A158	Relevance T31 5
+A159	Specificity T31 3
+A160	Strength T31 3
+A161	Eloquence T32 4
+A162	Evidence T32 2
+A163	Persuasiveness T32 5
+A164	Relevance T32 5
+A165	Specificity T32 4
+A166	Strength T32 5

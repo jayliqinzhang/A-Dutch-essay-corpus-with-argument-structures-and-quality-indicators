@@ -1,0 +1,248 @@
+T1	MajorClaim 0 57	Baas over eigen lichaam: automatisch orgaandonor, of niet
+T4	Claim 772 842	Ons Belgenland is samen met Kroatië koploper wat betreft orgaandonatie
+T5	Premise 938 1007	iedereen automatisch donor is, tenzij je het uitdrukkelijk anders wil
+T6	Premise 1030 1093	wachtlijsten blijven sinds 2013 stabiel op ongeveer 1150 mensen
+T7	Premise 1181 1246	jaarlijks ongeveer 1200 zieken gered worden dankzij orgaandonatie
+T8	Premise 1248 1452	Personen die alsnog niet overtuigd zijn van orgaandonatie, of dit uit godsdienstige overtuiging niet kunnen waarmaken, stappen simpelweg naar het lokale gemeentehuis om hun status als donor teniet te doen
+T9	Premise 1493 1578	iedereen recht op een eigen mening, zeker als het jouw eigen en enige lichaam betreft
+T10	Claim 1601 1638	is iedereen automatisch geregistreerd
+T12	Premise 1694 1738	In werkelijkheid is dit maar een miniem deel
+T13	Premise 1744 1827	niet iedereen komt in aanmerking, slechts enkelen onder ons mogen of kunnen doneren
+T15	Premise 1829 1951	Het is namelijk vereist om aan een twee voorwaarden te voldoen: je moet medisch geschikt zijn én in het ziekenhuis sterven
+T18	Claim 2227 2319	De personen die achterblijven krijgen hierdoor helaas niet de mogelijkheid afscheid te nemen
+T19	Premise 2321 2384	De familie en geliefden kunnen zich hier echter op voorbereiden
+T20	Premise 2397 2459	kan dit geïnterpreteerd worden als voortleven in iemand anders
+T21	Premise 2467 2492	lijkt dit ietwat zweverig
+T22	Premise 2494 2578	het is een manier van voortbestaan en kan heel wat troost bieden aan de nabestaanden
+T24	Premise 2583 2636	hoeven ze tenslotte nooit werkelijk afscheid te nemen
+T25	Premise 2638 2760	Het feit dat hun geliefde, de geliefde van iemand anders heeft gered en gelukkig gemaakt, kan het leed heus wat verzachten
+T26	Premise 2774 2878	kan het afscheid van de persoon en diens lichaam later op een waardige manier gebeuren in het funerarium
+T27	Premise 2951 3095	In funeraria kan men de persoon dusdanig fatsoeneren en presentabel maken opdat de nabestaanden een laatste groet kunnen brengen aan die persoon
+T29	Premise 3123 3207	De medewerkers zorgen ervoor dat er geen zichtbare tekenen zijn van de orgaandonatie
+T30	Claim 3275 3321	prefereert België een automatische registratie
+T31	Premise 3346 3436	iets meer dan de helft van de bevolking bereid is om een orgaan te ontvangen of te doneren
+T32	Premise 3438 3626	Mensen die (gigantische) tegenstander zijn van orgaandonatie, zullen waarschijnlijk sneller stappen ondernemen om hun registratie te nietigen dan personen die wél hun orgaan willen afstaan
+T33	Premise 3628 3715	Als je iets per sé wil voorkomen, zal je daar passioneler en met meer spoed in handelen
+T34	Premise 3717 3868	Een perfect gezonde twintigjarige die bereid is om organen te doneren, zal niet met urgentie naar het gemeentehuis stappen om zich te laten registreren
+T36	Premise 3913 4012	Indien die adolescente onverwacht toch te sterven komt, is het jammer dat die organen verloren gaan
+T41	Claim 4675 4742	Mocht een land toch een keuzemogelijkheid prefereren, kan dit zeker
+T43	Premise 4753 4879	moet er een snelle manier zijn om de gehele bevolking ineens te bereiken om hun keuze omtrent de donatie vast te kunnen leggen
+T44	Premise 4883 4942	moet deze op elk moment op eenvoudige wijze aanpasbaar zijn
+T45	Premise 4944 5120	De overheid zou eventueel kunnen opteren om de informatie op de identiteitskaart te drukken en bij elke hernieuwing van de kaart, naar de mening van de burger in kwestie vragen
+A1	Stance T4 For
+A2	Stance T10 For
+A3	Stance T18 Against
+A4	Stance T30 For
+A5	Stance T41 Against
+R1	supports Arg1:T5 Arg2:T4	
+R2	supports Arg1:T6 Arg2:T5	
+R3	supports Arg1:T7 Arg2:T6	
+R4	supports Arg1:T8 Arg2:T5	
+R5	supports Arg1:T9 Arg2:T8	
+R6	attacks Arg1:T12 Arg2:T10	
+R7	supports Arg1:T13 Arg2:T12	
+R8	supports Arg1:T15 Arg2:T13	
+R9	attacks Arg1:T19 Arg2:T18	
+R10	attacks Arg1:T21 Arg2:T20	
+#1	AnnotatorNotes R10	{'attacks': 2, 'supports': 2}
+R11	supports Arg1:T22 Arg2:T20	
+#2	AnnotatorNotes T22	{'T21': 3, 'T20': 1} change to t20
+R12	supports Arg1:T24 Arg2:T22	
+R13	supports Arg1:T25 Arg2:T24	
+#3	AnnotatorNotes T25	{'T24': 2, 'T22': 2}
+R14	supports Arg1:T26 Arg2:T25	
+#4	AnnotatorNotes T26	{'T25': 2, 'T18': 2}
+R15	supports Arg1:T27 Arg2:T26	
+R16	supports Arg1:T29 Arg2:T27	
+R17	supports Arg1:T31 Arg2:T30	
+R18	supports Arg1:T32 Arg2:T31	
+#5	AnnotatorNotes R18	{'attacks': 2, 'supports': 2}
+R19	supports Arg1:T33 Arg2:T32	
+R20	supports Arg1:T34 Arg2:T33	
+R21	supports Arg1:T36 Arg2:T34	
+#6	AnnotatorNotes T36	{'attacks': 2, 'supports': 2}
+R22	attacks Arg1:T43 Arg2:T41	
+#7	AnnotatorNotes R22	{'supports': 2, 'attacks': 2}
+R23	supports Arg1:T44 Arg2:T43	
+#8	AnnotatorNotes T44	{'attacks': 2, 'supports': 2}
+R24	supports Arg1:T45 Arg2:T44	
+R25	attacks Arg1:T20 Arg2:T18	
+A6	Eloquence T1 4
+A7	Evidence T1 4
+A8	Persuasiveness T1 4
+A9	Specificity T1 3
+A10	Eloquence T4 4
+A11	Evidence T4 4
+A12	Persuasiveness T4 4
+A13	Relevance T4 5
+A14	Specificity T4 4
+A15	Eloquence T5 4
+A16	Evidence T5 4
+A17	Persuasiveness T5 5
+A18	Relevance T5 5
+A19	Specificity T5 4
+A20	Strength T5 5
+A21	Eloquence T6 5
+A22	Evidence T6 4
+A23	Persuasiveness T6 4
+A24	Relevance T6 4
+A25	Specificity T6 5
+A26	Strength T6 5
+A27	Eloquence T7 5
+A28	Evidence T7 3
+A29	Persuasiveness T7 4
+A30	Relevance T7 5
+A31	Specificity T7 5
+A32	Strength T7 5
+A33	Eloquence T8 4
+A34	Evidence T8 4
+A35	Persuasiveness T8 5
+A36	Relevance T8 5
+A37	Specificity T8 5
+A38	Strength T8 5
+A39	Eloquence T9 4
+A40	Evidence T9 3
+A41	Persuasiveness T9 5
+A42	Relevance T9 5
+A43	Specificity T9 3
+A44	Strength T9 4
+A45	Eloquence T10 4
+A46	Evidence T10 4
+A47	Persuasiveness T10 4
+A48	Relevance T10 6
+A49	Specificity T10 4
+A50	Eloquence T12 4
+A51	Evidence T12 4
+A52	Persuasiveness T12 5
+A53	Relevance T12 6
+A54	Specificity T12 3
+A55	Strength T12 3
+A56	Eloquence T13 4
+A57	Evidence T13 4
+A58	Persuasiveness T13 5
+A59	Relevance T13 5
+A60	Specificity T13 3
+A61	Strength T13 4
+A62	Eloquence T15 4
+A63	Evidence T15 3
+A64	Persuasiveness T15 5
+A65	Relevance T15 5
+A66	Specificity T15 4
+A67	Strength T15 4
+A68	Eloquence T18 5
+A69	Evidence T18 3
+A70	Persuasiveness T18 3
+A71	Relevance T18 5
+A72	Specificity T18 4
+A73	Eloquence T19 5
+A74	Evidence T19 3
+A75	Persuasiveness T19 4
+A76	Relevance T19 5
+A77	Specificity T19 3
+A78	Strength T19 3
+A79	Eloquence T20 4
+A80	Evidence T20 2
+A81	Persuasiveness T20 3
+A82	Relevance T20 4
+A83	Specificity T20 3
+A84	Strength T20 3
+A85	Eloquence T21 4
+A86	Evidence T21 2
+A87	Persuasiveness T21 3
+A88	Relevance T21 5
+A89	Specificity T21 2
+A90	Strength T21 3
+A91	Eloquence T22 5
+A92	Evidence T22 3
+A93	Persuasiveness T22 3
+A94	Relevance T22 4
+A95	Specificity T22 3
+A96	Strength T22 4
+A97	Eloquence T24 4
+A98	Evidence T24 3
+A99	Persuasiveness T24 3
+A100	Relevance T24 4
+A101	Specificity T24 3
+A102	Strength T24 3
+A103	Eloquence T25 4
+A104	Evidence T25 3
+A105	Persuasiveness T25 3
+A106	Relevance T25 5
+A107	Specificity T25 4
+A108	Strength T25 3
+A109	Eloquence T26 5
+A110	Evidence T26 4
+A111	Persuasiveness T26 4
+A112	Relevance T26 5
+A113	Specificity T26 4
+A114	Strength T26 4
+A115	Eloquence T27 4
+A116	Evidence T27 3
+A117	Persuasiveness T27 4
+A118	Relevance T27 5
+A119	Specificity T27 4
+A120	Strength T27 5
+A121	Eloquence T29 4
+A122	Evidence T29 2
+A123	Persuasiveness T29 5
+A124	Relevance T29 5
+A125	Specificity T29 4
+A126	Strength T29 4
+A127	Eloquence T30 4
+A128	Evidence T30 4
+A129	Persuasiveness T30 4
+A130	Relevance T30 5
+A131	Specificity T30 3
+A132	Eloquence T31 4
+A133	Evidence T31 4
+A134	Persuasiveness T31 4
+A135	Relevance T31 5
+A136	Specificity T31 4
+A137	Strength T31 4
+A138	Eloquence T32 4
+A139	Evidence T32 4
+A140	Persuasiveness T32 5
+A141	Relevance T32 5
+A142	Specificity T32 4
+A143	Strength T32 5
+A144	Eloquence T33 4
+A145	Evidence T33 3
+A146	Persuasiveness T33 4
+A147	Relevance T33 5
+A148	Specificity T33 4
+A149	Strength T33 5
+A150	Eloquence T34 5
+A151	Evidence T34 3
+A152	Persuasiveness T34 4
+A153	Relevance T34 5
+A154	Specificity T34 4
+A155	Strength T34 5
+A156	Eloquence T36 4
+A157	Evidence T36 2
+A158	Persuasiveness T36 4
+A159	Relevance T36 5
+A160	Specificity T36 4
+A161	Strength T36 5
+A162	Eloquence T41 4
+A163	Evidence T41 3
+A164	Persuasiveness T41 4
+A165	Relevance T41 5
+A166	Specificity T41 3
+A167	Eloquence T43 4
+A168	Evidence T43 3
+A169	Persuasiveness T43 4
+A170	Relevance T43 5
+A171	Specificity T43 4
+A172	Strength T43 4
+A173	Eloquence T44 4
+A174	Evidence T44 3
+A175	Persuasiveness T44 4
+A176	Relevance T44 5
+A177	Specificity T44 4
+A178	Strength T44 5
+A179	Eloquence T45 4
+A180	Evidence T45 3
+A181	Persuasiveness T45 4
+A182	Relevance T45 5
+A183	Specificity T45 4
+A184	Strength T45 5

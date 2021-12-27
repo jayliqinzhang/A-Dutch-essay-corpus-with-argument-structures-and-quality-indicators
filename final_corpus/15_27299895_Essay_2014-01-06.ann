@@ -1,0 +1,168 @@
+T1	Claim 30 79	vrouwen in leidinggevende functies onmisbaar zijn
+T2	MajorClaim 81 136	is quota invoeren om dat te realiseren een slechte idee
+T4	Claim 274 316	Vrouwen in bestuursfuncties zijn onmisbaar
+T5	Premise 323 411	is in de grote bedrijven van België niet meer dan 5,2 procent van het bestuur vrouwelijk
+T6	Premise 708 840	De bedrijven kregen een betere return on investment, een beter operationeel resultaat en zelfs hun aandelenkoers evolueerde positief
+T7	Claim 1031 1066	het de enige mogelijke oplossing is
+T8	Premise 1081 1261	ze door een minimum aan vrouwelijke bestuursleden vast te leggen, ze de economie een positieve draai kunnen geven en de concurrentie tussen mannen en vrouwen eerlijker kunnen maken
+T9	Premise 1303 1376	gaan ze zo voorbij aan wat nu werkelijk de oorzaak is van de problematiek
+T10	Premise 1475 1544	Ze is namelijk gestoeld op een fundamentele, dicriminerende opvatting
+T11	Premise 1546 1596	Mannen moeten leiders zijn, vrouwen mogen dat niet
+T12	Premise 1598 1728	Het vastleggen van quota is dus een oplossing die de oorzaak van het probleem erkent, eerder dan die oorzaak openlijk af te keuren
+T13	Premise 1878 1935	een minimum aan vrouwen een maximum aan mannen impliceert
+T14	Premise 1968 2081	Als een mannelijke sollicitant meer geschikt blijkt dan een vrouwelijke, mag een bedrijf de man dan niet aannemen
+T15	Premise 2083 2152	Vaardigheden moeten de hoofdrol spelen bij het toekennen van functies
+T16	Premise 2154 2211	Een vrouw kan die vaardigheden bezitten, maar een man ook
+T17	Claim 2213 2299	Quota zijn een vorm van positieve discriminatie, en zijn dus onmogelijk goed te keuren
+T18	Claim 2505 2583	We moeten naar een eerlijkere verdeling van topfuncties over mannen en vrouwen
+T19	Premise 2628 2695	is het wenselijk om toch quota in te voeren, zij het dan  hele lage
+T20	Premise 2697 2847	Zo is een vrouwelijk aandeel in het bestuur, anders dan in de Nederlandse administratie, verzekerd, en hebben ook mannen nog meer dan voldoende kansen
+T21	Premise 2849 2947	Bedrijven kunnen zo het signaal geven dat ze wel degelijk openstaan voor vrouwelijke bestuursleden
+T22	Premise 2960 3016	is het belangrijk de heersende mentaliteit aan te pakken
+T23	Premise 3018 3215	Het promoten van meer vrouwelijk bestuur, eerder dan het opleggen van dat bestuur, zal de bevolking doen stilstaan bij de meerwaarde die vrouwen wel degelijk kunnen betekenen voor het bedrijfsleven
+A1	Stance T1 Against
+A2	Stance T4 Against
+A3	Stance T7 Against
+A4	Stance T17 For
+A5	Stance T18 For
+R1	attacks Arg1:T5 Arg2:T4	
+R2	supports Arg1:T6 Arg2:T4	
+R3	supports Arg1:T8 Arg2:T7	
+R4	attacks Arg1:T9 Arg2:T7	
+R5	supports Arg1:T10 Arg2:T9	
+R6	supports Arg1:T11 Arg2:T10	
+R7	attacks Arg1:T12 Arg2:T7	
+R8	supports Arg1:T13 Arg2:T17	
+R9	supports Arg1:T14 Arg2:T13	
+R10	supports Arg1:T15 Arg2:T14	
+R11	supports Arg1:T16 Arg2:T15	
+R12	supports Arg1:T19 Arg2:T18	
+R13	supports Arg1:T20 Arg2:T19	
+R14	supports Arg1:T21 Arg2:T20	
+R15	supports Arg1:T22 Arg2:T18	
+R16	supports Arg1:T23 Arg2:T22	
+A6	Eloquence T1 3
+A7	Evidence T1 1
+A8	Persuasiveness T1 2
+A9	Relevance T1 5
+A10	Specificity T1 3
+A11	Eloquence T2 4
+A12	Evidence T2 3
+A13	Persuasiveness T2 3
+A14	Specificity T2 3
+A15	Eloquence T4 4
+A16	Evidence T4 3
+A17	Persuasiveness T4 3
+A18	Relevance T4 5
+A19	Specificity T4 4
+A20	Eloquence T5 4
+A21	Evidence T5 2
+A22	Persuasiveness T5 4
+A23	Relevance T5 5
+A24	Specificity T5 5
+A25	Strength T5 5
+A26	Eloquence T6 5
+A27	Evidence T6 3
+A28	Persuasiveness T6 5
+A29	Relevance T6 5
+A30	Specificity T6 4
+A31	Strength T6 5
+A32	Eloquence T7 3
+A33	Evidence T7 3
+A34	Persuasiveness T7 2
+A35	Relevance T7 5
+A36	Specificity T7 3
+A37	Eloquence T8 4
+A38	Evidence T8 2
+A39	Persuasiveness T8 4
+A40	Relevance T8 4
+A41	Specificity T8 4
+A42	Strength T8 4
+A43	Eloquence T9 5
+A44	Evidence T9 3
+A45	Persuasiveness T9 3
+A46	Relevance T9 4
+A47	Specificity T9 3
+A48	Strength T9 3
+A49	Eloquence T10 5
+A50	Evidence T10 3
+A51	Persuasiveness T10 4
+A52	Relevance T10 5
+A53	Specificity T10 3
+A54	Strength T10 4
+A55	Eloquence T11 4
+A56	Evidence T11 2
+A57	Persuasiveness T11 3
+A58	Relevance T11 5
+A59	Specificity T11 4
+A60	Strength T11 3
+A61	Eloquence T12 4
+A62	Evidence T12 2
+A63	Persuasiveness T12 4
+A64	Relevance T12 5
+A65	Specificity T12 3
+A66	Strength T12 3
+A67	Eloquence T13 5
+A68	Evidence T13 3
+A69	Persuasiveness T13 4
+A70	Relevance T13 5
+A71	Specificity T13 4
+A72	Strength T13 5
+A73	Eloquence T14 4
+A74	Evidence T14 4
+A75	Persuasiveness T14 4
+A76	Relevance T14 5
+A77	Specificity T14 4
+A78	Strength T14 5
+A79	Eloquence T15 4
+A80	Evidence T15 4
+A81	Persuasiveness T15 4
+A82	Relevance T15 5
+A83	Specificity T15 4
+A84	Strength T15 5
+A85	Eloquence T16 4
+A86	Evidence T16 2
+A87	Persuasiveness T16 4
+A88	Relevance T16 5
+A89	Specificity T16 3
+A90	Strength T16 4
+A91	Eloquence T17 4
+A92	Evidence T17 4
+A93	Persuasiveness T17 4
+A94	Relevance T17 6
+A95	Specificity T17 5
+A96	Eloquence T18 4
+A97	Evidence T18 3
+A98	Persuasiveness T18 3
+A99	Relevance T18 5
+A100	Specificity T18 4
+A101	Eloquence T19 4
+A102	Evidence T19 3
+A103	Persuasiveness T19 3
+A104	Relevance T19 5
+A105	Specificity T19 3
+A106	Strength T19 3
+A107	Eloquence T20 4
+A108	Evidence T20 4
+A109	Persuasiveness T20 5
+A110	Relevance T20 5
+A111	Specificity T20 4
+A112	Strength T20 5
+A113	Eloquence T21 5
+A114	Evidence T21 2
+A115	Persuasiveness T21 4
+A116	Relevance T21 5
+A117	Specificity T21 4
+A118	Strength T21 4
+A119	Eloquence T22 4
+A120	Evidence T22 3
+A121	Persuasiveness T22 3
+A122	Relevance T22 5
+A123	Specificity T22 4
+A124	Strength T22 3
+A125	Eloquence T23 4
+A126	Evidence T23 2
+A127	Persuasiveness T23 4
+A128	Relevance T23 5
+A129	Specificity T23 4
+A130	Strength T23 5

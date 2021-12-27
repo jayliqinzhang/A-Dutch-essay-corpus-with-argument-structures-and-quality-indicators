@@ -1,0 +1,226 @@
+T2	Premise 316 438	Er zijn bepaalde zaken die ons gelukkig of ongelukkig kunnen maken, ongeacht hoe hard we ons best doen om gelukkig te zijn
+T3	MajorClaim 440 468	Geluk maken we dus niet zelf
+T4	Claim 470 647	Er zijn verschillende invloeden van buitenaf die ons geluk kunnen vergroten, of juist verminderen. Vooral zekerheid en vrijheid spelen een grote rol in het bepalen van ons geluk
+T6	Premise 649 709	Mensen die gesteund worden door hun familie, zijn gelukkiger
+T7	Premise 711 772	Zij voelen zich veel zekerder en dit komt hun geluk ten goede
+T8	Premise 778 820	financieel willen mensen zich zeker voelen
+T9	Premise 822 917	Arme mensen hebben veel zorgen om geld en dit bezorgt hen stress, waardoor ze ongelukkig worden
+T12	Premise 953 1006	zijn bijvoorbeeld mensen in vrijere landen gelukkiger
+T13	Premise 1016 1067	degenen in totalitaire regimes dat veel minder zijn
+T14	Premise 1125 1160	de positieve vrijheid is belangrijk
+T15	Premise 1162 1281	Als het toegelaten is om te doen wat je wil, maar je hebt de middelen er niet voor, kan je datgene nog steeds niet doen
+T16	Premise 1345 1437	ze hebben niet genoeg geld om bijvoorbeeld een reis te maken die ze al heel hun leven willen
+T17	Premise 1487 1602	zij moeten er eerst voor zorgen dat ze kunnen overleven en dit neemt vaak alle tijd en geld die ze hebben in beslag
+T18	Claim 1615 1683	moeten we wel de juiste instelling hebben om gelukkig te kunnen zijn
+T19	Premise 1685 1804	Als we alleen maar naar de negatieve kanten van ons leven kijken, en niet naar de goede, zullen we ook niet blij worden
+T21	Premise 1806 1904	We moeten gelukkig willen zijn. Zulk soort ingesteldheid is echter niet de oplossing voor iedereen
+T22	Premise 1906 2019	Mensen met depressies zullen niet meteen genezen als ze maar genoeg naar de positieve kanten van het leven kijken
+T23	Premise 2021 2118	Zij hebben problemen met de balans van hun hormonen en dit kan niet op die manier opgelost worden
+T24	Premise 2120 2156	Daar is medicatie en tijd voor nodig
+T25	Premise 2162 2206	voor ernstige problemen is dit niet mogelijk
+T26	Premise 2208 2284	Soms hebben mensen zo'n grote zorgen dat ze er echt niet naast kunnen kijken
+T27	Premise 2286 2442	Daklozen die geen slaapplaats voor de winter kunnen vinden en dus dreigen dood te vriezen, bijvoorbeeld, kunnen maar moeilijk de positieve kant daarvan zien
+T28	Claim 2444 2496	Stoppen met klagen zal ons ook niet gelukkiger maken
+T30	Premise 2498 2547	Als we niet overdrijven, kan klagen erg opluchten
+T31	Premise 2549 2614	Alles opkroppen zorgt voor stress en gevoelens van ontevredenheid
+T32	Premise 2671 2732	kan klagen, in extremere situaties, voor een oplossing zorgen
+T33	Premise 2734 2805	In dictatoriale regimes is klagen vaak het eerste begin van een opstand
+T34	Premise 2947 3014	Dit wil niet zeggen dat over elk klein ongemak geklaagd moet worden
+T35	Premise 3045 3125	focussen we weer te veel op het negatieve en hebben we niet de juiste instelling
+A1	Stance T4 For
+A2	Stance T18 Against
+A3	Stance T28 For
+R1	supports Arg1:T2 Arg2:T3	
+R2	supports Arg1:T6 Arg2:T4	
+R3	supports Arg1:T7 Arg2:T6	
+R4	supports Arg1:T8 Arg2:T4	
+R5	supports Arg1:T9 Arg2:T8	
+R6	supports Arg1:T12 Arg2:T4	
+R7	supports Arg1:T13 Arg2:T12	
+R8	supports Arg1:T14 Arg2:T4	
+R9	supports Arg1:T15 Arg2:T14	
+R10	supports Arg1:T16 Arg2:T15	
+R11	supports Arg1:T17 Arg2:T16	
+R12	supports Arg1:T19 Arg2:T18	
+R13	attacks Arg1:T21 Arg2:T19	
+R14	supports Arg1:T22 Arg2:T21	
+R15	supports Arg1:T23 Arg2:T22	
+R16	supports Arg1:T24 Arg2:T23	
+R17	supports Arg1:T25 Arg2:T21	
+R18	supports Arg1:T26 Arg2:T25	
+R19	supports Arg1:T27 Arg2:T26	
+R20	supports Arg1:T30 Arg2:T28	
+R21	supports Arg1:T31 Arg2:T30	
+R22	supports Arg1:T32 Arg2:T30	
+R23	supports Arg1:T33 Arg2:T32	
+R24	attacks Arg1:T34 Arg2:T30	
+R25	supports Arg1:T35 Arg2:T34	
+A4	Eloquence T2 4
+A5	Evidence T2 2
+A6	Persuasiveness T2 4
+A7	Relevance T2 5
+A8	Specificity T2 4
+A9	Strength T2 5
+A10	Eloquence T3 4
+A11	Evidence T3 3
+A12	Persuasiveness T3 3
+A13	Specificity T3 4
+A14	Eloquence T4 4
+A15	Evidence T4 5
+A16	Persuasiveness T4 5
+A17	Relevance T4 5
+A18	Specificity T4 5
+A19	Eloquence T6 4
+A20	Evidence T6 4
+A21	Persuasiveness T6 4
+A22	Relevance T6 5
+A23	Specificity T6 3
+A24	Strength T6 4
+A25	Eloquence T7 4
+A26	Evidence T7 3
+A27	Persuasiveness T7 4
+A28	Relevance T7 5
+A29	Specificity T7 3
+A30	Strength T7 5
+A31	Eloquence T8 4
+A32	Evidence T8 4
+A33	Persuasiveness T8 4
+A34	Relevance T8 5
+A35	Specificity T8 3
+A36	Strength T8 4
+A37	Eloquence T9 4
+A38	Evidence T9 3
+A39	Persuasiveness T9 5
+A40	Relevance T9 5
+A41	Specificity T9 4
+A42	Strength T9 4
+A43	Eloquence T12 4
+A44	Evidence T12 3
+A45	Persuasiveness T12 3
+A46	Relevance T12 4
+A47	Specificity T12 3
+A48	Strength T12 3
+A49	Eloquence T13 4
+A50	Evidence T13 2
+A51	Persuasiveness T13 4
+A52	Relevance T13 5
+A53	Specificity T13 3
+A54	Strength T13 4
+A55	Eloquence T14 4
+A56	Evidence T14 4
+A57	Persuasiveness T14 3
+A58	Relevance T14 4
+A59	Specificity T14 2
+A60	Strength T14 3
+A61	Eloquence T15 3
+A62	Evidence T15 4
+A63	Persuasiveness T15 4
+A64	Relevance T15 4
+A65	Specificity T15 3
+A66	Strength T15 4
+A67	Eloquence T16 4
+A68	Evidence T16 3
+A69	Persuasiveness T16 4
+A70	Relevance T16 5
+A71	Specificity T16 4
+A72	Strength T16 4
+A73	Eloquence T17 3
+A74	Evidence T17 2
+A75	Persuasiveness T17 4
+A76	Relevance T17 5
+A77	Specificity T17 4
+A78	Strength T17 4
+A79	Eloquence T18 4
+A80	Evidence T18 3
+A81	Persuasiveness T18 3
+A82	Relevance T18 4
+A83	Specificity T18 4
+A84	Eloquence T19 4
+A85	Evidence T19 4
+A86	Persuasiveness T19 4
+A87	Relevance T19 4
+A88	Specificity T19 3
+A89	Strength T19 4
+A90	Eloquence T21 4
+A91	Evidence T21 3
+A92	Persuasiveness T21 2
+A93	Relevance T21 4
+A94	Specificity T21 4
+A95	Strength T21 4
+A96	Eloquence T22 4
+A97	Evidence T22 4
+A98	Persuasiveness T22 4
+A99	Relevance T22 4
+A100	Specificity T22 4
+A101	Strength T22 4
+A102	Eloquence T23 4
+A103	Evidence T23 4
+A104	Persuasiveness T23 4
+A105	Relevance T23 4
+A106	Specificity T23 4
+A107	Strength T23 5
+A108	Eloquence T24 4
+A109	Evidence T24 2
+A110	Persuasiveness T24 3
+A111	Relevance T24 5
+A112	Specificity T24 4
+A113	Strength T24 5
+A114	Eloquence T25 3
+A115	Evidence T25 2
+A116	Persuasiveness T25 3
+A117	Relevance T25 4
+A118	Specificity T25 2
+A119	Strength T25 3
+A120	Eloquence T26 3
+A121	Evidence T26 3
+A122	Persuasiveness T26 3
+A123	Relevance T26 4
+A124	Specificity T26 3
+A125	Strength T26 3
+A126	Eloquence T27 3
+A127	Evidence T27 3
+A128	Persuasiveness T27 4
+A129	Relevance T27 5
+A130	Specificity T27 4
+A131	Strength T27 5
+A132	Eloquence T28 4
+A133	Evidence T28 3
+A134	Persuasiveness T28 2
+A135	Relevance T28 5
+A136	Specificity T28 3
+A137	Eloquence T30 4
+A138	Evidence T30 3
+A139	Persuasiveness T30 2
+A140	Relevance T30 4
+A141	Specificity T30 4
+A142	Strength T30 4
+A143	Eloquence T31 4
+A144	Evidence T31 1
+A145	Persuasiveness T31 3
+A146	Relevance T31 4
+A147	Specificity T31 4
+A148	Strength T31 4
+A149	Eloquence T32 4
+A150	Evidence T32 2
+A151	Persuasiveness T32 2
+A152	Relevance T32 4
+A153	Specificity T32 3
+A154	Strength T32 4
+A155	Eloquence T33 3
+A156	Evidence T33 1
+A157	Persuasiveness T33 2
+A158	Relevance T33 4
+A159	Specificity T33 4
+A160	Strength T33 5
+A161	Eloquence T34 4
+A162	Evidence T34 2
+A163	Persuasiveness T34 2
+A164	Relevance T34 4
+A165	Specificity T34 3
+A166	Strength T34 4
+A167	Eloquence T35 3
+A168	Evidence T35 1
+A169	Persuasiveness T35 2
+A170	Relevance T35 4
+A171	Specificity T35 3
+A172	Strength T35 4

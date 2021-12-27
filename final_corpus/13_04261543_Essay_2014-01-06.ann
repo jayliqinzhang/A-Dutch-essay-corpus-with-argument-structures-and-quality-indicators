@@ -1,0 +1,184 @@
+T1	MajorClaim 285 341	Moet de werkloosheidsuitkering beperkt worden in de tijd
+T2	Claim 454 503	een eeuwigdurende werkloosheidsuitkering niet kan
+T3	Premise 536 585	moet er een verband zijn tussen werken en krijgen
+T4	Premise 587 652	Het is logisch dat wie niets heeft bijgedragen, ook niks ontvangt
+T5	Premise 654 776	Wel wil de partij een plan uitbouwen om werklozen in de toekomst beter te kunnen begeleiden in hun zoektocht naar een baan
+T6	Premise 783 874	wie een geschikte job weigert, verliest automatisch ook zijn of haar werkloosheidsuitkering
+T7	Premise 917 1007	Uitkeringen moeten sneller afnemen, maar wel in combinatie met begeleiding van de overheid
+T9	Claim 1040 1089	de uitkeringen de eerste maanden net hoger moeten
+T11	Premise 1166 1233	Wie langere tijd werkloos is, ontvangt een steeds lagere vergoeding
+T13	Premise 1379 1427	een betere disciplinering van werklozen nodig is
+T14	Claim 1429 1556	Groen! vindt het geen goed idee om de werkloosheidsuitkering in de toekomst te beperken en pleit voor welvaartvaste uitkeringen
+T15	Premise 1558 1634	De SP.A ten slotte wil, net als Groen!, dat uitkeringen welvaartsvast worden
+T16	Premise 1696 1775	SP.A wil niet de uitkeringen, maar wel de werkloosheid zelf beperken in de tijd
+T17	Premise 1803 1854	mag een werkloze die werk weigert, worden geschorst
+T18	Claim 2331 2397	is in België slechts 67,2 % van de 20- tot 64-jarigen aan het werk
+T19	Premise 2407 2545	is ons land ver verwijderd van de Europese werkgelegenheidsdoelstelling om 75 % van de beroepsbevolking aan het werk te krijgen tegen 2020
+T20	Premise 2617 2717	Dit kan onder andere door de uitkering te beperken tot een minimum voor wie langere tijd werkloos is
+T21	Premise 2721 2794	mensen op die manier extra te stimuleren om op zoek te gaan naar een baan
+T23	Premise 2796 2900	Het is hierbij belangrijk dat de overheid een goede en kwaliteitsvolle begeleiding per individu voorziet
+T24	Premise 2912 3008	zou de overheid in de toekomst nog strengere controles moeten uitvoeren om misbruik te voorkomen
+T25	Premise 3010 3113	Zo moet ze er bijvoorbeeld op toezien dat werklozen die geschikt werk weigeren, hun uitkering verliezen
+T27	Premise 3174 3215	misbruiken de sociale zekerheid bedreigen
+T28	Premise 3217 3326	Mensen die perfect in staat zijn om te werken, maar niet willen, moeten daar ook geen vergoeding voor krijgen
+T8	Claim 1257 1332	is een kordaat getrapt sanctiebeleid het enige antwoord op werkonwilligheid
+R1	supports Arg1:T3 Arg2:T2	
+R2	supports Arg1:T4 Arg2:T2	
+R3	attacks Arg1:T5 Arg2:T4	
+R4	attacks Arg1:T6 Arg2:T5	
+R5	supports Arg1:T7 Arg2:T2	
+A1	Stance T2 For
+R6	supports Arg1:T11 Arg2:T9	
+R7	supports Arg1:T13 Arg2:T8	
+R8	supports Arg1:T15 Arg2:T14	
+R9	supports Arg1:T16 Arg2:T15	
+R10	supports Arg1:T17 Arg2:T16	
+R11	supports Arg1:T19 Arg2:T18	
+R12	supports Arg1:T20 Arg2:T19	
+R13	supports Arg1:T21 Arg2:T20	
+R14	supports Arg1:T23 Arg2:T21	
+R15	supports Arg1:T24 Arg2:T23	
+R16	supports Arg1:T25 Arg2:T24	
+R17	supports Arg1:T27 Arg2:T24	
+R18	supports Arg1:T28 Arg2:T24	
+A2	Stance T18 For
+A3	Stance T9 For
+A4	Stance T8 For
+A5	Stance T14 Against
+A6	Eloquence T1 5
+A7	Evidence T1 4
+A8	Persuasiveness T1 4
+A9	Specificity T1 4
+A10	Eloquence T2 4
+A11	Evidence T2 4
+A12	Persuasiveness T2 4
+A13	Relevance T2 5
+A14	Specificity T2 3
+A15	Eloquence T3 5
+A16	Evidence T3 3
+A17	Persuasiveness T3 4
+A18	Relevance T3 3
+A19	Specificity T3 3
+A20	Strength T3 5
+A21	Eloquence T4 4
+A22	Evidence T4 4
+A23	Persuasiveness T4 4
+A24	Relevance T4 4
+A25	Specificity T4 4
+A26	Strength T4 5
+A27	Eloquence T5 4
+A28	Evidence T5 3
+A29	Persuasiveness T5 4
+A30	Relevance T5 5
+A31	Specificity T5 4
+A32	Strength T5 4
+A33	Eloquence T6 4
+A34	Evidence T6 1
+A35	Persuasiveness T6 4
+A36	Relevance T6 4
+A37	Specificity T6 4
+A38	Strength T6 5
+A39	Eloquence T7 4
+A40	Evidence T7 2
+A41	Persuasiveness T7 3
+A42	Relevance T7 5
+A43	Specificity T7 3
+A44	Strength T7 4
+A45	Eloquence T9 4
+A46	Evidence T9 3
+A47	Persuasiveness T9 2
+A48	Relevance T9 3
+A49	Specificity T9 3
+A50	Eloquence T11 5
+A51	Evidence T11 1
+A52	Persuasiveness T11 3
+A53	Relevance T11 5
+A54	Specificity T11 4
+A55	Strength T11 4
+A56	Eloquence T13 4
+A57	Evidence T13 2
+A58	Persuasiveness T13 2
+A59	Relevance T13 5
+A60	Specificity T13 3
+A61	Strength T13 4
+A62	Eloquence T14 4
+A63	Evidence T14 3
+A64	Persuasiveness T14 2
+A65	Relevance T14 6
+A66	Specificity T14 4
+A67	Eloquence T15 4
+A68	Evidence T15 2
+A69	Persuasiveness T15 2
+A70	Relevance T15 6
+A71	Specificity T15 3
+A72	Strength T15 3
+A73	Eloquence T16 4
+A74	Evidence T16 3
+A75	Persuasiveness T16 2
+A76	Relevance T16 4
+A77	Specificity T16 3
+A78	Strength T16 4
+A79	Eloquence T17 4
+A80	Evidence T17 2
+A81	Persuasiveness T17 3
+A82	Relevance T17 4
+A83	Specificity T17 4
+A84	Strength T17 5
+A85	Eloquence T18 5
+A86	Evidence T18 4
+A87	Persuasiveness T18 3
+A88	Relevance T18 3
+A89	Specificity T18 4
+A90	Eloquence T19 5
+A91	Evidence T19 5
+A92	Persuasiveness T19 4
+A93	Relevance T19 6
+A94	Specificity T19 5
+A95	Strength T19 5
+A96	Eloquence T20 4
+A97	Evidence T20 3
+A98	Persuasiveness T20 4
+A99	Relevance T20 4
+A100	Specificity T20 4
+A101	Strength T20 4
+A102	Eloquence T21 4
+A103	Evidence T21 4
+A104	Persuasiveness T21 4
+A105	Relevance T21 5
+A106	Specificity T21 3
+A107	Strength T21 5
+A108	Eloquence T23 4
+A109	Evidence T23 4
+A110	Persuasiveness T23 4
+A111	Relevance T23 4
+A112	Specificity T23 4
+A113	Strength T23 5
+A114	Eloquence T24 4
+A115	Evidence T24 4
+A116	Persuasiveness T24 4
+A117	Relevance T24 4
+A118	Specificity T24 4
+A119	Strength T24 4
+A120	Eloquence T25 4
+A121	Evidence T25 2
+A122	Persuasiveness T25 4
+A123	Relevance T25 4
+A124	Specificity T25 4
+A125	Strength T25 5
+A126	Eloquence T27 4
+A127	Evidence T27 2
+A128	Persuasiveness T27 4
+A129	Relevance T27 5
+A130	Specificity T27 3
+A131	Strength T27 4
+A132	Eloquence T28 4
+A133	Evidence T28 2
+A134	Persuasiveness T28 4
+A135	Relevance T28 4
+A136	Specificity T28 4
+A137	Strength T28 5
+A138	Eloquence T8 5
+A139	Evidence T8 3
+A140	Persuasiveness T8 2
+A141	Relevance T8 5
+A142	Specificity T8 3
